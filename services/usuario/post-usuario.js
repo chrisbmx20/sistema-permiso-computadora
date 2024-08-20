@@ -9,7 +9,7 @@ async function postUsers() {
         
         };
 
-        const response = await fetch("http://localhost:3001/users", {
+        const response = await fetch("http://localhost:3000/usuarios", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

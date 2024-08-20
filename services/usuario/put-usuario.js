@@ -6,7 +6,7 @@ async function updateUsers(nombre, apellido,id) {
             apellido 
         
         };
-        const response = await fetch("http://localhost:3001/users/"+id, {
+        const response = await fetch("http://localhost:300/usuarios/"+id, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
