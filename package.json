@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch db.json --port 3000",
-    "start": "npx parcel public/index.html --port 8080",
+    "start": "json-server --watch db.json --port 3000 && npx parcel public/index.html --port 8080",
+    "server": "",
     "api": ""
   },
   "keywords": [],
