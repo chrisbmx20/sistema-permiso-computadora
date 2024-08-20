@@ -1,8 +1,12 @@
 {
-    "usuarios" :
-    [{
-        "id":"1",
-        "nombre": "Mi Tio"
-
-    }]
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Mi Tio"
+    },
+    {
+      "id": "2",
+      "nombre": "Mi Tio 2"
+    }
+  ]
 }
