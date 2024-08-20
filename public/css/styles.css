@@ -108,6 +108,12 @@ a {
 .login-form {
     width: 350px;
     padding: 2rem 1rem 1rem;
+
+  }
+
+  .register-container{
+    max-height: 800px;
+    height: 800px;
   }
   
   form {
@@ -116,6 +122,7 @@ a {
 
   .container{
     height: 100vh;
+    padding:20px;
  
   }
 
