@@ -7,12 +7,13 @@
       "apellido" : "Aguilar",
       "correo" : "jaguilar@fwdcostarica.com",
       "telefono" : "888 888 888",
-      "role" : "usuario"
+      "role" : "0"
     }
     ],
     
     "peticiones":[
-      { "id":"NE369",
+      {
+        "id":"NE369",
         "serie":"ns335",
         "marca" :"Dell",
         "fechaSalida":"27-08-2024",
@@ -24,11 +25,12 @@
 
     "historial":[
       {
-        "id":"",
-        "id-peticion":"",
-        "fecha":""
+        "id":"1",
+        "id-peticion":"NE369",
+        "fecha":"27-08-2024"
       }
     ],
+    
     "roles":[{
       "id":"0",
       "nombre":"usuario"
