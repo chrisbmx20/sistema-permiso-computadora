@@ -7,7 +7,8 @@
       "apellido" : "Aguilar",
       "correo" : "jaguilar@fwdcostarica.com",
       "telefono" : "888 888 888",
-      "role" : "0"
+      "role" : "0",
+      "password":"010101"
     }
     ],
     
@@ -19,6 +20,7 @@
         "fechaSalida":"27-08-2024",
         "estado": "pendiente",
         "id-user":"608880888"
+        
       
       }
     ],

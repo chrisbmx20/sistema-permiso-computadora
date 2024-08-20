@@ -12,11 +12,16 @@ async function getUsers() {
         }
 
         const users = await response.json();
+
+        console.log(users);
         return users;
+
     } catch (error) {
         console.error('Error fetching users:', error);
         throw error;
     }
 }
+
+getUsers()
 
 export { getUsers };

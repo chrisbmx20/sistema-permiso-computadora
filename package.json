@@ -2,8 +2,9 @@
   "name": "sistema-permiso-computadora",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "json-server --watch db.json --port 3000 && npx parcel public/index.html --port 8080",
+    "start": "npx parcel public/index.html --port 8080",
     "server": "json-server --watch db.json --port 3000",
     "api": ""
   },
