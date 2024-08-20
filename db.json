@@ -1,17 +1,14 @@
 {
   "usuarios": [
+
     {
-      "id": "1",
-      "nombre": "Mi Tio"
-    },
-    {
-      "id": "2",
-      "nombre": "Mi Tio 2"
-    },
-    {
-        "id":"69",
-        "nombre":"El bananero"
-    }  
+      "id":"60888088",
+      "nombre":"Juan",
+      "apellido" : "Aguilar",
+      "correo" : "jaguilar@fwdcostarica.com",
+      "telefono" : "888 888 888",
+      "role" : "usuario"
+    }
     ]
     
 }
