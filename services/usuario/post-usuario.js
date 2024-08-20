@@ -1,4 +1,6 @@
-async function postUsers(nombre,apellido) {
+
+
+async function postUsers() {
     try {
      
         const userData = { 

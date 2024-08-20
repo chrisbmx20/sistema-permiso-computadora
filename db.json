@@ -11,7 +11,32 @@
     }
     ],
     
-    "peticiones":[],
+    "peticiones":[
+      { "id":"NE369",
+        "serie":"ns335",
+        "marca" :"Dell",
+        "fechaSalida":"27-08-2024",
+        "estado": "pendiente",
+        "id-user":"608880888"
+      
+      }
+    ],
 
-    "historial":[]
+    "historial":[
+      {
+        "id":"",
+        "id-peticion":"",
+        "fecha":""
+      }
+    ],
+    "roles":[{
+      "id":"0",
+      "nombre":"usuario"
+    },
+
+    {
+      "id":"1",
+      "nombre":"admin"
+    }
+  ]
 }
