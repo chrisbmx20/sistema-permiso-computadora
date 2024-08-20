@@ -14,6 +14,7 @@ async function getUsers() {
         const users = await response.json();
 
         console.log(users);
+
         return users;
 
     } catch (error) {
@@ -21,7 +22,5 @@ async function getUsers() {
         throw error;
     }
 }
-
-getUsers()
 
 export { getUsers };

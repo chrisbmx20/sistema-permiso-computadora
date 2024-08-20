@@ -587,7 +587,14 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 //register form
 var _getUsuarioJs = require("../usuario/get-usuario.js");
 const loginForm = document.getElementById("loginForm");
-if (loginForm) loginForm.addEventListener("submit", (event)=>{
+/*
+async function init() {
+    const users = await getUsers();
+    console.log("USERSSSS", users);
+}
+
+init();
+*/ if (loginForm) loginForm.addEventListener("submit", (event)=>{
     event.preventDefault();
     console.log("aqui estamos");
     const userLogin = {};
@@ -608,7 +615,14 @@ function clearForm(form) {
 }
 function checkUser(user) {
     let found = false;
-    const userResults = (0, _getUsuarioJs.getUsers)() || [];
+    let userResults;
+    async function init() {
+        userResults = await (0, _getUsuarioJs.getUsers)();
+        console.log("USERSSSS", userResults);
+    }
+    init();
+    console.log(userResults);
+    debugger;
     userResults.forEach((element)=>{
         user.correo == element.correo && user.correo == element.correo ? found = true : found = false;
     });
@@ -636,7 +650,6 @@ async function getUsers() {
         throw error;
     }
 }
-getUsers();
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {

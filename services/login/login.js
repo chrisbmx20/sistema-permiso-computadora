@@ -3,10 +3,20 @@ const loginForm = document.getElementById("loginForm");
 
 import { getUsers } from "../usuario/get-usuario.js";
 
+/*
+async function init() {
+    const users = await getUsers();
+    console.log("USERSSSS", users);
+}
+
+init();
+*/
+
 if(loginForm){
     loginForm.addEventListener("submit", event =>{
         event.preventDefault();
         console.log("aqui estamos")
+
         const userLogin = {}
     
         userLogin.correo = document.getElementById("email").value;
@@ -32,16 +42,24 @@ function validateFormFields(obj) {
     return Object.values(obj).every(value => value !== "");
 }
 
-
-
 function clearForm(form){
     form.reset();
 }
 
 function checkUser(user){
     let found = false;
-    const userResults = getUsers() || [];
+    let userResults;
 
+    async function init() {
+        userResults = await getUsers();
+        console.log("USERSSSS", userResults);
+    }
+    
+    init();
+
+    console.log(userResults);
+
+    debugger
     
     userResults.forEach(element => {
         user.correo == element.correo && user.correo == element.correo ? found = true : found = false;
@@ -49,6 +67,4 @@ function checkUser(user){
 
     return found;
 }
-
-
 
