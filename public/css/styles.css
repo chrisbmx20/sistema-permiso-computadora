@@ -271,6 +271,13 @@ a {
     }
    
 }
+.padding{
+    padding-right: 5%;
+}
+.flexing{
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 @media only screen and (max-width:600px){
     .input-container-events{
