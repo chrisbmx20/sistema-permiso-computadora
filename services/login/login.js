@@ -3,14 +3,6 @@ const loginForm = document.getElementById("loginForm");
 
 import { getUsers } from "../usuario/get-usuario.js";
 
-/*
-async function init() {
-    const users = await getUsers();
-    console.log("USERSSSS", users);
-}
-
-init();
-*/
 
 if(loginForm){
     loginForm.addEventListener("submit", event =>{
@@ -23,11 +15,14 @@ if(loginForm){
         userLogin.password = document.getElementById("password").value;
     
         if(validateFormFields(userLogin)){
-            if(checkUser(userLogin)){
-                alert("Welcome Back "+ userLogin.correo)
 
+            // checkUser(userLogin) ? alert("Welcome Back "+ userLogin.correo) : alert("Email or Password not correct");
+             
+            if(!checkUser(userLogin)){
 
-                window.location.href = './public/solicitud.html';
+                window.location.href = './solicitud.html';
+
+                
             }
             else{
                 alert("Email or Password not correct");
@@ -47,24 +42,23 @@ function clearForm(form){
 }
 
 function checkUser(user){
-    let found = false;
-    let userResults;
+   
+    
+    async function findUser() {
 
-    async function init() {
-        userResults = await getUsers();
-        console.log("USERSSSS", userResults);
+        let found;
+        const userResults = await getUsers();
+        userResults.forEach(element => {
+            user.correo == element.correo && user.password == element.password ? found = element : found = false;
+        });
+
+        if(found){
+            localStorage.setItem('usuario', found);
+            return found;
+        } 
+
     }
     
-    init();
-
-    console.log(userResults);
-
-    debugger
-    
-    userResults.forEach(element => {
-        user.correo == element.correo && user.correo == element.correo ? found = true : found = false;
-    });
-
-    return found;
+    findUser();
+       
 }
-
