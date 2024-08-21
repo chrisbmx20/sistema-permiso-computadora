@@ -1,4 +1,4 @@
-6827
+6832
 138C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.darwin-arm64.node133686443191681321 0
 85C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\_\_throw133686443199330034 1
 116C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\syntax\node\Number.js133686443198316063 0
@@ -13,12 +13,12 @@
 128C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\esm\_class_check_private_static_field_descriptor.js133686443196437003 0
 88C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\normalize-path\README.md133686442631798783 0
 110C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\cookie-store-api.js133686443196651801 0
+58C:\Users\calva\Desktop\sistema-permiso-computadora\db.json133687421512536728 0
 132C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\dist\csstree.min.js133686443193109675 0
 135C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEmptyText.js133686443193740265 0
 134C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\convertShapeToPath.js133686443190156878 0
-58C:\Users\calva\Desktop\sistema-permiso-computadora\db.json133687237792992127 0
 78C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\.bin\json5.cmd133686442636693435 0
-61C:\Users\calva\Desktop\sistema-permiso-computadora\.gitignore133687273833067920 0
+61C:\Users\calva\Desktop\sistema-permiso-computadora\.gitignore133687337944937431 0
 116C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\css-anchor-positioning.js133686443196818029 0
 94C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\svgo\plugins\removeComments.js133686443194668493 0
 94C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\core\src\assetUtils.js133686443192638327 0
@@ -26,13 +26,13 @@
 117C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\dist133686443192824215 1
 82C:\Users\calva\Desktop\sistema-permiso-computadora\services\usuario\get-usuario.js133687237793123901 0
 118C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\lexer\generic-urange.js133686443197878011 0
-55C:\Users\calva\Desktop\sistema-permiso-computadora\dist133687334726568367 1
+55C:\Users\calva\Desktop\sistema-permiso-computadora\dist133687428782349750 1
 113C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile133686443189154034 0
 104C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\type-fest\source\fixed-length-array.d.ts133686442633210310 0
 95C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\regions\AX.js133686443193656439 0
-82C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\.package-lock.json133686443234162038 0
+82C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\.package-lock.json133687339351438438 0
 120C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\definition-syntax\walk.js133686443198977157 0
-63C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules133686443233180277 1
+63C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules133687339350067518 1
 92C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\cache\lib\types.d.ts133686443189410462 0
 87C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\weak-lru-cache\index.js133686443185052864 0
 139C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\AnPlusB.js133686443185824482 0
@@ -46,7 +46,7 @@
 118C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\res\node_modules\mime\dist\src\mime_cli.d.ts133686442632954227 0
 90C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\markdown-ansi\test133686443185611705 1
 120C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\esm\_create_for_of_iterator_helper_loose.js133686443196874805 0
-68C:\Users\calva\Desktop\sistema-permiso-computadora\package-lock.json133686443233926950 0
+68C:\Users\calva\Desktop\sistema-permiso-computadora\package-lock.json133687339351023387 0
 69C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\chalk133686442632379846 1
 97C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\workers\src\WorkerFarm.js133686443193581580 0
 100C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\lexer133686443198831844 1
@@ -68,7 +68,7 @@
 129C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\convertColors.js133686443189613252 0
 123C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\lmdb\dependencies\lz4\lib\dll\example\fullbench-dll.vcxproj133686443197678949 0
 69C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\steno133686442631773165 1
-74C:\Users\calva\Desktop\sistema-permiso-computadora\services\login\login.js133687334725929094 0
+74C:\Users\calva\Desktop\sistema-permiso-computadora\services\login\login.js133687420194926235 0
 99C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\type-fest\source\string-repeat.d.ts133686442635725683 0
 116C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Ratio.cjs133686443196018624 0
 117C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\rust\parcel-node-bindings.win32-x64-msvc.node133686443205177103 0
@@ -88,11 +88,11 @@
 114C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\htmlnano\lib\modules\removeRedundantAttributes.mjs133686443196174773 0
 100C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\htmlnano\lib\modules\mergeStyles.cjs133686443188885839 0
 107C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\lmdb\node_modules\node-addon-api\LICENSE.md133686443189886187 0
-68C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc133686443233180277 1
+68C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc133687339350067518 1
 96C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\parcel\node_modules\chalk\source133686443185451715 1
 85C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\fs\index.d.ts133686443189836110 0
 79C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\lowdb\README.md133686442632856499 0
-69C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@lmdb133686443233180277 1
+69C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@lmdb133687339350174061 1
 99C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\htmlnano\lib\modules\minifyUrls.mjs133686443195985349 0
 123C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\_\_class_extract_field_descriptor\package.json133686443198416155 0
 68C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\lmdb133686443197483791 1
@@ -112,7 +112,7 @@
 69C:\Users\calva\Desktop\sistema-permiso-computadora\services\solicitud133686441624484843 1
 122C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\package-manager\test\fixtures\has-foo\package.json133686443193007670 0
 95C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\regions\CR.js133686443196651801 0
-81C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@msgpackr-extract133686443233180277 1
+81C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@msgpackr-extract133687339350174061 1
 110C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\css-select\node_modules\entities\lib\escape.js133686443189291704 0
 91C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\eta\dist\types\browser.d.ts133686442633124922 0
 67C:\Users\calva\Desktop\sistema-permiso-computadora\services\usuario133687237793123901 1
@@ -150,7 +150,7 @@
 88C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\node-addon-api\README.md133686443190156878 0
 110C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\css-touch-action.js133686443198831844 0
 145C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\AtrulePrelude.js133686443186911733 0
-71C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel133686443233180277 1
+71C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel133687339350174061 1
 137C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Dimension.js133686443193334030 0
 103C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\svgo\plugins\cleanupEnableBackground.js133686443193334030 0
 124C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\syntax\scope\atrulePrelude.js133686443196904889 0
@@ -176,7 +176,7 @@
 101C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\cjs\_to_property_key.cjs133686443195505808 0
 73C:\Users\calva\Desktop\sistema-permiso-computadora\public\js\functions.js133686384769936207 0
 95C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\regions\AR.js133686443191043607 0
-68C:\Users\calva\Desktop\sistema-permiso-computadora\public\index.html133687237793110751 0
+68C:\Users\calva\Desktop\sistema-permiso-computadora\public\index.html133687340802968909 0
 60C:\Users\calva\Desktop\sistema-permiso-computadora\public\js133686385057399077 1
 106C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\parcel\node_modules\color-convert\route.js133686443187000491 0
 112C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\css-initial-letter.js133686443197939321 0
@@ -188,7 +188,7 @@
 97C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\update-browserslist-db\index.d.ts133686443187322584 0
 71C:\Users\calva\Desktop\sistema-permiso-computadora\public\register.html133687237793116324 0
 85C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\js-yaml\lib\schema.js133686443190668028 0
-72C:\Users\calva\Desktop\sistema-permiso-computadora\public\solicitud.html133687237793121379 0
+72C:\Users\calva\Desktop\sistema-permiso-computadora\public\solicitud.html133687428782122503 0
 95C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\cjs\_construct.cjs133686443192730236 0
 95C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\svgo\plugins\removeEmptyText.js133686443195162043 0
 75C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\detect-libc133686443186347735 1
@@ -2087,7 +2087,7 @@
 84C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\parse-json\readme.md133686443185289712 0
 77C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\mime\dist\src133686442632954227 1
 86C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\parent-module\index.js133686443184051724 0
-77C:\Users\calva\Desktop\sistema-permiso-computadora\dist\admin.6e627cf9.js.map133687326307585666 0
+77C:\Users\calva\Desktop\sistema-permiso-computadora\dist\admin.6e627cf9.js.map133687418362496826 0
 85C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\parent-module\license133686443184728997 0
 126C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\010-introduction.md133686443193837713 0
 74C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\parcel\lib133686443185531807 1
@@ -3394,7 +3394,7 @@
 147C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\PseudoClassSelector.js133686443196335489 0
 116C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Block.cjs133686443188013858 0
 95C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\regions\SH.js133686443207115219 0
-73C:\Users\calva\Desktop\sistema-permiso-computadora\dist\admin.1441dd6f.js133687326307745970 0
+73C:\Users\calva\Desktop\sistema-permiso-computadora\dist\admin.1441dd6f.js133687418362400329 0
 73C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\dist133686443196018624 1
 72C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\lib133686443196018624 1
 103C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\dom-range.js133686443199445104 0
@@ -3695,7 +3695,7 @@
 120C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\send\node_modules\mime\dist\types\other.js.map133686442632773081 0
 126C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\definition-syntax\tokenizer.cjs133686443196335489 0
 121C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\definition-syntax\walk.cjs133686443196651801 0
-73C:\Users\calva\Desktop\sistema-permiso-computadora\dist\admin.6e627cf9.js133687326307585666 0
+73C:\Users\calva\Desktop\sistema-permiso-computadora\dist\admin.6e627cf9.js133687418362475892 0
 138C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\common\SyntaxError.js133686443196746905 0
 127C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0\index.js133686443189154034 0
 115C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\convertor\create.cjs133686443189986542 0
@@ -4095,7 +4095,7 @@
 95C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\_\_new_arrow_check133686443199156374 1
 99C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\css-tree\cjs\syntax\atrule\page.cjs133686443195997161 0
 93C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\css-tree\cjs\parser\index.cjs133686443194503562 0
-78C:\Users\calva\Desktop\sistema-permiso-computadora\dist\index.52f21230.css.map133687326307829484 0
+78C:\Users\calva\Desktop\sistema-permiso-computadora\dist\index.52f21230.css.map133687418362496826 0
 102C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\css-tree\cjs\parser\parse-selector.cjs133686443196018624 0
 103C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\esm\_is_native_function.js133686443197318937 0
 99C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\css-tree\cjs\parser\SyntaxError.cjs133686443196615432 0
@@ -4418,7 +4418,7 @@
 83C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\chalk\source\vendor133686442632001825 1
 129C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\compile.js133686443186156829 0
 111C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\chalk\source\vendor\supports-color\browser.d.ts133686442632607429 0
-77C:\Users\calva\Desktop\sistema-permiso-computadora\dist\login.73d0ebe1.js.map133687334726562767 0
+77C:\Users\calva\Desktop\sistema-permiso-computadora\dist\login.73d0ebe1.js.map133687420195553161 0
 95C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\regions\IS.js133686443201463616 0
 109C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\chalk\source\vendor\supports-color\index.d.ts133686442632773081 0
 107C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\chalk\source\vendor\supports-color\index.js133686442632240688 0
@@ -5030,7 +5030,7 @@
 80C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\cookie133686442632085485 1
 90C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\cookie-signature133686442632085485 1
 83C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\forwarded133686442632085485 1
-77C:\Users\calva\Desktop\sistema-permiso-computadora\dist\admin.1441dd6f.js.map133687326307760140 0
+77C:\Users\calva\Desktop\sistema-permiso-computadora\dist\admin.1441dd6f.js.map133687418362496826 0
 125C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\index.js133686443192574305 0
 120C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\res\node_modules\mime\dist\src\index_lite.d.ts133686442632954227 0
 81C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\.bin\browserslist133686443210746576 0
@@ -5571,6 +5571,7 @@
 110C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\cjs\_interop_require_wildcard.cjs133686443193976486 0
 115C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\cjs\_iterable_to_array_limit_loose.cjs133686443194004927 0
 89C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\cjs\_jsx.cjs133686443194161492 0
+82C:\Users\calva\Desktop\sistema-permiso-computadora\dist\solicitud.1dd3b4d9.css.map133687418362496826 0
 101C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\cjs\_new_arrow_check.cjs133686443194291557 0
 114C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\core\test\fixtures\custom-format-infer-ext133686443198150791 1
 103C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\cjs\_non_iterable_rest.cjs133686443194320758 0
@@ -6404,6 +6405,7 @@
 129C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\index.js133686443192628228 0
 130C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\Number.js133686443193016717 0
 134C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\Percentage.js133686443193016717 0
+81C:\Users\calva\Desktop\sistema-permiso-computadora\dist\solicitud.83518562.js.map133687418362496826 0
 130C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\String.js133686443193334030 0
 139C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\property\border.js133686443189037229 0
 144C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\replace\property\font-weight.js133686443191207969 0
@@ -6753,6 +6755,7 @@
 116C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\codeframe\node_modules\chalk\source\index.js133686443184354646 0
 117C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\codeframe\node_modules\ansi-styles\index.d.ts133686443186156829 0
 98C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\codeframe\lib\codeframe.js133686443190549133 0
+70C:\Users\calva\Desktop\sistema-permiso-computadora\dist\solicitud.html133687428782349750 0
 102C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\codeframe\lib\codeframe.js.map133686443193837713 0
 81C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\cache\lib133686443189341358 1
 85C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\@parcel\cache\LICENSE133686443183510500 0
@@ -6816,13 +6819,15 @@
 79C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\.bin\semver.cmd133686443210798868 0
 79C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\.bin\semver.ps1133686443210746576 0
 95C:\Users\calva\Desktop\sistema-permiso-computadora\node_modules\.bin\update-browserslist-db.cmd133686443210798868 0
-66C:\Users\calva\Desktop\sistema-permiso-computadora\dist\admin.html133687326307438111 0
-72C:\Users\calva\Desktop\sistema-permiso-computadora\dist\cat.ea448e2d.ico133687326307777997 0
-74C:\Users\calva\Desktop\sistema-permiso-computadora\dist\index.52f21230.css133687326307804804 0
-66C:\Users\calva\Desktop\sistema-permiso-computadora\dist\index.html133687326307438111 0
 78C:\Users\calva\Desktop\sistema-permiso-computadora\dist\login.52f21230.css.map133687237793052203 0
-66C:\Users\calva\Desktop\sistema-permiso-computadora\dist\login.html133687326307545821 0
-74C:\Users\calva\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js133687326307585666 0
-78C:\Users\calva\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js.map133687326307585666 0
-69C:\Users\calva\Desktop\sistema-permiso-computadora\dist\register.html133687326307711958 0
-73C:\Users\calva\Desktop\sistema-permiso-computadora\dist\login.73d0ebe1.js133687334726524145 0
+66C:\Users\calva\Desktop\sistema-permiso-computadora\dist\admin.html133687418362400329 0
+66C:\Users\calva\Desktop\sistema-permiso-computadora\dist\index.html133687418362400329 0
+77C:\Users\calva\Desktop\sistema-permiso-computadora\dist\solicitud.83518562.js133687418362400329 0
+69C:\Users\calva\Desktop\sistema-permiso-computadora\dist\register.html133687418362400329 0
+78C:\Users\calva\Desktop\sistema-permiso-computadora\dist\solicitud.1dd3b4d9.css133687418362475892 0
+74C:\Users\calva\Desktop\sistema-permiso-computadora\dist\index.52f21230.css133687418362475892 0
+66C:\Users\calva\Desktop\sistema-permiso-computadora\dist\login.html133687418362475892 0
+74C:\Users\calva\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js133687418362475892 0
+72C:\Users\calva\Desktop\sistema-permiso-computadora\dist\cat.ea448e2d.ico133687418362496826 0
+78C:\Users\calva\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js.map133687418362496826 0
+73C:\Users\calva\Desktop\sistema-permiso-computadora\dist\login.73d0ebe1.js133687420195437277 0

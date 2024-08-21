@@ -595,8 +595,11 @@ if (loginForm) loginForm.addEventListener("submit", (event)=>{
     userLogin.password = document.getElementById("password").value;
     if (validateFormFields(userLogin)) {
         // checkUser(userLogin) ? alert("Welcome Back "+ userLogin.correo) : alert("Email or Password not correct");
-        if (!checkUser(userLogin)) window.location.href = "./solicitud.html";
-        else alert("Email or Password not correct");
+        if (!checkUser(userLogin)) {
+            let currentUser = getCurrentUser();
+            alert("Welcome back: " + currentUser.nombre + " " + currentUser.apellido);
+            window.location.href = "http://localhost:8080/solicitud.html";
+        } else alert("Email or Password not correct");
     }
 });
 function validateFormFields(obj) {
@@ -613,11 +616,19 @@ function checkUser(user) {
             user.correo == element.correo && user.password == element.password ? found = element : found = false;
         });
         if (found) {
-            localStorage.setItem("usuario", found);
+            localStorage.setItem("usuario", JSON.stringify(found));
             return found;
-        }
+        } else localStorage.setItem("usuario", JSON.stringify({
+            id: 23,
+            nombre: "test user"
+        }));
     }
     findUser();
+}
+function getCurrentUser() {
+    const user = JSON.parse(localStorage.getItem("usuario"));
+    console.log(user.nombre);
+    return user;
 }
 
 },{"../usuario/get-usuario.js":"8CmM1"}],"8CmM1":[function(require,module,exports) {

@@ -19,8 +19,11 @@ if(loginForm){
             // checkUser(userLogin) ? alert("Welcome Back "+ userLogin.correo) : alert("Email or Password not correct");
              
             if(!checkUser(userLogin)){
+                let currentUser = getCurrentUser();
 
-                window.location.href = './solicitud.html';
+                alert("Welcome back: " + currentUser.nombre +" "+ currentUser.apellido);
+
+                window.location.href = 'http://localhost:8080/solicitud.html';
 
                 
             }
@@ -53,12 +56,26 @@ function checkUser(user){
         });
 
         if(found){
-            localStorage.setItem('usuario', found);
+            localStorage.setItem('usuario', JSON.stringify(found));
             return found;
         } 
+        else{
+            localStorage.setItem('usuario', JSON.stringify({
+                id:23,
+                nombre: "test user"
+            }));
+        }
 
     }
     
     findUser();
        
+}
+
+function getCurrentUser(){
+    const user = JSON.parse(localStorage.getItem('usuario'));
+
+    console.log(user.nombre);
+    
+    return user
 }

@@ -29,7 +29,37 @@
               </ul>
           </nav>
     </header>
-    <div class="form-container">
+    <div class="container align-center d-flex justify-center">
+        <div class="wrapper d-flex align-items-center justify-content-center h-100">
+            <div class="card login-form">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Solicitud De Equipos</h5>
+                    <form id="permisosForm" action="#" method="POST">
+                        <div class="mb-3">
+                            <label for="serie" class="form-label">Serie</label>
+                            <input type="text" name="serie" class="form-control" id="serie"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="marca" class="form-label">Marca</label>
+                            <input type="text" name="marca" class="form-control" id="marca">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="fechaSalida" class="form-label">Fecha Salida</label>
+                            <input type="date" name="fechaSalida" class="form-control" id="fechaSalida">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="fechaRegreso" class="form-label">Fecha Regreso</label>
+                            <input type="date" name="fechaRegreso" class="form-control" id="fechaRegreso">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar Solicitud</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
         <h2>Peticion de Equipo de Computo</h2>
         <form action="#" method="POST">
             <div class="form-group">

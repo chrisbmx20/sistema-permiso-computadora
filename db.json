@@ -1,46 +1,49 @@
 {
   "usuarios": [
-
     {
-      "id":"60888088",
-      "nombre":"Juan",
-      "apellido" : "Aguilar",
-      "correo" : "jaguilar@fwdcostarica.com",
-      "telefono" : "888 888 888",
-      "role" : "0",
-      "password":"010101"
-    }
-    ],
-    
-    "peticiones":[
-      {
-        "id":"NE369",
-        "serie":"ns335",
-        "marca" :"Dell",
-        "fechaSalida":"27-08-2024",
-        "estado": "pendiente",
-        "id-user":"608880888"
-        
-      
-      }
-    ],
-
-    "historial":[
-      {
-        "id":"1",
-        "id-peticion":"NE369",
-        "fecha":"27-08-2024"
-      }
-    ],
-    
-    "roles":[{
-      "id":"0",
-      "nombre":"usuario"
+      "id": "60888088",
+      "nombre": "Juan",
+      "apellido": "Aguilar",
+      "correo": "jaguilar@fwdcostarica.com",
+      "telefono": "888 888 888",
+      "role": "0",
+      "password": "010101"
     },
-
     {
-      "id":"1",
-      "nombre":"admin"
+      "id": "604440444",
+      "nombre": "Christian",
+      "apellido": "Alvarez",
+      "correo": "calvarez@fwdcostarica.com",
+      "telefono": "888 888 888",
+      "role": "0",
+      "password": "1111"
+    }
+  ],
+  "peticiones": [
+    {
+      "id": "NE369",
+      "serie": "ns335",
+      "marca": "Dell",
+      "fechaSalida": "27-08-2024",
+      "estado": "pendiente",
+      "id-user": "608880888"
+    }
+  ],
+  "historial": [
+    {
+      "id": "1",
+      "id-peticion": "NE369",
+      "fecha": "27-08-2024"
+    }
+  ],
+  "roles": [
+    {
+      "id": "0",
+      "nombre": "usuario"
+    },
+    {
+      "id": "1",
+      "nombre": "admin"
     }
   ]
 }
