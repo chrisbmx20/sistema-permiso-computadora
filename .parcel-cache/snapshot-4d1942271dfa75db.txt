@@ -1,4 +1,4 @@
-6827
+6829
 98C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\svgo\plugins\convertShapeToPath.js133686450734990242 0
 63C:\Users\jmedi\Desktop\sistema-permiso-computadora\package.json133687240001503313 0
 88C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\js-yaml\dist\js-yaml.mjs133686450733394128 0
@@ -8,7 +8,7 @@
 120C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-select\node_modules\entities\lib\esm\decode.d.ts.map133686450733032211 0
 110C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\electron-to-chromium\full-chromium-versions.js133686450803515434 0
 91C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\is-binary-path\package.json133686450721994771 0
-55C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist133687240207400324 1
+55C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist133687336271574363 1
 109C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\rest-parameters.js133686450749392425 0
 125C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\index.js133686450735792426 0
 70C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\braces133686450728394544 1
@@ -29,7 +29,7 @@
 63C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules133686450939721627 1
 117C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-select\node_modules\domutils\lib\helpers.d.ts.map133686450731893605 0
 110C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\utils\ident.cjs133686450734492081 0
-57C:\Users\jmedi\Desktop\sistema-permiso-computadora\public133687245475856922 1
+57C:\Users\jmedi\Desktop\sistema-permiso-computadora\public133687283117932508 1
 80C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-tree\LICENSE133686450722092806 0
 89C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\utility-types\SECURITY.md133686450729731182 0
 96C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-tree\cjs\syntax\node\Raw.cjs133686450737592991 0
@@ -114,7 +114,6 @@
 82C:\Users\jmedi\Desktop\sistema-permiso-computadora\services\usuario\get-usuario.js133687240001579467 0
 94C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib133686450741649510 1
 82C:\Users\jmedi\Desktop\sistema-permiso-computadora\services\usuario\put-usuario.js133687240001579467 0
-72C:\Users\jmedi\Desktop\sistema-permiso-computadora\public\css\styles.css133687250975737405 0
 97C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\esm\_create_super.js133686450738538662 0
 103C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\utility-types\dist\utility-types.js.map133686450728900563 0
 105C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\sql-storage.js133686450750293010 0
@@ -145,19 +144,19 @@
 109C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\transformer-css\src\CSSTransformer.js133686450724695081 0
 74C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\parcel\src133686450726706645 1
 102C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\auxclick.js133686450734095171 0
+68C:\Users\jmedi\Desktop\sistema-permiso-computadora\public\admin.html133687280135713852 0
 84C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\postcss-value-parser133686450727373009 1
-68C:\Users\jmedi\Desktop\sistema-permiso-computadora\public\admin.html133687245475856922 0
 97C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\svgo\plugins\removeHiddenElems.js133686450736390915 0
 123C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\plugins.js133686450733590703 0
 84C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\lightningcss\LICENSE133686450721994771 0
 112C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-select\lib\pseudo-selectors\filters.d.ts.map133686450733590703 0
 81C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\ipaddr.js\LICENSE133686450722040994 0
 127C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\plugins.js133686450733535623 0
-61C:\Users\jmedi\Desktop\sistema-permiso-computadora\public\css133687245475856922 1
+61C:\Users\jmedi\Desktop\sistema-permiso-computadora\public\css133687280135722967 1
 81C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\csso\lib\index.js133686450736390915 0
 93C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\json-parse-even-better-errors133686450725391476 1
 92C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\type-fest\source\spread.d.ts133686450738391084 0
-61C:\Users\jmedi\Desktop\sistema-permiso-computadora\public\img133686400764331619 1
+61C:\Users\jmedi\Desktop\sistema-permiso-computadora\public\img133687291425512997 1
 117C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-select\node_modules\domutils\lib\stringify.js.map133686450734095171 0
 73C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\callsites133686450725391476 1
 95C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\mime\dist\src\index_lite.js.map133686450728990264 0
@@ -168,7 +167,7 @@
 94C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\semver\functions\prerelease.js133686450733032211 0
 84C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\msgpackr\index.d.cts133686450727558346 0
 99C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\touch.js133686450751092791 0
-68C:\Users\jmedi\Desktop\sistema-permiso-computadora\public\index.html133687240001538074 0
+68C:\Users\jmedi\Desktop\sistema-permiso-computadora\public\index.html133687336271276133 0
 109C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\lexer\Lexer.js133686450740091028 0
 104C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\csso\cjs\restructure\6-restructBlock.cjs133686450726872482 0
 101C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\utils\src\progress-message.js133686450735489991 0
@@ -1238,7 +1237,7 @@
 87C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\source-map\package.json133686450721896856 0
 82C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\svgo\lib\parser.js133686450731442418 0
 91C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\url\dist\index.js133686450723334930 0
-66C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\admin.html133687240207390100 0
+66C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\admin.html133687335921832120 0
 105C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\customevent.js133686450741903752 0
 100C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\type-fest\source\readonly-tuple.d.ts133686450737532891 0
 104C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@mischnic\json-sourcemap\dist\index.d.ts133686450725092753 0
@@ -2286,7 +2285,7 @@
 100C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-what\lib\commonjs\types.d.ts.map133686450730552745 0
 139C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\cleanupListOfValues.js133686450729393913 0
 98C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\msgpackr-extract\node_modules\.bin133686450820893278 1
-72C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\cat.ea448e2d.ico133687240206103118 0
+72C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\cat.ea448e2d.ico133687335921927272 0
 98C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-swc\package.json133686450725294960 0
 112C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\utils\node_modules\color-convert\LICENSE133686450725892437 0
 110C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\_\_wrap_native_super\package.json133686450742636360 0
@@ -3491,7 +3490,7 @@
 118C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\lexer\generic-urange.js133686450739648603 0
 93C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\profiler\lib\types.js133686450729164560 0
 111C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\lexer\generic.js133686450739677520 0
-78C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js.map133687240206701399 0
+78C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js.map133687335922141576 0
 138C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-node-modules133686450730291671 0
 115C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\lexer\match-graph.js133686450740210637 0
 109C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\lexer\trace.js133686450741393548 0
@@ -3649,7 +3648,7 @@
 87C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-select\lib\types.js133686450731792516 0
 134C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeStyleElement.js133686450735290776 0
 82C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\csso\lib\syntax.js133686450737002422 0
-77C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\login.73d0ebe1.js.map133687240206881651 0
+77C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\login.73d0ebe1.js.map133687335921927272 0
 81C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\csso\lib\usage.js133686450737140674 0
 115C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-select\node_modules\domutils\lib\feeds.d.ts.map133686450731195149 0
 86C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@swc\core\package.json133686450727678782 0
@@ -3900,6 +3899,7 @@
 104C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-tree\lib\syntax\node\SelectorList.js133686450741369612 0
 106C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\core\lib\requests\TargetRequest.js133686450739291760 0
 99C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-tree\cjs\syntax\atrule\nest.cjs133686450736977225 0
+105C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\FWD - Logotipo - Slogan_Slogan gris.7ea3bfea.webp133687335921842106 0
 98C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-tree\lib\syntax\node\String.js133686450741393548 0
 102C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-tree\lib\syntax\node\StyleSheet.js133686450741393548 0
 106C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\css-tree\lib\syntax\function\expression.js133686450739677520 0
@@ -4659,7 +4659,7 @@
 104C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\fullscreen.js133686450743392307 0
 138C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\common\TokenStream.js133686450738365940 0
 95C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\regions\ZA.js133686450753190446 0
-74C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js133687240206583564 0
+74C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js133687335922109674 0
 95C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\regions\ZM.js133686450753190446 0
 109C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\abortcontroller.js133686450724619719 0
 92C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\send\dist\index.js133686450723344953 0
@@ -6170,7 +6170,7 @@
 129C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\general.js133686450727040063 0
 141C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeUnknownsAndDefaults.js133686450735409994 0
 127C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeXMLNS.js133686450735699550 0
-73C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\admin.1441dd6f.js133687240206573749 0
+73C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\admin.1441dd6f.js133687335921897237 0
 126C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\reusePaths.js133686450735868915 0
 125C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\sortAttrs.js133686450735914436 0
 132C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\sortDefsChildren.js133686450735989539 0
@@ -6492,7 +6492,7 @@
 140C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\atrule\import.js133686450735449982 0
 142C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\atrule\supports.js133686450738203392 0
 133C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\parser\create.js133686450731893605 0
-69C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\register.html133687240206145868 0
+69C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\register.html133687335921872070 0
 131C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\error.js133686450734352956 0
 140C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\generic-urange.js133686450735030679 0
 131C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\index.js133686450735850828 0
@@ -6509,7 +6509,7 @@
 143C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\common\OffsetToLocation.js133686450737392001 0
 138C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\common\SyntaxError.js133686450738203392 0
 126C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\data\index.js133686450735541212 0
-66C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\index.html133687240206743040 0
+66C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\index.html133687336271561644 0
 122C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\LICENSE133686450722345124 0
 124C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\README.md133686450732152017 0
 134C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\attributes.d.ts133686450732367132 0
@@ -6817,12 +6817,14 @@
 79C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\.bin\parcel.ps1133686450820893278 0
 79C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\.bin\semver.cmd133686450820893278 0
 95C:\Users\jmedi\Desktop\sistema-permiso-computadora\node_modules\.bin\update-browserslist-db.cmd133686450820893278 0
-77C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\admin.1441dd6f.js.map133687240206663738 0
-73C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\admin.6e627cf9.js133687240207069629 0
-77C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\admin.6e627cf9.js.map133687240207099705 0
-74C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\index.52f21230.css133687240206743040 0
-78C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\index.52f21230.css.map133687240206816597 0
 74C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\login.52f21230.css133687240001452330 0
 78C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\login.52f21230.css.map133687240001452330 0
-73C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\login.73d0ebe1.js133687240206816597 0
-66C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\login.html133687240206881651 0
+72C:\Users\jmedi\Desktop\sistema-permiso-computadora\public\css\styles.css133687314922555264 0
+102C:\Users\jmedi\Desktop\sistema-permiso-computadora\public\img\FWD - Logotipo - Slogan_Slogan gris.webp133687291489838258 0
+73C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\login.73d0ebe1.js133687335921872070 0
+74C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\index.52f21230.css133687335921937409 0
+77C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\admin.1441dd6f.js.map133687335921937409 0
+78C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\index.52f21230.css.map133687335921992324 0
+73C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\admin.6e627cf9.js133687335922109674 0
+77C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\admin.6e627cf9.js.map133687335922131582 0
+66C:\Users\jmedi\Desktop\sistema-permiso-computadora\dist\login.html133687335922231942 0
