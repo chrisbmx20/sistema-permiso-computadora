@@ -585,17 +585,21 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"cauyD":[function(require,module,exports) {
 //register form
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "getCurrentUser", ()=>getCurrentUser);
 var _getUsuarioJs = require("../usuario/get-usuario.js");
 const loginForm = document.getElementById("loginForm");
 if (loginForm) loginForm.addEventListener("submit", (event)=>{
     event.preventDefault();
     console.log("aqui estamos");
-    const userLogin = {};
-    userLogin.correo = document.getElementById("email").value;
-    userLogin.password = document.getElementById("password").value;
-    if (validateFormFields(userLogin)) {
+    const userLogin1 = {};
+    userLogin1.correo = document.getElementById("email").value;
+    userLogin1.password = document.getElementById("password").value;
+    if (validateFormFields(userLogin1)) {
         // checkUser(userLogin) ? alert("Welcome Back "+ userLogin.correo) : alert("Email or Password not correct");
-        if (!checkUser(userLogin)) {
+        debugger;
+        if (checkUser(userLogin1)) {
             let currentUser = getCurrentUser();
             alert("Welcome back: " + currentUser.nombre + " " + currentUser.apellido);
             window.location.href = "http://localhost:8080/solicitud.html";
@@ -608,22 +612,11 @@ function validateFormFields(obj) {
 function clearForm(form) {
     form.reset();
 }
-function checkUser(user) {
-    async function findUser() {
-        let found;
-        const userResults = await (0, _getUsuarioJs.getUsers)();
-        userResults.forEach((element)=>{
-            user.correo == element.correo && user.password == element.password ? found = element : found = false;
-        });
-        if (found) {
-            localStorage.setItem("usuario", JSON.stringify(found));
-            return found;
-        } else localStorage.setItem("usuario", JSON.stringify({
-            id: 23,
-            nombre: "test user"
-        }));
-    }
-    findUser();
+async function checkUser(user) {
+    const userResults = await (0, _getUsuarioJs.getUsers)();
+    const found = userResults.find((user)=>user.correo === userLogin.correo && user.password === userLogin.password);
+    if (found !== undefined) localStorage.setItem("usuario", JSON.stringify(found));
+    return found !== undefined;
 }
 function getCurrentUser() {
     const user = JSON.parse(localStorage.getItem("usuario"));
@@ -631,7 +624,7 @@ function getCurrentUser() {
     return user;
 }
 
-},{"../usuario/get-usuario.js":"8CmM1"}],"8CmM1":[function(require,module,exports) {
+},{"../usuario/get-usuario.js":"8CmM1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8CmM1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getUsers", ()=>getUsers);

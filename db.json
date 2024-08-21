@@ -25,7 +25,8 @@
       "serie": "ns335",
       "marca": "Dell",
       "fechaSalida": "27-08-2024",
-      "estado": "pendiente",
+      "fechaRegreso": "27-08-2024",
+      "estado": "0",
       "id-user": "608880888"
     }
   ],

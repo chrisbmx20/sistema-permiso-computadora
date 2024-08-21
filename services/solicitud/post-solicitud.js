@@ -1,25 +1,25 @@
 
 
-async function postPeticiones(usuario) {
+
+
+async function postPeticiones(solicitud) {
     try {
      
-        const userData = { 
-    "id": usuario.id,
-    "nombre": usuario.nombre,
-    "apellido": usuario.apellido,
-    "correo": usuario.correo,
-    "telefono": usuario.telefono,
-    "role": usuario.role,
-    "password": usuario.password
+        const solicitudData = { 
+                "serie": solicitud.serie,
+                "marca": solicitud.marca,
+                "fechaSalida": solicitud.fechaSalida,
+                "estado":"0",
+                "id-user": solicitud.idUsuario
         
         };
 
-        const response = await fetch("http://localhost:3000/usuarios", {
+        const response = await fetch("http://localhost:3000/peticiones", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(userData)
+            body: JSON.stringify(solicitudData)
         });
 
      
