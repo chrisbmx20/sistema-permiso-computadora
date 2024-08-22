@@ -1,89 +1,34 @@
-//register form
-const registerForm = document.getElementById("registerForm");
-const loginForm = document.getElementById("loginForm");
+import { postUsers } from "../../services/usuario/post-usuario.js";
+import { getUsers } from "../../services/usuario/get-usuario.js";
 
-if(registerForm){
-    registerForm.addEventListener("submit",event => {
-        event.preventDefault();
-        const user = {}
-    
-        user.name = document.getElementById("firstName").value;
-        user.lastName = document.getElementById("lastName").value;
-        user.phoneNumber =document.getElementById("phoneNumber").value;
-        user.password = document.getElementById("password").value;
-        user.email = document.getElementById("email").value;
-    
-        validateFormFields(user)? saveUser(user) : console.log("You are missing some fields please check");
+const registerForm = document.getElementById('registerForm');
 
-        clearForm(registerForm);
+registerForm.addEventListener('submit', async function(event) { 
+    event.preventDefault();
+    const usuario = {};
+     
+    usuario.id = document.getElementById('NumeroCedula').value;
+    usuario.nombre = document.getElementById('Nombre').value;
+    usuario.apellido = document.getElementById('Apellidos').value;
+    usuario.correo = document.getElementById('CorreoElectronico').value;
+    usuario.password = document.getElementById('Contraseña').value;
+    
+    const UsuarioExiste = await BuscarUsuario(usuario);
+    if (UsuarioExiste) {
+        alert('Usuario ya existente');
+    } else {
+        await postUsers(usuario); // Añadimos await para asegurarnos de que se complete antes de mostrar el alert
+        alert('Registrado');
     }
-    );
-}
+});
 
-/*
-function validateUser(userVal){
-
-    getUsers().forEach(user => {
-        user.email == userVal.email ? alert("Existing User on Database") : saveUser(user)
-    });
-}
-
-*/
-
-if(loginForm){
-    loginForm.addEventListener("submit", event =>{
-        event.preventDefault();
+async function BuscarUsuario(usuario) {
+    const ResultadosUsuario = await getUsers(); // Asume que getUsers devuelve una lista de usuarios
     
-        const userLogin = {}
+    // Busca si ya existe un usuario con el mismo id o correo
+    const usuarioExistente = ResultadosUsuario.find(u => u.id === usuario.id || u.correo === usuario.correo);
     
-        userLogin.email = document.getElementById("email").value;
-        userLogin.password = document.getElementById("password").value;
-    
-        if(validateFormFields(userLogin)){
-            if(checkUser(userLogin)){
-                alert("Welcome Back "+ userLogin.email)
-                window.location.href = 'admin.html';
-            }
-            else{
-                alert("Email or Password not correct");
-            }
-        }
-    
-    });
+    // Retorna true si el usuario ya existe, false si no existe
+    return usuarioExistente !== undefined;
 }
-
-
-function validateFormFields(obj) {
-    return Object.values(obj).every(value => value !== "");
-}
-
-function saveUser(user){
-    let users = getUsers() || [];
-
-    users.push(user);
-
-    localStorage.setItem('userList', JSON.stringify(users));
-}
-
-function getUsers(){
-    return JSON.parse(localStorage.getItem('userList')) || [];
-}
-
-function clearForm(form){
-    form.reset();
-}
-
-function checkUser(user){
-    let found = false;
-    const userResults = getUsers() || [];
-
-    
-    userResults.forEach(element => {
-        user.email == element.email && user.password == element.password ? found = true : found = false;
-    });
-
-    return found;
-}
-
-
 
