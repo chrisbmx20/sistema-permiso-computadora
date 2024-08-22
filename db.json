@@ -39,22 +39,6 @@
       "id-user": "608880888"
     },
     {
-      "id": "f3f4",
-      "serie": {},
-      "marca": {},
-      "fechaSalida": {},
-      "estado": "0",
-      "id-user": "604440444"
-    },
-    {
-      "id": "52e2",
-      "serie": {},
-      "marca": {},
-      "fechaSalida": {},
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
       "id": "9361",
       "serie": "d8n8",
       "marca": "lenovo",
@@ -74,6 +58,24 @@
       "id": "0754",
       "serie": "d8n8",
       "marca": "lenovo4b",
+      "fechaSalida": "2024-08-24",
+      "fechaRegreso": "2024-08-25",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "c81f",
+      "serie": "333333",
+      "marca": "Toshiba",
+      "fechaSalida": "2024-08-24",
+      "fechaRegreso": "2024-08-31",
+      "estado": "0",
+      "id-user": "604440444"
+    },
+    {
+      "id": "6f07",
+      "serie": "99999",
+      "marca": "msi",
       "fechaSalida": "2024-08-24",
       "fechaRegreso": "2024-08-25",
       "estado": "0",

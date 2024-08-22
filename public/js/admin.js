@@ -31,19 +31,19 @@ function showElement(index){
 mostrarPeticiones();
 
 async function mostrarPeticiones() {
-    const solicitudes = await getSolicitudes(); // Suponiendo que esta función devuelve un array de objetos
+    const solicitudes = await getSolicitudes();
     const tablaContenedor = document.getElementById('tabla-contenedor');
 
-    // Crear la tabla
+   
     const tabla = document.createElement('table');
     tabla.classList.add('table', 'table-striped', 'table-bordered');
 
-    // Crear el encabezado de la tabla
+
     const thead = document.createElement('thead');
     thead.classList.add('table-dark');
     const encabezadoFila = document.createElement('tr');
 
-    const encabezados = ['Número de Serie', 'Marca', 'Fecha de Salida', 'Fecha de Regreso', 'Estado', 'Acción'];
+    const encabezados = ['Número de Serie', 'Marca', 'Fecha de Slida', 'Fecha de Regreso', 'Estado', 'Acción'];
     encabezados.forEach(encabezadoTexto => {
         const th = document.createElement('th');
         th.scope = 'col';
@@ -54,7 +54,6 @@ async function mostrarPeticiones() {
     thead.appendChild(encabezadoFila);
     tabla.appendChild(thead);
 
-    // Crear el cuerpo de la tabla
     const tbody = document.createElement('tbody');
 
     solicitudes.forEach(solicitud => {
@@ -80,9 +79,9 @@ async function mostrarPeticiones() {
         const selectEstado = document.createElement('select');
         selectEstado.classList.add('form-select');
         const estados = [
-            { value: '0', text: 'En uso' },
-            { value: '1', text: 'En reparación' },
-            { value: '2', text: 'Disponible' }
+            { value: '0', text: 'Pendiente' },
+            { value: '1', text: 'Aceptada' },
+            { value: '2', text: 'Rechazada'}
         ];
 
         estados.forEach(estado => {
