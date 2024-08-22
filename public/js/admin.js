@@ -1,5 +1,11 @@
 import {getSolicitudes } from '../../services/solicitud/get-solicitudes.js'
 
+import { deletePeticion } from "../../services/solicitud/delete-solicitud.js"
+
+import { getUserById } from "../../services/usuario/get-usuario.js"
+
+
+
 const usuariosBtn = document.getElementById("usuarios");
 const peticionesBtn = document.getElementById("peticiones");
 
@@ -32,6 +38,7 @@ mostrarPeticiones();
 
 async function mostrarPeticiones() {
     const solicitudes = await getSolicitudes();
+
     const tablaContenedor = document.getElementById('tabla-contenedor');
 
    
@@ -98,11 +105,59 @@ async function mostrarPeticiones() {
         fila.appendChild(tdEstado);
 
         const tdAccion = document.createElement('td');
-        const botonVerUsuario = document.createElement('button');
-        botonVerUsuario.classList.add('btn', 'btn-primary');
-        botonVerUsuario.textContent = 'Ver Usuario';
-        botonVerUsuario.onclick = () => verUsuario(solicitud["id-user"]);
-        tdAccion.appendChild(botonVerUsuario);
+
+       // const botonVerUsuario = document.createElement('button');
+       // botonVerUsuario.classList.add('btn', 'btn-primary');
+        //botonVerUsuario.textContent = 'Ver Usuario';
+        //botonVerUsuario.onclick = () => verUsuario(solicitud["id-user"]);
+        const btnContainer = createButtons();
+        let userBtn = btnContainer.firstChild;
+        let deleteBtn = btnContainer.childNodes[1];
+
+        /*Find User*/ 
+        userBtn.addEventListener("click",function userHandler(){ 
+
+            
+        const userPromise = mostrarUsuario(solicitud["id-user"]);
+
+
+        debugger
+        if(user !== undefined){
+            alert(
+                "Nombre " + user.nombre +
+                "Apellido " + user.apellido
+             )
+        }
+         
+
+
+
+        })
+
+        /*Delete Request*/ 
+        deleteBtn.addEventListener("click",function delHandler(){
+            console.log("x:" +solicitud.id);
+
+            eliminarPeticion(solicitud.id);
+
+        })
+
+        async function eliminarPeticion(id){
+              try {
+                const eliminarSolicitud = await deletePeticion(id);4
+                tablaContenedor.innerHTML = "";
+                mostrarPeticiones();
+                } catch (error) {
+                console.error('Error al eliminar peticion:', error);
+                }
+        }
+
+        async function mostrarUsuario(id){
+            return await getUserById(id);
+        }
+
+
+        tdAccion.appendChild(btnContainer);
         fila.appendChild(tdAccion);
 
         tbody.appendChild(fila);
@@ -111,3 +166,34 @@ async function mostrarPeticiones() {
     tabla.appendChild(tbody);
     tablaContenedor.appendChild(tabla);
 }
+
+function createButtons(){
+
+    let btnContainer = document.createElement("div");
+        btnContainer.classList.add("btn-container");
+
+    let userIcon = document.createElement("i");
+        userIcon.classList.add("fa-regular");
+        userIcon.classList.add("fa-user");
+
+    let deleteIcon = document.createElement("i");
+    deleteIcon.classList.add("fa-solid");
+    deleteIcon.classList.add("fa-trash-can");
+
+    let deleteBtn = document.createElement("button");
+    deleteBtn.appendChild(deleteIcon);
+    deleteBtn.className ="delete-button";
+
+    let userBtn = document.createElement("button");
+        userBtn.className = "user-button";
+        userBtn.appendChild(userIcon);
+
+    btnContainer.appendChild(userBtn);
+    btnContainer.appendChild(deleteBtn);
+
+    return btnContainer;
+}
+/*
+function obtenerSolicitud(){
+
+}*/

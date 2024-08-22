@@ -30,56 +30,13 @@
   ],
   "peticiones": [
     {
-      "id": "NE369",
-      "serie": "ns335",
+      "id": "adb8",
+      "serie": "25256",
       "marca": "Dell",
-      "fechaSalida": "27-08-2024",
-      "fechaRegreso": "27-08-2024",
-      "estado": "0",
-      "id-user": "608880888"
-    },
-    {
-      "id": "9361",
-      "serie": "d8n8",
-      "marca": "lenovo",
-      "fechaSalida": "2024-08-09",
-      "estado": "0",
-      "id-user": "19130663"
-    },
-    {
-      "id": "4dda",
-      "serie": "d8n8",
-      "marca": "lenovo",
-      "fechaSalida": "2024-08-09",
-      "estado": "0",
-      "id-user": "19130663"
-    },
-    {
-      "id": "0754",
-      "serie": "d8n8",
-      "marca": "lenovo4b",
-      "fechaSalida": "2024-08-24",
-      "fechaRegreso": "2024-08-25",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "c81f",
-      "serie": "333333",
-      "marca": "Toshiba",
-      "fechaSalida": "2024-08-24",
-      "fechaRegreso": "2024-08-31",
+      "fechaSalida": "2024-08-23",
+      "fechaRegreso": "2024-08-26",
       "estado": "0",
       "id-user": "604440444"
-    },
-    {
-      "id": "6f07",
-      "serie": "99999",
-      "marca": "msi",
-      "fechaSalida": "2024-08-24",
-      "fechaRegreso": "2024-08-25",
-      "estado": "0",
-      "id-user": "60888088"
     }
   ],
   "historial": [
