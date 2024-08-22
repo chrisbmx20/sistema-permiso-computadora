@@ -1,22 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    width: 100%;
+    /* font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;*/
 }
 
 .form-container {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+
     width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-group {
@@ -55,4 +58,28 @@ body {
 
 .submit-btn:hover {
     background-color: #0056b3;
+}
+/*////////////////////////////////////////////////////////*/
+.my-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.my-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
 }

@@ -1,13 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+
 }
 
 body,html{
     width: 100%;
     max-width: 100%;
-    overflow: hidden;
 }
 
 li {
@@ -273,6 +272,9 @@ a {
 }
 .padding{
     padding-right: 5%;
+}
+.centring{
+    justify-content: end;
 }
 
 .menu-container{
