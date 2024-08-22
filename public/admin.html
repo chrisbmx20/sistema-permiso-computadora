@@ -31,15 +31,15 @@
 
             <ul class="aside-menu nav flex-column sidebar-nav py-20">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" onclick="showElement(0)"><i class="fa-regular fa-calendar-days"></i><span class="menu-text">Usuarios</span></a>
+                    <a id="usuarios" class="nav-link active" href="#" ><i class="fa-regular fa-calendar-days"></i><span class="menu-text">Usuarios</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="showElement(1)"><i class="fa-solid fa-list-ul"></i><span class="menu-text">Peticiones</span></a></li>
+                    <a id="peticiones" class="nav-link" href="#" ><i class="fa-solid fa-list-ul"></i><span class="menu-text">Peticiones</span></a></li>
             </ul>
         </div>
         <div class="col-10 bg-grey py-5 dashboard">
             <section class="row justify-center aligncenter py-20">
-                <div id="events" class="events">
+                <div id="usuario" class="events">
                     <h2>Usuarios</h2>
                     <hr>
 
@@ -63,29 +63,14 @@
                       
                     </div>
                 </div>
-                <div id="tasks" class="events">
+                <div id="peticion" class="events">
                     <h2>Peticiones</h2>
                     <hr>
-        
-                    <div class="form-container input-group py-20 ">
-                        <input type="text" id="taskText" class="form-control" aria-label="Text input with dropdown button" placeholder="e.g Terminar Proyecto JS">
-                        <select class="form-select" id="priority" aria-label="Example select with button addon">
-                          <option selected>Choose...</option>
-                          <option value="low">Low</option>
-                          <option value="medium">Medium</option>
-                          <option value="high">High</option>
-                        </select>
-                        <button class="btn btn-primary" type="button" id="addTask">agregar peticion</button>
-                    </div>
-        
-                    <ul id="task-list" class="">
-        
-                    </ul>
-                </div>
+                    <div class="container" id="tabla-contenedor"></div>
             </section>
         </div>
       </div>
 
-    <script src="js/respaldo.js"></script>
+   <script type="module" src="./js/admin.js"></script>
 </body>
 </html>

@@ -1,7 +1,6 @@
-//register form
 const loginForm = document.getElementById("loginForm");
 
-import { getUsers } from "../usuario/get-usuario.js";
+import { getUsers } from "../../services/usuario/get-usuario.js";
 
 
 if(loginForm){
@@ -46,7 +45,7 @@ function clearForm(form){
     form.reset();
 }
 
-async function checkUser(user){
+async function checkUser(userLogin){
     
     const userResults = await getUsers();
     const found = userResults.find(user => 
@@ -55,6 +54,7 @@ async function checkUser(user){
     );
 
     if(found !== undefined){
+        localStorage.clear();
         localStorage.setItem('usuario', JSON.stringify(found));
     }
     return found !== undefined;
@@ -64,8 +64,6 @@ async function checkUser(user){
 
 function getCurrentUser(){
     const user = JSON.parse(localStorage.getItem('usuario'));
-
-    console.log(user.nombre);
     
     return user
 }
