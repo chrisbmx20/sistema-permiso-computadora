@@ -7,11 +7,12 @@
 body,html{
     width: 100%;
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 li {
     list-style: none;
+    
 }
 
 a {
@@ -305,5 +306,45 @@ a {
         margin-left:10px;
     }
 }
+#IniciarSesion{
+color: #262626;
+}
+img{
+    background-color: #f5f9fc;
+}
+.Bienvenido{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+.Gestion{
+    text-align: center;
+    margin-top: 40px;
+}
 
 
+
+#botones {
+    position: absolute;
+    left: 50%; /* Centra los botones horizontalmente */
+    top: 500px; /* Mantiene el margen superior relativo */
+    transform: translateX(-50%); /* Ajusta para centrar exactamente */
+}
+
+/* Media queries para ajustar la posición en pantallas más pequeñas */
+@media (max-width: 768px) {
+    #botones {
+        margin-left: 10px;
+        top: 700px; /* Reduce el margen superior en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 410px) {
+    #botones {
+        
+        top: 720px; /* Ajuste adicional para pantallas muy pequeñas */
+    }
+    
+}
