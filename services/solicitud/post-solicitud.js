@@ -1,14 +1,12 @@
 
-
-
-
 async function postPeticiones(solicitud) {
     try {
      
         const solicitudData = { 
-                "serie": solicitud.serie,
-                "marca": solicitud.marca,
+                "serie": solicitud.serieEquipo,
+                "marca": solicitud.marcaEquipo,
                 "fechaSalida": solicitud.fechaSalida,
+                "fechaRegreso" :solicitud.fechaRegreso,
                 "estado":"0",
                 "id-user": solicitud.idUsuario
         

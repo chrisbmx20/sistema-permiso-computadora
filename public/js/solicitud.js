@@ -6,20 +6,27 @@ const peticionesForm = document.getElementById("peticionesForm");
 
 
 if(peticionesForm){
-    loginForm.addEventListener("submit", event =>{
+    peticionesForm.addEventListener("submit", event =>{
         event.preventDefault();
 
         const solicitud = {}
-        solicitud.serieEquipo = document.getElementById('serie');
-        solicitud.marcaEquipo = document.getElementById('marca');
-        solicitud.fechaSalida = document.getElementById('fechaSalida');
-        solicitud.fechaRegreso = document.getElementById('fechaRegreso');
+
+        solicitud.serieEquipo = document.getElementById('serie').value;
+        solicitud.marcaEquipo = document.getElementById('marca').value;
+        solicitud.fechaSalida = document.getElementById('fechaSalida').value;
+        solicitud.fechaRegreso = document.getElementById('fechaRegreso').value;
         solicitud.idUsuario = getCurrentUser().id;
 
-        guardarPeticion();
+        guardarPeticion(solicitud);
 })}
 
 
 async function guardarPeticion(solicitud){
+        try {
         const peticion = await postPeticiones(solicitud);
+        console.log('Peticion saved successfully:', peticion);
+        } catch (error) {
+        console.error('Error saving peticion:', error);
+        }
 }
+

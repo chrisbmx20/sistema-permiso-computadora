@@ -64,8 +64,6 @@ async function checkUser(userLogin){
 
 function getCurrentUser(){
     const user = JSON.parse(localStorage.getItem('usuario'));
-
-    console.log(user.nombre);
     
     return user
 }

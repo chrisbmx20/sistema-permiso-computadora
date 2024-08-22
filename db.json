@@ -17,6 +17,15 @@
       "telefono": "888 888 888",
       "role": "0",
       "password": "1111"
+    },
+    {
+      "id": "19130663",
+      "nombre": "Jose",
+      "apellido": "Gonzalez",
+      "correo": "jgonzalezf@fwd.com",
+      "telefono": "71816948",
+      "role": "0",
+      "password": "sIcARIo2004$hi$red#"
     }
   ],
   "peticiones": [
@@ -28,6 +37,47 @@
       "fechaRegreso": "27-08-2024",
       "estado": "0",
       "id-user": "608880888"
+    },
+    {
+      "id": "f3f4",
+      "serie": {},
+      "marca": {},
+      "fechaSalida": {},
+      "estado": "0",
+      "id-user": "604440444"
+    },
+    {
+      "id": "52e2",
+      "serie": {},
+      "marca": {},
+      "fechaSalida": {},
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "9361",
+      "serie": "d8n8",
+      "marca": "lenovo",
+      "fechaSalida": "2024-08-09",
+      "estado": "0",
+      "id-user": "19130663"
+    },
+    {
+      "id": "4dda",
+      "serie": "d8n8",
+      "marca": "lenovo",
+      "fechaSalida": "2024-08-09",
+      "estado": "0",
+      "id-user": "19130663"
+    },
+    {
+      "id": "0754",
+      "serie": "d8n8",
+      "marca": "lenovo4b",
+      "fechaSalida": "2024-08-24",
+      "fechaRegreso": "2024-08-25",
+      "estado": "0",
+      "id-user": "60888088"
     }
   ],
   "historial": [
