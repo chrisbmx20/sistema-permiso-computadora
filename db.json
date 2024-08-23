@@ -334,6 +334,28 @@
       "apellido": "Arguedas",
       "correo": "marguedas@fwdcostarica.com",
       "password": "0000"
+    },
+    {
+      "id": "888888",
+      "nombre": "Jeffry",
+      "apellido": "Med",
+      "correo": "jeff@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "888x888",
+      "nombre": "jeff",
+      "apellido": "Med",
+      "correo": "jexxxf@gmail.com",
+      "password": "3"
+    },
+    {
+      "id": "888888ww",
+      "nombre": "andres",
+      "apellido": "Med",
+      "correo": "jef@gwmail.com",
+      "telefono": "889990",
+      "password": "2"
     }
   ],
   "peticiones": [
@@ -345,24 +367,6 @@
       "fechaRegreso": "2024-08-24",
       "estado": "0",
       "id-user": "604440444"
-    },
-    {
-      "id": "c002",
-      "serie": "d8n8",
-      "marca": "Dell",
-      "fechaSalida": "2024-08-24",
-      "fechaRegreso": "2024-08-27",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "9925",
-      "serie": "nrt980",
-      "marca": "Pinocho",
-      "fechaSalida": "2024-08-23",
-      "fechaRegreso": "2024-08-25",
-      "estado": "0",
-      "id-user": "60888088"
     }
   ],
   "historial": [

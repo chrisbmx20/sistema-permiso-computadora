@@ -12,6 +12,7 @@ registerForm.addEventListener('submit', async function(event) {
     usuario.apellido = document.getElementById('Apellidos').value;
     usuario.correo = document.getElementById('CorreoElectronico').value;
     usuario.password = document.getElementById('Contraseña').value;
+    usuario.telefono=document.getElementById('NumeroTelefon').value
     
 
     if (usuario.id==='' && usuario.nombre==='' && usuario.apellido==='' && usuario.correo==='' && usuario.password==='') {
