@@ -26,6 +26,153 @@
       "telefono": "71816948",
       "role": "0",
       "password": "sIcARIo2004$hi$red#"
+    },
+    {
+      "id": "456789",
+      "nombre": "jeff",
+      "apellido": "medina",
+      "correo": "jef@gmail.com",
+      "password": {}
+    },
+    {
+      "id": "456789",
+      "nombre": "jeff",
+      "apellido": "medina",
+      "correo": "jef@gmail.com",
+      "password": {}
+    },
+    {
+      "id": "12345",
+      "nombre": "jeff",
+      "apellido": "oco",
+      "correo": "jef@gmail.com",
+      "password": {}
+    },
+    {
+      "id": "2324",
+      "nombre": "gee",
+      "apellido": "jjj",
+      "correo": "def@gmail.com",
+      "password": "355"
+    },
+    {
+      "id": "604700161",
+      "nombre": "jeffry",
+      "apellido": "Medina",
+      "correo": "jef@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "604700161",
+      "nombre": "jeffry",
+      "apellido": "Medina",
+      "correo": "jef@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "1234",
+      "nombre": "andres",
+      "apellido": "medina",
+      "correo": "jef@gmail.com",
+      "password": "1"
+    },
+    {
+      "id": "13",
+      "nombre": "jeffryk",
+      "apellido": "medina",
+      "correo": "je22223hf@gmail.com",
+      "password": "12"
+    },
+    {
+      "id": "604700162",
+      "nombre": "Jeffry",
+      "apellido": "Medina",
+      "correo": "jeffryandres1234@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "2134",
+      "nombre": "jeff",
+      "apellido": "medina",
+      "correo": "j33ef@gmail.com",
+      "password": "12"
+    },
+    {
+      "id": "",
+      "nombre": "",
+      "apellido": "",
+      "correo": "",
+      "password": ""
+    },
+    {
+      "id": "1111e4",
+      "nombre": "jeffry",
+      "apellido": "medina",
+      "correo": "je4f@gmail.com",
+      "password": "1"
+    },
+    {
+      "id": "889911",
+      "nombre": "jeff",
+      "apellido": "medina",
+      "correo": "j111ef@gmail.com",
+      "password": "111"
+    },
+    {
+      "id": "999",
+      "nombre": "andres",
+      "apellido": "medina",
+      "correo": "j00ef@gmail.com",
+      "password": "9"
+    },
+    {
+      "id": "88991",
+      "nombre": "jeff",
+      "apellido": "medina",
+      "correo": "je11f@gmail.com",
+      "password": "1"
+    },
+    {
+      "id": "1111",
+      "nombre": "jeff",
+      "apellido": "medina",
+      "correo": "jef@gmail.com",
+      "password": "3"
+    },
+    {
+      "id": "1111",
+      "nombre": "jeff",
+      "apellido": "medina",
+      "correo": "jef@gmail.com",
+      "password": ""
+    },
+    {
+      "id": "1111",
+      "nombre": "jeff",
+      "apellido": "medina",
+      "correo": "jef@gmail.com",
+      "password": ""
+    },
+    {
+      "id": "11114",
+      "nombre": "jeff",
+      "apellido": "medina",
+      "correo": "jef4@gmail.com",
+      "password": "3"
+    },
+    {
+      "id": "111144",
+      "nombre": "jeff",
+      "apellido": "medina",
+      "correo": "jef4@gmail.4com",
+      "password": ""
+    },
+    {
+      "id": "11113",
+      "nombre": "jeff",
+      "apellido": "medina",
+      "correo": "jedf@gmail.com",
+      "password": "1"
     }
   ],
   "peticiones": [
@@ -80,6 +227,51 @@
       "fechaRegreso": "2024-08-25",
       "estado": "0",
       "id-user": "60888088"
+    },
+    {
+      "id": "9925",
+      "serie": "nrt980",
+      "marca": "Pinocho",
+      "fechaSalida": "2024-08-23",
+      "fechaRegreso": "2024-08-25",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "272e",
+      "serie": "nrt980",
+      "marca": "Pinocho",
+      "fechaSalida": "2024-08-29",
+      "fechaRegreso": "2024-08-30",
+      "estado": "0",
+      "id-user": "1234"
+    },
+    {
+      "id": "f4b8",
+      "serie": "nrt980",
+      "marca": "Pinocho",
+      "fechaSalida": "2024-08-29",
+      "fechaRegreso": "2024-08-30",
+      "estado": "0",
+      "id-user": "1234"
+    },
+    {
+      "id": "d0e2",
+      "serie": "nrt980",
+      "marca": "Pinocho",
+      "fechaSalida": "2024-08-29",
+      "fechaRegreso": "2024-08-30",
+      "estado": "0",
+      "id-user": "1234"
+    },
+    {
+      "id": "04fe",
+      "serie": "nrt980",
+      "marca": "Pinocho",
+      "fechaSalida": "2024-08-29",
+      "fechaRegreso": "2024-08-30",
+      "estado": "0",
+      "id-user": "1234"
     }
   ],
   "historial": [
