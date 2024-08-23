@@ -115,20 +115,29 @@ async function mostrarPeticiones() {
         let deleteBtn = btnContainer.childNodes[1];
 
         /*Find User*/ 
-        userBtn.addEventListener("click",function userHandler(){ 
+        userBtn.addEventListener("click",async function userHandler(){ 
 
             
-        const userPromise = mostrarUsuario(solicitud["id-user"]);
+        const user = await mostrarUsuario(solicitud["id-user"]);
+
+        const modalContent = document.getElementById("modalContent");
+        
+        const modalHeader = document.getElementById("infoModalLabel")
+        modalHeader.innerHTML = user.nombre + " " + user.apellido
+
+        
+        const correo = document.createElement("p");
+        correo.innerHTML = "Correo: "+user.correo;
+
+        const telefono = document.createElement("p");
+        telefono.innerHTML = "Telefono: "+user.telefono;
+
+        modalContent.appendChild(correo);
+        modalContent.appendChild(telefono);
 
 
-        debugger
-        if(user !== undefined){
-            alert(
-                "Nombre " + user.nombre +
-                "Apellido " + user.apellido
-             )
-        }
-         
+        const myModal = new bootstrap.Modal(document.getElementById('infoModal'));
+        myModal.show();
 
 
 
@@ -136,10 +145,7 @@ async function mostrarPeticiones() {
 
         /*Delete Request*/ 
         deleteBtn.addEventListener("click",function delHandler(){
-            console.log("x:" +solicitud.id);
-
             eliminarPeticion(solicitud.id);
-
         })
 
         async function eliminarPeticion(id){
@@ -155,7 +161,6 @@ async function mostrarPeticiones() {
         async function mostrarUsuario(id){
             return await getUserById(id);
         }
-
 
         tdAccion.appendChild(btnContainer);
         fila.appendChild(tdAccion);
@@ -193,7 +198,5 @@ function createButtons(){
 
     return btnContainer;
 }
-/*
-function obtenerSolicitud(){
 
-}*/
+

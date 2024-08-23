@@ -7,7 +7,7 @@
 124C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133688152698841597 0
 112C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\es6-generators.js133688152700761747 0
 104C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\utility-types\dist\mapped-types.d.ts133688152681030267 0
-59C:\Users\Christian\Desktop\sistema-permiso-computadora\dist133688392423281251 1
+59C:\Users\Christian\Desktop\sistema-permiso-computadora\dist133688431250884510 1
 116C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\css-select\lib\esm\pseudo-selectors\aliases.d.ts133688152689100871 0
 65C:\Users\Christian\Desktop\sistema-permiso-computadora\.gitignore133688189331347980 0
 122C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\css-select\node_modules\entities\lib\esm\encode.js.map133688152686480671 0
@@ -18,6 +18,10 @@
 109C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\customevent.js133688152699001772 0
 129C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\workers\test\integration\workerfarm\reverse-handle.js133688152684810603 0
 85C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@msgpackr-extract133688152719583139 1
+143C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\generator\sourceMap.js133688152692991170 0
+113C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\offscreencanvas.js133688152706172143 0
+70C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\admin.html133688431250844705 0
+94C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\nth-check\lib\esm\index.js133688152673879738 0
 112C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\_\_sliced_to_array\package.json133688152699571649 0
 88C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\json5\lib\unicode.js133688152678190060 0
 116C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\src\_class_private_field_update.mjs133688152701291788 0
@@ -41,6 +45,7 @@
 106C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\utility-types\dist\mapped-types.js.map133688152678130051 0
 79C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\safe-buffer133688152674329768 1
 91C:\Users\Christian\Desktop\sistema-permiso-computadora\services\solicitud\post-solicitud.js133688180725050457 0
+62C:\Users\Christian\Desktop\sistema-permiso-computadora\db.json133688426722632056 0
 91C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\node-addon-api\index.js133688152680630233 0
 108C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\source-map\parcel_sourcemap_node133688152691321043 1
 78C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\dotenv\lib133688152676769953 1
@@ -138,12 +143,15 @@
 115C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\core\src\requests\WriteBundleRequest.js133688152696581429 0
 75C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel133688152719583139 1
 106C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\css-select\node_modules\dom-serializer133688152678820108 1
-72C:\Users\Christian\Desktop\sistema-permiso-computadora\public\admin.html133688180724930632 0
+72C:\Users\Christian\Desktop\sistema-permiso-computadora\public\admin.html133688431039361863 0
 97C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\chrome-trace-event\CHANGES.md133688152672659647 0
 107C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\css-fixed.js133688152695451354 0
 96C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\htmlparser2\lib\Tokenizer.js133688152675279844 0
 94C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\workers\index.d.ts133688152687260730 0
 109C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\type-fest\source\require-all-or-none.d.ts133688152692281120 0
+103C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\fetch.js133688152701101767 0
+104C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\type-fest\source\unknown-record.d.ts133688152694231252 0
+93C:\Users\Christian\Desktop\sistema-permiso-computadora\services\solicitud\delete-solicitud.js133688354899839349 0
 113C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\posthtml\node_modules\posthtml-parser\license133688152669339397 0
 113C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\utils\ident.js133688152696441445 0
 85C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\is-number\LICENSE133688152672189615 0
@@ -233,13 +241,11 @@
 93C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\lowdb\lib\presets\node.js133688152678920110 0
 125C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\reporter-cli\node_modules\color-name\package.json133688152669399405 0
 113C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\css-select\lib\pseudo-selectors\subselects.js133688152682020366 0
-73C:\Users\Christian\Desktop\sistema-permiso-computadora\public\js\admin.js133688392422963228 0
+73C:\Users\Christian\Desktop\sistema-permiso-computadora\public\js\admin.js133688428379671431 0
 104C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\css-tree\cjs\syntax\node\AnPlusB.cjs133688152673929749 0
 113C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\_\_array_with_holes\package.json133688152696801445 0
 75C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\globals133688152675619858 1
 77C:\Users\Christian\Desktop\sistema-permiso-computadora\public\js\functions.js133688233083419681 0
-135C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\README.md133688152675739903 0
-77C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\callsites133688152674189757 1
 121C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\css-select\node_modules\domutils\lib\stringify.js.map133688152686410665 0
 110C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\core\test\fixtures\parcel\other.js133688152691951095 0
 121C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\index.js133688152684880551 0
@@ -340,6 +346,8 @@
 99C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\regions\RE.js133688152707062209 0
 95C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\node-addon-api\package.json133688152681180279 0
 74C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\braces133688152677780024 1
+135C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\README.md133688152675739903 0
+77C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\callsites133688152674189757 1
 94C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\workers\src\bus.js133688152674979812 0
 107C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\_\_interop_require_default133688152698881602 1
 86C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\chrome-trace-event133688152675319841 1
@@ -561,7 +569,7 @@
 77C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\js-tokens133688152674149795 1
 103C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\const.js133688152692751149 0
 75C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\js-yaml133688152684930569 1
-82C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\index.52f21230.css.map133688390664570384 0
+82C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\index.52f21230.css.map133688430023429585 0
 97C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\json-parse-even-better-errors133688152674139756 1
 121C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\runtime-js\src\helpers\browser\html-loader.js133688152681570304 0
 101C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\svgo\plugins\removeHiddenElems.js133688152689770942 0
@@ -634,8 +642,8 @@
 143C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\AnPlusB.js133688152674099752 0
 91C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\app\README.md133688152679160125 0
 93C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\lmdb\src\v8-functions.cpp133688152691711072 0
-91C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\eta\dist\eta.umd.js.map133688152680310216 0
 108C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\proxy-addr\dist\index.d.ts.map133688152673699726 0
+91C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\eta\dist\eta.umd.js.map133688152680310216 0
 96C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\regexparam\dist\index.min.js133688152672499637 0
 87C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\weak-lru-cache\dist133688152668849487 1
 103C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\proxy.js133688152706922195 0
@@ -763,7 +771,6 @@
 102C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\webp.js133688152710032430 0
 74C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\stable133688152674099752 1
 123C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\syntax\atrule\import.cjs133688152687270734 0
-86C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\steno\package.json133688152672479634 0
 110C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\core\test\PublicDependency.test.js133688152693561216 0
 114C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\svgo\plugins\removeNonInheritableGroupAttrs.js133688152689940997 0
 73C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\steno133688152673229686 1
@@ -1014,7 +1021,7 @@
 110C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\type-fest\source\conditional-simplify.d.ts133688152681680327 0
 84C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\get-port\license133688152673299691 0
 121C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\type-fest\source\delimiter-cased-properties-deep.d.ts133688152682150345 0
-85C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\solicitud.4a85306b.js.map133688390664570384 0
+85C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\solicitud.4a85306b.js.map133688430023429585 0
 108C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\use-strict.js133688152709172369 0
 114C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\parcel\node_modules\color-convert\package.json133688152669349411 0
 115C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\lib\restructure\prepare\processSelector.js133688152690380964 0
@@ -1324,9 +1331,6 @@
 105C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\css-tree\lib\syntax\scope\selector.js133688152698251565 0
 107C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\css-tree\lib\definition-syntax\parse.js133688152697951548 0
 128C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\htmlnano\docs\versioned_sidebars\version-2.0.0-sidebars.json133688152687150722 0
-103C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\fetch.js133688152701101767 0
-93C:\Users\Christian\Desktop\sistema-permiso-computadora\services\solicitud\delete-solicitud.js133688354899839349 0
-104C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\type-fest\source\unknown-record.d.ts133688152694231252 0
 116C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\src\_initializer_warning_helper.mjs133688152701881831 0
 80C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\mdn-data\css133688152684140493 1
 94C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\tslib\modules\package.json133688152675769881 0
@@ -1469,7 +1473,7 @@
 92C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\timsort\build\timsort.js133688152675759876 0
 121C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\lib\syntax\config\lexer.js133688152697171486 0
 88C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\term-size\index.d.ts133688152677880035 0
-82C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js.map133688390664570384 0
+82C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js.map133688430023429585 0
 129C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\package-manager\test\getCurrentPackageManager.test.js133688152672939665 0
 90C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\term-size\package.json133688152676939965 0
 90C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\css-tree\lib\generator133688152698561573 1
@@ -1635,6 +1639,7 @@
 81C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\steno\LICENSE133688152668849487 0
 91C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\semver\functions\cmp.js133688152673559706 0
 107C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\dragndrop.js133688152700041677 0
+86C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\steno\package.json133688152672479634 0
 105C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\cjs\_async_generator.cjs133688152677440000 0
 88C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\steno\lib\index.d.ts133688152674609853 0
 86C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\steno\lib\index.js133688152671299557 0
@@ -2206,7 +2211,6 @@
 85C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\boolbase\index.js133688152672269703 0
 88C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\lmdb\dependencies\v8133688152693261327 1
 100C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\nth-check\lib\esm\index.d.ts.map133688152679280135 0
-94C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\nth-check\lib\esm\index.js133688152673879738 0
 96C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\nth-check\lib\esm\parse.d.ts133688152683180428 0
 90C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\normalize-path\LICENSE133688152672169610 0
 82C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\send133688152680900262 1
@@ -2589,7 +2593,6 @@
 105C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\core\lib\SymbolPropagation.js133688152694741293 0
 99C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\regions\CN.js133688152692451121 0
 120C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\lmdb\node_modules\node-addon-api\tools\check-napi.js133688152679250147 0
-105C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\walker133688152688920854 1
 122C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\lmdb\node_modules\node-addon-api\tools\clang-format.js133688152679510160 0
 87C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\detect-libc\LICENSE133688152673639717 0
 128C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\README.md133688152683520452 0
@@ -2953,7 +2956,7 @@
 133C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\utils.js133688152686990708 0
 118C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\htmlnano\lib\modules\removeRedundantAttributes.mjs133688152691861089 0
 96C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\inflection\src\inflection.ts133688152678890118 0
-77C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\login.07e8d194.js133688390664410379 0
+77C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\login.07e8d194.js133688430022789537 0
 80C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\core133688152697711510 1
 88C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\globals\globals.json133688152673069682 0
 98C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\inflection\lib\inflection.d.ts133688152678250064 0
@@ -3208,9 +3211,9 @@
 125C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\index.js133688152673009678 0
 91C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\eta\dist\eta.module.mjs133688152683190434 0
 95C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\eta\dist\eta.module.mjs.map133688152679660177 0
-87C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\eta\dist\eta.umd.js133688152673089674 0
-104C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\proxy-addr\dist\index.d.ts133688152676319916 0
 117C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\link-rel-preconnect.js133688152704692038 0
+104C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@tinyhttp\proxy-addr\dist\index.d.ts133688152676319916 0
+87C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\eta\dist\eta.umd.js133688152673089674 0
 99C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\eta\dist\types\browser.d.ts.map133688152675289839 0
 106C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\eta\dist\types\compile-string.d.ts.map133688152677800032 0
 95C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\eta\dist\types\compile.d.ts133688152683730470 0
@@ -3527,6 +3530,7 @@
 111C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\dist\version.cjs133688152693271177 0
 110C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\dist\version.js133688152698721671 0
 107C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\data.cjs133688152684080495 0
+105C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\walker133688152688920854 1
 116C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\walker\create.cjs133688152683690472 0
 115C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\csso\node_modules\css-tree\cjs\walker\index.cjs133688152688930852 0
 131C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0\index.js133688152680100210 0
@@ -4141,7 +4145,7 @@
 98C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\LICENSE133688152669289385 0
 113C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\_\_set_prototype_of\package.json133688152699451641 0
 86C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\css-select\LICENSE133688152669059530 0
-81C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\admin.aab162fa.js.map133688392423271052 0
+81C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\admin.aab162fa.js.map133688430023429585 0
 103C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules133688152712202601 1
 91C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\css-select\node_modules133688152649377912 1
 95C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\fs\src\OverlayFS.js133688152678630089 0
@@ -4942,8 +4946,6 @@
 111C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\notifications.js133688152705982247 0
 123C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@swc\helpers\src\_class_static_private_field_update.mjs133688152701421802 0
 112C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\object-entries.js133688152706072137 0
-143C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\generator\sourceMap.js133688152692991170 0
-113C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\offscreencanvas.js133688152706172143 0
 108C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\ogg-vorbis.js133688152706182147 0
 111C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\online-status.js133688152706272153 0
 111C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\caniuse-lite\data\features\pad-start-end.js133688152706352159 0
@@ -6183,7 +6185,7 @@
 124C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\coa.js133688152679950192 0
 127C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\config.js133688152680500228 0
 135C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\css-class-list.js133688152682940407 0
-73C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\register.html133688390664450399 0
+73C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\register.html133688430022789537 0
 141C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\css-select-adapter.d.ts133688152690741001 0
 128C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\plugins.js133688152685520599 0
 126C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\tools.js133688152690100944 0
@@ -6531,7 +6533,7 @@
 154C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\index.d.ts.map133688152681600317 0
 81C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\.bin\svgo.ps1133688152712432674 0
 152C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts133688152685050574 0
-76C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\cat.ea448e2d.ico133688390664540382 0
+76C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\cat.ea448e2d.ico133688430023219813 0
 155C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts133688152685340592 0
 121C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\optimizer-htmlnano\node_modules\.bin\svgo.ps1133688152712382615 0
 113C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@babel\highlight\node_modules\chalk\readme.md133688152674949820 0
@@ -6749,7 +6751,7 @@
 115C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\codeframe\node_modules\chalk\index.d.ts133688152676589936 0
 120C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\codeframe\node_modules\chalk\source\index.js133688152671659579 0
 121C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\codeframe\node_modules\ansi-styles\index.d.ts133688152674879815 0
-109C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\FWD - Logotipo - Slogan_Slogan gris.7ea3bfea.webp133688390664460487 0
+109C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\FWD - Logotipo - Slogan_Slogan gris.7ea3bfea.webp133688430022829554 0
 119C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\codeframe\node_modules\ansi-styles\index.js133688152671289545 0
 118C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\codeframe\node_modules\ansi-styles\license133688152669479398 0
 123C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\@parcel\codeframe\node_modules\ansi-styles\package.json133688152672469631 0
@@ -6811,7 +6813,7 @@
 84C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\.bin\detect-libc133688152712402623 0
 100C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\.bin\download-lmdb-prebuilds.ps1133688152712412617 0
 100C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\.bin\download-msgpackr-prebuilds133688152712422766 0
-70C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\index.html133688390664450399 0
+70C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\index.html133688430022789537 0
 104C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\.bin\download-msgpackr-prebuilds.cmd133688152712412617 0
 104C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\.bin\download-msgpackr-prebuilds.ps1133688152712412617 0
 80C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\.bin\js-yaml133688152712402623 0
@@ -6825,14 +6827,12 @@
 83C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\.bin\parcel.ps1133688152712422766 0
 83C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\.bin\semver.cmd133688152712422766 0
 77C:\Users\Christian\Desktop\sistema-permiso-computadora\node_modules\.bin\svgo133688152712422766 0
-70C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\admin.html133688319150945756 0
-62C:\Users\Christian\Desktop\sistema-permiso-computadora\db.json133688360092056838 0
-70C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\login.html133688390664380404 0
-81C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\solicitud.4a85306b.js133688390664440386 0
-74C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\solicitud.html133688390664450399 0
-78C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js133688390664450399 0
-80C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\register.73d0ebe1.js133688390664450399 0
-78C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\index.52f21230.css133688390664460487 0
-81C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\login.07e8d194.js.map133688390664540382 0
-84C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\register.73d0ebe1.js.map133688390664570384 0
-77C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\admin.aab162fa.js133688392423231039 0
+77C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\admin.aab162fa.js133688430022789537 0
+78C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\index.52f21230.css133688430022809572 0
+81C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\login.07e8d194.js.map133688430023429585 0
+70C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\login.html133688430022779552 0
+78C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\public.0ba7c674.js133688430022809572 0
+80C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\register.73d0ebe1.js133688430022789537 0
+84C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\register.73d0ebe1.js.map133688430023429585 0
+81C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\solicitud.4a85306b.js133688430022789537 0
+74C:\Users\Christian\Desktop\sistema-permiso-computadora\dist\solicitud.html133688430022789537 0

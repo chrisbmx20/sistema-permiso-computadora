@@ -30,13 +30,22 @@
   ],
   "peticiones": [
     {
-      "id": "adb8",
+      "id": "19ca",
       "serie": "25256",
       "marca": "Dell",
-      "fechaSalida": "2024-08-23",
-      "fechaRegreso": "2024-08-26",
+      "fechaSalida": "2024-08-21",
+      "fechaRegreso": "2024-08-24",
       "estado": "0",
       "id-user": "604440444"
+    },
+    {
+      "id": "c002",
+      "serie": "d8n8",
+      "marca": "Dell",
+      "fechaSalida": "2024-08-24",
+      "fechaRegreso": "2024-08-27",
+      "estado": "0",
+      "id-user": "60888088"
     }
   ],
   "historial": [
