@@ -320,6 +320,13 @@
       "apellido": "medina",
       "correo": "jedf@gmail.com",
       "password": "1"
+    },
+    {
+      "id": "605550555",
+      "nombre": "kkkk",
+      "apellido": "plpplp",
+      "correo": "hugalde@fwdcostarica.com",
+      "password": "3333"
     }
   ],
   "peticiones": [
@@ -361,24 +368,6 @@
     },
     {
       "id": "f4b8",
-      "serie": "nrt980",
-      "marca": "Pinocho",
-      "fechaSalida": "2024-08-29",
-      "fechaRegreso": "2024-08-30",
-      "estado": "0",
-      "id-user": "1234"
-    },
-    {
-      "id": "d0e2",
-      "serie": "nrt980",
-      "marca": "Pinocho",
-      "fechaSalida": "2024-08-29",
-      "fechaRegreso": "2024-08-30",
-      "estado": "0",
-      "id-user": "1234"
-    },
-    {
-      "id": "04fe",
       "serie": "nrt980",
       "marca": "Pinocho",
       "fechaSalida": "2024-08-29",
