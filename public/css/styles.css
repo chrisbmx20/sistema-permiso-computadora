@@ -7,11 +7,8 @@
 body,html{
     width: 100%;
     max-width: 100%;
-<<<<<<< HEAD
-=======
     overflow-x: hidden;
     padding-bottom: 40px;
->>>>>>> 5d314f26d06b02f943e00450df0859645065ae68
 }
 
 li {
