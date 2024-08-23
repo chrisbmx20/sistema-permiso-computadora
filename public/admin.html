@@ -19,11 +19,12 @@
                     <li class="padding"><a href="./login.html">Login</a></li>
                     <li class="padding"><a href="./register.html">Register</a></li>
                     <li class="padding"><a href="./admin.html">Admin</a></li>
-                  </ul>
+                    <li class="padding"><a href="./solicitud.html">Solicitud</a></li>
+                </ul>
     
-                  <button type="button" class="btn btn-outline-light">Log Out</button>
+                <button type="button" class="btn btn-outline-light">Log Out</button>
             </div>
-          </nav>
+        </nav>
     </header>
 
     <div class="container-fluid mx-0 row min-vh-100 px-0 py-6">
@@ -46,31 +47,72 @@
                     <div class="form-container input-group py-20">
                         <div class="row m-auto px-0 input-container-events">
                             <div class="col col-xl-8 px-1">
-                              <input type="text" id="eventTitle" placeholder="Math Class" class="form-control">
+                                <input type="text" id="eventTitle" placeholder="Math Class" class="form-control">
                             </div>
                             <div class="col col-xl-2 px-1">
-                              <input type="date" id="eventDate" placeholder="24/07/2024" class="form-control">
+                                <input type="date" id="eventDate" placeholder="24/07/2024" class="form-control">
                             </div>
                             <div class="col col-xl-2 px-1">
                                 <button class="btn btn-primary w-100" type="button" id="addEvent"><i class="fa-solid fa-plus"></i><span class="add-button-text">Agregar Usuario</span></button>
-                              </div>
-                          </div>
-                          
+                                </div>
+                        </div>  
             
                     </div>
 
                     <div id="event-list" class="py-20">
-                      
+                
                     </div>
                 </div>
                 <div id="peticion" class="events">
                     <h2>Peticiones</h2>
                     <hr>
+<<<<<<< HEAD
+        
+                    <div class="form-container input-group py-20 ">
+                        <input type="text" id="taskText" class="form-control" aria-label="Text input with dropdown button" placeholder="e.g Terminar Proyecto JS">
+                        <select class="form-select" id="priority" aria-label="Example select with button addon">
+                            <option selected>Choose...</option>
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                        </select>
+                        <button class="btn btn-primary" type="button" id="addTask">agregar peticion</button>
+                    </div>
+        
+                    <ul id="task-list" class="">
+        
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+=======
                     <div class="container" id="tabla-contenedor"></div>
             </section>
         </div>
+    </div>
+
+
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="infoModalLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="modalContent">
+              <!-- Aquí se mostrará la información -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
       </div>
+>>>>>>> 5d314f26d06b02f943e00450df0859645065ae68
 
    <script type="module" src="./js/admin.js"></script>
+   <script type="module" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>

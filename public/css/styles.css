@@ -1,13 +1,14 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+
 }
 
 body,html{
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
+    padding-bottom: 40px;
 }
 
 li {
@@ -48,7 +49,7 @@ a {
     color:#262626;
 }
 
-.edit-button,.delete-button{
+.edit-button,.delete-button,.user-button{
     border: none;
     padding:10px;
     background-color: transparent;
@@ -111,8 +112,6 @@ a {
     padding: 2rem 1rem 1rem;
 
   }
-
-
   
   form {
     padding: 1rem;
@@ -274,6 +273,9 @@ a {
 }
 .padding{
     padding-right: 5%;
+}
+.centring{
+    justify-content: end;
 }
 
 .menu-container{

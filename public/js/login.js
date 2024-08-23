@@ -17,14 +17,12 @@ if(loginForm){
 
             // checkUser(userLogin) ? alert("Welcome Back "+ userLogin.correo) : alert("Email or Password not correct");
              
-
-            debugger
             if(checkUser(userLogin)){
                 let currentUser = getCurrentUser();
 
                 alert("Welcome back: " + currentUser.nombre +" "+ currentUser.apellido);
 
-                window.location.href = 'http://localhost:8080/solicitud.html';
+                window.location.href = 'http://localhost:5000/solicitud.html';
 
                 
             }
