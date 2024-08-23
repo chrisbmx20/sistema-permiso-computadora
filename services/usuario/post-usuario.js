@@ -1,11 +1,18 @@
 
 
-async function postUsers() {
+
+
+async function postUsers(usuario) {
     try {
      
         const userData = { 
-            nombre,
-            apellido 
+    "id": usuario.id,
+    "nombre": usuario.nombre,
+    "apellido": usuario.apellido,
+    "correo": usuario.correo,
+    "telefono": usuario.telefono,
+    "role": usuario.role,
+    "password": usuario.password
         
         };
 
@@ -28,3 +35,4 @@ async function postUsers() {
 }
 
 export{postUsers}
+

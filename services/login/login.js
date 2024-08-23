@@ -3,14 +3,6 @@ const loginForm = document.getElementById("loginForm");
 
 import { getUsers } from "../usuario/get-usuario.js";
 
-/*
-async function init() {
-    const users = await getUsers();
-    console.log("USERSSSS", users);
-}
-
-init();
-*/
 
 if(loginForm){
     loginForm.addEventListener("submit", event =>{
@@ -23,11 +15,19 @@ if(loginForm){
         userLogin.password = document.getElementById("password").value;
     
         if(validateFormFields(userLogin)){
+
+            // checkUser(userLogin) ? alert("Welcome Back "+ userLogin.correo) : alert("Email or Password not correct");
+             
+
+            debugger
             if(checkUser(userLogin)){
-                alert("Welcome Back "+ userLogin.correo)
+                let currentUser = getCurrentUser();
 
+                alert("Welcome back: " + currentUser.nombre +" "+ currentUser.apellido);
 
-                window.location.href = './public/solicitud.html';
+                window.location.href = 'http://localhost:8080/solicitud.html';
+
+                
             }
             else{
                 alert("Email or Password not correct");
@@ -46,25 +46,29 @@ function clearForm(form){
     form.reset();
 }
 
-function checkUser(user){
-    let found = false;
-    let userResults;
+async function checkUser(user){
+    
+    const userResults = await getUsers();
+    const found = userResults.find(user => 
+        user.correo === userLogin.correo && 
+        user.password === userLogin.password
+    );
 
-    async function init() {
-        userResults = await getUsers();
-        console.log("USERSSSS", userResults);
+    if(found !== undefined){
+        localStorage.setItem('usuario', JSON.stringify(found));
     }
-    
-    init();
+    return found !== undefined;
 
-    console.log(userResults);
-
-    debugger
-    
-    userResults.forEach(element => {
-        user.correo == element.correo && user.correo == element.correo ? found = true : found = false;
-    });
-
-    return found;
+       
 }
 
+function getCurrentUser(){
+    const user = JSON.parse(localStorage.getItem('usuario'));
+
+    console.log(user.nombre);
+    
+    return user
+}
+
+export {getCurrentUser}
+ 
