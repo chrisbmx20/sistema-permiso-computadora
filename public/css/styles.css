@@ -348,11 +348,64 @@ img{
     }
     
 }
-.Registro{
-    margin-left: 400px;
-    margin-right: 400px;
-    border: 1px solid;
+#registerForm{
+    height: 100%;
+    
 }
-label{
 
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.modal-titulo {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.modal-mensaje {
+    margin: 20px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.modal-boton-cerrar {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-boton-cerrar:hover {
+    background-color: #0056b3;
+}
+
+#Registro{
+    margin-right: 900px;
+}
+footer{
+    height: 100px;
+    background-color: #0056b3;
+    margin-top: 100px;
+
+}
+#textP{
+    color: #fff;
+    text-align: center;
+}
+small{
+    color: #fff;
+    text-align: center;
 }
