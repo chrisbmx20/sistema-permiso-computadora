@@ -24,9 +24,24 @@ if(peticionesForm){
 async function guardarPeticion(solicitud){
         try {
         const peticion = await postPeticiones(solicitud);
-        console.log('Peticion saved successfully:', peticion);
+
+        clearForm(peticionesForm);
+        
+
+        alert('Peticion saved successfully:');
+        window.location.href = 'http://localhost:5000/solicitud.html';
+
         } catch (error) {
         console.error('Error saving peticion:', error);
         }
 }
+
+function validateFormFields(obj) {
+        return Object.values(obj).every(value => value !== "");
+  }
+
+  function clearForm(form){
+        form.reset();
+    }
+    
 
