@@ -98,7 +98,7 @@ a {
     height: 500px;
 }
 
-#usuario{
+#usuario,#historial{
     display:none;
 }
 
