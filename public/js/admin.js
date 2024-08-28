@@ -101,7 +101,6 @@ async function mostrarPeticiones() {
                 solicitud.estado = String(selectEstado.value) ;
                 const update = await updateSolicitud(solicitud);
                 
-        
                 alert('Peticion Actualizada:');
         
     
