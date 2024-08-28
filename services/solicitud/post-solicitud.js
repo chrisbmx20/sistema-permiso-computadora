@@ -1,7 +1,6 @@
 
 async function postPeticiones(solicitud) {
     try {
-     
         const solicitudData = { 
                 "serie": solicitud.serieEquipo,
                 "marca": solicitud.marcaEquipo,
@@ -20,9 +19,7 @@ async function postPeticiones(solicitud) {
             body: JSON.stringify(solicitudData)
         });
 
-     
         return await response.json();
-
         
     } catch (error) {
         console.error('Error posting user:', error);

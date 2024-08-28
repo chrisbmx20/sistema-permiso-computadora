@@ -341,6 +341,20 @@
       "apellido": "Ugalde",
       "correo": "mugalde@fwdcostarica.com",
       "password": "0000"
+    },
+    {
+      "id": "31",
+      "nombre": "tangananica",
+      "apellido": "tanganana",
+      "correo": "bodoque@31minutos.com",
+      "password": "31"
+    },
+    {
+      "id": "31 0484 0329",
+      "nombre": "juan carlos",
+      "apellido": "bodoque",
+      "correo": "juancarlosbodoque@31minutos.com",
+      "password": "21"
     }
   ],
   "peticiones": [
@@ -388,6 +402,42 @@
       "fechaRegreso": "2024-08-31",
       "estado": "0",
       "id-user": "101110111"
+    },
+    {
+      "id": "d11a",
+      "serie": "31",
+      "marca": "suli",
+      "fechaSalida": "2024-08-23",
+      "fechaRegreso": "2024-08-31",
+      "estado": "0",
+      "id-user": "31"
+    },
+    {
+      "id": "2358",
+      "serie": "31N0T4V3RD3",
+      "marca": "31minutos",
+      "fechaSalida": "2024-08-29",
+      "fechaRegreso": "2024-08-29",
+      "estado": "0",
+      "id-user": "31"
+    },
+    {
+      "id": "0b4f",
+      "serie": "31N0T4V3RD3",
+      "marca": "31minutos",
+      "fechaSalida": "2024-08-28",
+      "fechaRegreso": "2024-08-31",
+      "estado": "0",
+      "id-user": "31"
+    },
+    {
+      "id": "c78d",
+      "serie": "31N0T4V3RD3",
+      "marca": "31minutos",
+      "fechaSalida": "2024-08-15",
+      "fechaRegreso": "2024-08-29",
+      "estado": "0",
+      "id-user": "31"
     }
   ],
   "historial": [
@@ -395,6 +445,11 @@
       "id": "1",
       "id-peticion": "NE369",
       "fecha": "27-08-2024"
+    },
+    {
+      "id": "a18f",
+      "idSolicitud": "c78d",
+      "fecha": "2024-08-28T14:50:54.201Z"
     }
   ],
   "roles": [
