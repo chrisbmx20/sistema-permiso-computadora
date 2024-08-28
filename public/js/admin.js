@@ -40,13 +40,15 @@ historialBtn.addEventListener("click",()=>{
     historial.style.display = "block"
 })
 
+
+/*
 function showElement(index){
     let event = document.getElementById("events");
     let task = document.getElementById("tasks");
 
     event.style.display = index === 0 ? "block" : "none";
     task.style.display = index === 1 ? "block" : "none";
-}
+}*/
 
 
 mostrarPeticiones();
