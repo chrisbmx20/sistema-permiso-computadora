@@ -46,8 +46,6 @@ async function guardarPeticion(solicitud){
 
         window.location.href = 'http://localhost:8080/index.html';
 
-        window.location.href = 'http://localhost:8080/solicitud.html';
-
         } catch (error) {
         console.error('Error saving peticion:', error);
         }
