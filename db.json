@@ -368,17 +368,8 @@
       "marca": "OVNI",
       "fechaSalida": "2024-08-16",
       "fechaRegreso": "2024-08-31",
-      "estado": "0",
+      "estado": "1",
       "id-user": "60888088"
-    },
-    {
-      "id": "a3b3",
-      "serie": "0001111",
-      "marca": "OVNI",
-      "fechaSalida": "2024-08-25",
-      "fechaRegreso": "2024-08-31",
-      "estado": "0",
-      "id-user": "101110111"
     }
   ],
   "historial": [
