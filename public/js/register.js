@@ -6,7 +6,7 @@ const registerForm = document.getElementById('registerForm');
 registerForm.addEventListener('submit', async function(event) { 
     event.preventDefault();
     const usuario = {};
-     
+    
     usuario.id = document.getElementById('NumeroCedula').value;
     usuario.nombre = document.getElementById('Nombre').value;
     usuario.apellido = document.getElementById('Apellidos').value;

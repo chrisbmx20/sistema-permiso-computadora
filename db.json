@@ -356,10 +356,32 @@
       "correo": "jef@gwmail.com",
       "telefono": "889990",
       "password": "2"
+    },
+    {
+      "id": "101110111",
+      "nombre": "Marcos",
+      "apellido": "Ugalde",
+      "correo": "mugalde@fwdcostarica.com",
+      "password": "0000"
+    },
+    {
+      "id": "31",
+      "nombre": "tangananica",
+      "apellido": "tanganana",
+      "correo": "bodoque@31minutos.com",
+      "password": "31"
+    },
+    {
+      "id": "31 0484 0329",
+      "nombre": "juan carlos",
+      "apellido": "bodoque",
+      "correo": "juancarlosbodoque@31minutos.com",
+      "password": "21"
     }
   ],
   "peticiones": [
     {
+
       "id": "19ca",
       "serie": "25256",
       "marca": "Dell",
@@ -367,6 +389,63 @@
       "fechaRegreso": "2024-08-24",
       "estado": "0",
       "id-user": "604440444"
+
+    },
+    {
+      "id": "a3b3",
+      "serie": "0001111",
+      "marca": "OVNI",
+      "fechaSalida": "2024-08-25",
+      "fechaRegreso": "2024-08-31",
+      "estado": "0",
+      "id-user": "101110111"
+    },
+    {
+      "id": "d11a",
+      "serie": "31",
+      "marca": "suli",
+      "fechaSalida": "2024-08-23",
+      "fechaRegreso": "2024-08-31",
+      "estado": "0",
+      "id-user": "31"
+    },
+    {
+      "id": "2358",
+      "serie": "31N0T4V3RD3",
+      "marca": "31minutos",
+      "fechaSalida": "2024-08-29",
+      "fechaRegreso": "2024-08-29",
+      "estado": "0",
+      "id-user": "31"
+    },
+    {
+      "id": "0b4f",
+      "serie": "31N0T4V3RD3",
+      "marca": "31minutos",
+      "fechaSalida": "2024-08-28",
+      "fechaRegreso": "2024-08-31",
+      "estado": "0",
+      "id-user": "31"
+    },
+    {
+      "id": "c78d",
+      "serie": "31N0T4V3RD3",
+      "marca": "31minutos",
+      "fechaSalida": "2024-08-15",
+      "fechaRegreso": "2024-08-29",
+      "estado": "0",
+      "id-user": "31"
+    },
+    {
+      "id": "f10a",
+      "serie": "404040",
+      "marca": "Chinita ",
+      "fechaSalida": "2024-08-28",
+      "fechaRegreso": "2024-08-29",
+      "estado": "1",
+      "id-user": "604440444"
+>>>>>>> 87cb6b360a162770e435048d606e64431e2d4bfb
+>>>>>>> c4bdaffd3b21d9a59a85b661ea1f3f62ff29f8ab
     }
   ],
   "historial": [
@@ -374,6 +453,16 @@
       "id": "1",
       "id-peticion": "NE369",
       "fecha": "27-08-2024"
+    },
+    {
+      "id": "a18f",
+      "idSolicitud": "c78d",
+      "fecha": "2024-08-28T14:50:54.201Z"
+    },
+    {
+      "id": "829d",
+      "idSolicitud": "f10a",
+      "fecha": "2024-08-28T16:14:28.831Z"
     }
   ],
   "roles": [
