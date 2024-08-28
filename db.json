@@ -355,19 +355,51 @@
       "apellido": "bodoque",
       "correo": "juancarlosbodoque@31minutos.com",
       "password": "21"
+    },
+    {
+      "id": "gensokyo",
+      "nombre": "remilia",
+      "apellido": "scarlet",
+      "correo": "remilliascarlet666@gensokyo.com",
+      "password": "6"
     }
   ],
   "peticiones": [
+    {
+      "id": "19ca",
+      "serie": "25256",
+      "marca": "Dell",
+      "fechaSalida": "2024-08-21",
+      "fechaRegreso": "2024-08-24",
+      "estado": "0",
+      "id-user": "604440444"
+    },
+    {
+      "id": "c002",
+      "serie": "d8n8",
+      "marca": "Dell",
+      "fechaSalida": "2024-08-24",
+      "fechaRegreso": "2024-08-27",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "9925",
+      "serie": "nrt980",
+      "marca": "Pinocho",
+      "fechaSalida": "2024-08-23",
+      "fechaRegreso": "2024-08-25",
+      "estado": "2",
+      "id-user": "60888088"
+    },
     {
       "id": "fbe1",
       "serie": "404040",
       "marca": "OVNI",
       "fechaSalida": "2024-08-16",
       "fechaRegreso": "2024-08-31",
-      "estado": "1",
+      "estado": "0",
       "id-user": "60888088"
-<<<<<<< HEAD
-=======
     },
     {
       "id": "a3b3",
@@ -411,18 +443,8 @@
       "marca": "31minutos",
       "fechaSalida": "2024-08-15",
       "fechaRegreso": "2024-08-29",
-      "estado": "0",
-      "id-user": "31"
-    },
-    {
-      "id": "f10a",
-      "serie": "404040",
-      "marca": "Chinita ",
-      "fechaSalida": "2024-08-28",
-      "fechaRegreso": "2024-08-29",
       "estado": "1",
-      "id-user": "604440444"
->>>>>>> 87cb6b360a162770e435048d606e64431e2d4bfb
+      "id-user": "31"
     }
   ],
   "historial": [
@@ -435,11 +457,6 @@
       "id": "a18f",
       "idSolicitud": "c78d",
       "fecha": "2024-08-28T14:50:54.201Z"
-    },
-    {
-      "id": "829d",
-      "idSolicitud": "f10a",
-      "fecha": "2024-08-28T16:14:28.831Z"
     }
   ],
   "roles": [
