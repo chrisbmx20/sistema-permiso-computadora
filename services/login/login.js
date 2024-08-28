@@ -17,7 +17,7 @@ if(loginForm){
         if(validateFormFields(userLogin)){
 
             // checkUser(userLogin) ? alert("Welcome Back "+ userLogin.correo) : alert("Email or Password not correct");
-             
+            
 
             debugger
             if(checkUser(userLogin)){
