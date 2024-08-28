@@ -29,6 +29,8 @@ async function guardarPeticion(solicitud){
         
 
         alert('Peticion saved successfully:');
+
+        window.location.href = 'http://localhost:8080/solicitud.html';
         window.location.href = 'http://localhost:8080/index.html';
 
         } catch (error) {

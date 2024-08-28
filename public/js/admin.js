@@ -4,7 +4,7 @@ import { deletePeticion } from "../../services/solicitud/delete-solicitud.js"
 
 import { getUserById } from "../../services/usuario/get-usuario.js"
 
-
+import { updateSolicitud } from  "../../services/solicitud/put-solicitud.js"
 
 const usuariosBtn = document.getElementById("usuarios");
 const peticionesBtn = document.getElementById("peticiones");
@@ -84,12 +84,30 @@ async function mostrarPeticiones() {
 
         const tdEstado = document.createElement('td');
         const selectEstado = document.createElement('select');
+
         selectEstado.classList.add('form-select');
         const estados = [
             { value: '0', text: 'Pendiente' },
             { value: '1', text: 'Aceptada' },
             { value: '2', text: 'Rechazada'}
         ];
+
+
+
+        selectEstado.addEventListener("change",async function updatePeticion(){
+           
+
+            try {
+                solicitud.estado = String(selectEstado.value) ;
+                const update = await updateSolicitud(solicitud);
+                
+                alert('Peticion Actualizada:');
+        
+    
+                } catch (error) {
+                console.error('Error Actualizando peticion:', error);
+                }
+        })
 
         estados.forEach(estado => {
             const option = document.createElement('option');
@@ -106,10 +124,6 @@ async function mostrarPeticiones() {
 
         const tdAccion = document.createElement('td');
 
-       // const botonVerUsuario = document.createElement('button');
-       // botonVerUsuario.classList.add('btn', 'btn-primary');
-        //botonVerUsuario.textContent = 'Ver Usuario';
-        //botonVerUsuario.onclick = () => verUsuario(solicitud["id-user"]);
         const btnContainer = createButtons();
         let userBtn = btnContainer.firstChild;
         let deleteBtn = btnContainer.childNodes[1];
@@ -121,6 +135,7 @@ async function mostrarPeticiones() {
         const user = await mostrarUsuario(solicitud["id-user"]);
 
         const modalContent = document.getElementById("modalContent");
+        modalContent.innerHTML = "";
         
         const modalHeader = document.getElementById("infoModalLabel")
         modalHeader.innerHTML = user.nombre + " " + user.apellido
