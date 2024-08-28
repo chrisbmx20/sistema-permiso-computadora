@@ -17,7 +17,10 @@ if(peticionesForm){
         solicitud.fechaRegreso = document.getElementById('fechaRegreso').value;
         solicitud.idUsuario = getCurrentUser().id;
 
-        guardarPeticion(solicitud);
+        validateFormFields(peticionesForm) ? guardarPeticion(solicitud): console.log("Error");
+        
+
+        
 })}
 
 

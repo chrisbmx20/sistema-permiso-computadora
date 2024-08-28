@@ -343,7 +343,7 @@
       "marca": "Dell",
       "fechaSalida": "2024-08-21",
       "fechaRegreso": "2024-08-24",
-      "estado": "0",
+      "estado": "1",
       "id-user": "604440444"
     },
     {
@@ -356,13 +356,22 @@
       "id-user": "60888088"
     },
     {
-      "id": "9925",
-      "serie": "nrt980",
-      "marca": "Pinocho",
-      "fechaSalida": "2024-08-23",
-      "fechaRegreso": "2024-08-25",
-      "estado": "0",
+      "id": "dc9e",
+      "serie": "404040",
+      "marca": "Chinita ",
+      "fechaSalida": "2024-08-29",
+      "fechaRegreso": "2024-08-29",
+      "estado": "1",
       "id-user": "60888088"
+    },
+    {
+      "id": "21bd",
+      "serie": "56787",
+      "marca": "OVNI",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-08-31",
+      "estado": "1",
+      "id-user": "604440444"
     }
   ],
   "historial": [
@@ -370,6 +379,21 @@
       "id": "1",
       "id-peticion": "NE369",
       "fecha": "27-08-2024"
+    },
+    {
+      "id": "a53c",
+      "idSolicitud": "dc9e",
+      "fecha": "2024-08-28T17:19:34.795Z"
+    },
+    {
+      "id": "eb48",
+      "idSolicitud": "21bd",
+      "fecha": "2024-08-28T17:21:32.171Z"
+    },
+    {
+      "id": "b67b",
+      "idSolicitud": "0691",
+      "fecha": "2024-08-28T17:29:21.686Z"
     }
   ],
   "roles": [
