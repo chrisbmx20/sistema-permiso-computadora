@@ -6,6 +6,8 @@ import { getUserById } from "../../services/usuario/get-usuario.js"
 
 import { updateSolicitud } from  "../../services/solicitud/put-solicitud.js"
 
+
+
 const usuariosBtn = document.getElementById("usuarios");
 const peticionesBtn = document.getElementById("peticiones");
 const historialBtn = document.getElementById("historiales");
@@ -230,5 +232,6 @@ function createButtons(){
 
     return btnContainer;
 }
+
 
 
