@@ -22,7 +22,7 @@ if(loginForm){
 
                 alert("Welcome back: " + currentUser.nombre +" "+ currentUser.apellido);
 
-                window.location.href = 'http://localhost:5000/solicitud.html';
+                window.location.href = 'http://localhost:8080/solicitud.html';
 
                 
             }
