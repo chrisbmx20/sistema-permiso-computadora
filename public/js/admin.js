@@ -8,30 +8,47 @@ import { updateSolicitud } from  "../../services/solicitud/put-solicitud.js"
 
 const usuariosBtn = document.getElementById("usuarios");
 const peticionesBtn = document.getElementById("peticiones");
+const historialBtn = document.getElementById("historiales");
 
 usuariosBtn.addEventListener("click",()=>{
     let usuario = document.getElementById("usuario");
     let peticion = document.getElementById("peticion");
+    let historial = document.getElementById("historial");
 
     usuario.style.display = "block"
     peticion.style.display = "none";
+    historial.style.display = "none";
 })
 
 peticionesBtn.addEventListener("click",()=>{
     let usuario = document.getElementById("usuario");
     let peticion = document.getElementById("peticion");
-
+    let historial = document.getElementById("historial");
+    
     usuario.style.display = "none"
     peticion.style.display = "block";
+    historial.style.display = "none";
 })
 
+historialBtn.addEventListener("click",()=>{
+    let usuario = document.getElementById("usuario");
+    let peticion = document.getElementById("peticion");
+    let historial = document.getElementById("historial");
+
+    usuario.style.display = "none"
+    peticion.style.display = "none";
+    historial.style.display = "block"
+})
+
+
+/*
 function showElement(index){
     let event = document.getElementById("events");
     let task = document.getElementById("tasks");
 
     event.style.display = index === 0 ? "block" : "none";
     task.style.display = index === 1 ? "block" : "none";
-}
+}*/
 
 
 mostrarPeticiones();
