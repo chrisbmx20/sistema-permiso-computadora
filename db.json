@@ -366,7 +366,6 @@
       "fechaRegreso": "2024-08-24",
       "estado": "1",
       "id-user": "604440444"
-
     },
     {
       "id": "a3b3",
@@ -383,7 +382,7 @@
       "marca": "suli",
       "fechaSalida": "2024-08-23",
       "fechaRegreso": "2024-08-31",
-      "estado": "0",
+      "estado": "2",
       "id-user": "31"
     },
     {
@@ -412,15 +411,6 @@
       "fechaRegreso": "2024-08-29",
       "estado": "0",
       "id-user": "31"
-    },
-    {
-      "id": "f10a",
-      "serie": "404040",
-      "marca": "Chinita ",
-      "fechaSalida": "2024-08-28",
-      "fechaRegreso": "2024-08-29",
-      "estado": "1",
-      "id-user": "604440444"
     }
   ],
   "historial": [
