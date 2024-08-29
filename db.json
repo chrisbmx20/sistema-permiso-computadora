@@ -393,7 +393,7 @@
       "marca": "Dell",
       "fechaSalida": "2024-08-21",
       "fechaRegreso": "2024-08-24",
-      "estado": "0",
+      "estado": "2",
       "id-user": "604440444"
     },
     {
@@ -411,7 +411,7 @@
       "marca": "Pinocho",
       "fechaSalida": "2024-08-23",
       "fechaRegreso": "2024-08-25",
-      "estado": "2",
+      "estado": "0",
       "id-user": "60888088"
     },
     {
@@ -438,7 +438,7 @@
       "marca": "suli",
       "fechaSalida": "2024-08-23",
       "fechaRegreso": "2024-08-31",
-      "estado": "2",
+      "estado": "0",
       "id-user": "31"
     },
     {
@@ -456,7 +456,7 @@
       "marca": "31minutos",
       "fechaSalida": "2024-08-28",
       "fechaRegreso": "2024-08-31",
-      "estado": "1",
+      "estado": "0",
       "id-user": "31"
     },
     {
@@ -465,7 +465,7 @@
       "marca": "31minutos",
       "fechaSalida": "2024-08-15",
       "fechaRegreso": "2024-08-29",
-      "estado": "1",
+      "estado": "0",
       "id-user": "31"
     },
     {
@@ -474,7 +474,7 @@
       "marca": "Chinita ",
       "fechaSalida": "2024-08-28",
       "fechaRegreso": "2024-08-29",
-      "estado": "2",
+      "estado": "0",
       "id-user": "604440444"
     },
     {
@@ -485,6 +485,24 @@
       "fechaRegreso": "2024-08-31",
       "estado": "1",
       "id-user": "31"
+    },
+    {
+      "id": "1d16",
+      "serie": "fefefefefefef",
+      "marca": "efefffefe",
+      "fechaSalida": "2024-08-14",
+      "fechaRegreso": "2024-08-31",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "1179",
+      "serie": "fefefefefefef",
+      "marca": "efefffefe",
+      "fechaSalida": "2024-08-14",
+      "fechaRegreso": "2024-08-31",
+      "estado": "0",
+      "id-user": "60888088"
     }
   ],
   "historial": [
@@ -507,6 +525,106 @@
       "id": "a18f",
       "idSolicitud": "c78d",
       "fecha": "2024-08-28T14:50:54.201Z"
+    },
+    {
+      "id": "7262",
+      "idSolicitud": "e479",
+      "fecha": "2024-08-29T20:40:17.202Z"
+    },
+    {
+      "id": "b70f",
+      "idSolicitud": "ea15",
+      "fecha": "2024-08-29T20:40:18.267Z"
+    },
+    {
+      "id": "e019",
+      "idSolicitud": "17bf",
+      "fecha": "2024-08-29T20:40:35.298Z"
+    },
+    {
+      "id": "ada9",
+      "idSolicitud": "bb22",
+      "fecha": "2024-08-29T20:40:35.854Z"
+    },
+    {
+      "id": "76db",
+      "idSolicitud": "f69a",
+      "fecha": "2024-08-29T20:46:37.540Z"
+    },
+    {
+      "id": "ce8d",
+      "idSolicitud": "b86d",
+      "fecha": "2024-08-29T20:46:45.848Z"
+    },
+    {
+      "id": "3475",
+      "idSolicitud": "9ffa",
+      "fecha": "2024-08-29T20:47:36.462Z"
+    },
+    {
+      "id": "a7fd",
+      "idSolicitud": "403f",
+      "fecha": "2024-08-29T20:47:37.694Z"
+    },
+    {
+      "id": "f74f",
+      "idSolicitud": "b69f",
+      "fecha": "2024-08-29T20:47:52.206Z"
+    },
+    {
+      "id": "f70d",
+      "idSolicitud": "32fb",
+      "fecha": "2024-08-29T20:49:11.940Z"
+    },
+    {
+      "id": "6af4",
+      "idSolicitud": "fb0e",
+      "fecha": "2024-08-29T20:49:29.447Z"
+    },
+    {
+      "id": "6529",
+      "idSolicitud": "fed9",
+      "fecha": "2024-08-29T20:49:30.427Z"
+    },
+    {
+      "id": "42c8",
+      "idSolicitud": "7f86",
+      "fecha": "2024-08-29T20:50:22.957Z"
+    },
+    {
+      "id": "35b8",
+      "idSolicitud": "bcc1",
+      "fecha": "2024-08-29T20:50:24.021Z"
+    },
+    {
+      "id": "dada",
+      "idSolicitud": "3f05",
+      "fecha": "2024-08-29T20:50:59.632Z"
+    },
+    {
+      "id": "d905",
+      "idSolicitud": "9950",
+      "fecha": "2024-08-29T20:51:02.274Z"
+    },
+    {
+      "id": "ba03",
+      "idSolicitud": "3d87",
+      "fecha": "2024-08-29T20:56:45.231Z"
+    },
+    {
+      "id": "664d",
+      "idSolicitud": "88e5",
+      "fecha": "2024-08-29T20:56:46.401Z"
+    },
+    {
+      "id": "d98a",
+      "idSolicitud": "1179",
+      "fecha": "2024-08-29T21:02:51.472Z"
+    },
+    {
+      "id": "4d82",
+      "idSolicitud": "1d16",
+      "fecha": "2024-08-29T21:02:52.940Z"
     }
   ],
   "roles": [

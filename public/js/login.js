@@ -14,8 +14,6 @@ if(loginForm){
         userLogin.password = document.getElementById("password").value;
     
         if(validateFormFields(userLogin)){
-
-            // checkUser(userLogin) ? alert("Welcome Back "+ userLogin.correo) : alert("Email or Password not correct");
              
             if(checkUser(userLogin)){
                 let currentUser = getCurrentUser();
