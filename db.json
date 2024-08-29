@@ -384,6 +384,14 @@
       "apellido": "scarlet",
       "correo": "remilliascarlet666@gensokyo.com",
       "password": "6"
+    },
+    {
+      "id": "604550888",
+      "nombre": "Josefo",
+      "apellido": "Fernandez",
+      "correo": "mfernandez@fwdcostarica.com",
+      "telefono": "22220255",
+      "password": "010101"
     }
   ],
   "peticiones": [
@@ -501,6 +509,60 @@
       "marca": "efefffefe",
       "fechaSalida": "2024-08-14",
       "fechaRegreso": "2024-08-31",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "8b00",
+      "serie": "wdwdwdwdd",
+      "marca": "wdwqdwdwdd",
+      "fechaSalida": "2024-08-16",
+      "fechaRegreso": "2024-08-18",
+      "estado": "0",
+      "id-user": "604550888"
+    },
+    {
+      "id": "a4ca",
+      "serie": "wdwdwdwdd",
+      "marca": "wdwqdwdwdd",
+      "fechaSalida": "2024-08-16",
+      "fechaRegreso": "2024-08-18",
+      "estado": "0",
+      "id-user": "604550888"
+    },
+    {
+      "id": "0a9f",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "0cd5",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "3677",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "e979",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
       "estado": "0",
       "id-user": "60888088"
     }
@@ -625,6 +687,56 @@
       "id": "4d82",
       "idSolicitud": "1d16",
       "fecha": "2024-08-29T21:02:52.940Z"
+    },
+    {
+      "id": "2ad3",
+      "idSolicitud": "35c3",
+      "fecha": "2024-08-29T21:17:17.400Z"
+    },
+    {
+      "id": "fbd9",
+      "idSolicitud": "1416",
+      "fecha": "2024-08-29T21:17:18.257Z"
+    },
+    {
+      "id": "2efe",
+      "idSolicitud": "d13a",
+      "fecha": "2024-08-29T21:18:39.963Z"
+    },
+    {
+      "id": "8d4c",
+      "idSolicitud": "7918",
+      "fecha": "2024-08-29T21:18:40.795Z"
+    },
+    {
+      "id": "137e",
+      "idSolicitud": "a4ca",
+      "fecha": "2024-08-29T21:26:46.852Z"
+    },
+    {
+      "id": "7b73",
+      "idSolicitud": "8b00",
+      "fecha": "2024-08-29T21:26:58.075Z"
+    },
+    {
+      "id": "c8bf",
+      "idSolicitud": "f5c2",
+      "fecha": "2024-08-29T21:37:10.008Z"
+    },
+    {
+      "id": "369b",
+      "idSolicitud": "f007",
+      "fecha": "2024-08-29T21:37:16.880Z"
+    },
+    {
+      "id": "0273",
+      "idSolicitud": "0cd5",
+      "fecha": "2024-08-29T21:39:09.370Z"
+    },
+    {
+      "id": "dc18",
+      "idSolicitud": "0a9f",
+      "fecha": "2024-08-29T21:39:10.722Z"
     }
   ],
   "roles": [

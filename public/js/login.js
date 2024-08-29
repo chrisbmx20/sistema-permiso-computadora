@@ -16,6 +16,7 @@ if(loginForm){
         if(validateFormFields(userLogin)){
              
             if(checkUser(userLogin)){
+                
                 let currentUser = getCurrentUser();
 
                 alert("Welcome back: " + currentUser.nombre +" "+ currentUser.apellido);

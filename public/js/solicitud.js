@@ -2,6 +2,8 @@ import { postPeticiones } from '../../services/solicitud/post-solicitud.js'
 import { getCurrentUser } from './login.js'
 import { postHistorial } from '../../services/historial/post-historial.js';
 
+const peticionesForm = document.getElementById("peticionesForm");
+
 
 if(peticionesForm){
 peticionesForm.addEventListener("submit", event =>{
@@ -14,11 +16,16 @@ peticionesForm.addEventListener("submit", event =>{
         solicitud.fechaSalida = document.getElementById('fechaSalida').value;
         solicitud.fechaRegreso = document.getElementById('fechaRegreso').value;
         solicitud.idUsuario = getCurrentUser().id;
-       // guardarPeticion(solicitud);
+    /* 
+        if(validateFormFields(peticionesForm)){
+                guardarPeticion(solicitud);
+        }
 
-        let checkTerminos = document.getElementById("terminos1");
+        else{
+                alert("no se puede subir")
+        }
 
-        validateFormFields(peticionesForm) && checkTerminos.checked ? guardarPeticion(solicitud): console.log("Error");
+      */
         
 
         
