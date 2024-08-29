@@ -8,6 +8,8 @@ import { updateSolicitud } from  "../../services/solicitud/put-solicitud.js"
 
 
 
+import { getHistoral } from '../../services/historial/get-historial.js'
+
 const usuariosBtn = document.getElementById("usuarios");
 const peticionesBtn = document.getElementById("peticiones");
 const historialBtn = document.getElementById("historiales");
@@ -61,7 +63,6 @@ async function mostrarPeticiones() {
 
     const tablaContenedor = document.getElementById('tabla-contenedor');
 
-   
     const tabla = document.createElement('table');
     tabla.classList.add('table', 'table-striped', 'table-bordered');
 
@@ -276,3 +277,22 @@ async function insertarUsuarios() {
 
   
     
+
+function loadHistorial(historial) {
+    const tablaContenedorHistorial = document.getElementById('tabla-contenedor-historial');
+    tablaContenedorHistorial.innerHTML = '';
+
+    historial.forEach(mostrar => {
+        const historyDiv = document.createElement('div');
+        historyDiv.className = '';
+        historyDiv.innerHTML = `
+            <p>ID: ${mostrar.idSolicitud} - Fecha: ${mostrar.fecha}</p>
+        `;
+        tablaContenedorHistorial.appendChild(historyDiv);
+    });
+}
+
+window.onload = async function () {
+    const historial = await getHistoral(); 
+    loadHistorial(historial);             
+}

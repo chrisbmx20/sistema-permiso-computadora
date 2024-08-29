@@ -377,6 +377,13 @@
       "apellido": "bodoque",
       "correo": "juancarlosbodoque@31minutos.com",
       "password": "21"
+    },
+    {
+      "id": "gensokyo",
+      "nombre": "remilia",
+      "apellido": "scarlet",
+      "correo": "remilliascarlet666@gensokyo.com",
+      "password": "6"
     }
   ],
   "peticiones": [
@@ -387,6 +394,36 @@
       "fechaSalida": "2024-08-21",
       "fechaRegreso": "2024-08-24",
       "estado": "0",
+<<<<<<< HEAD
+=======
+      "id-user": "604440444"
+    },
+    {
+      "id": "c002",
+      "serie": "d8n8",
+      "marca": "Dell",
+      "fechaSalida": "2024-08-24",
+      "fechaRegreso": "2024-08-27",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "9925",
+      "serie": "nrt980",
+      "marca": "Pinocho",
+      "fechaSalida": "2024-08-23",
+      "fechaRegreso": "2024-08-25",
+      "estado": "2",
+      "id-user": "60888088"
+    },
+    {
+      "id": "19ca",
+      "serie": "25256",
+      "marca": "Dell",
+      "fechaSalida": "2024-08-21",
+      "fechaRegreso": "2024-08-24",
+      "estado": "1",
+>>>>>>> b7d5ddee615588d49e5286554473e138680f3164
       "id-user": "604440444"
     },
     {
@@ -431,16 +468,32 @@
       "marca": "31minutos",
       "fechaSalida": "2024-08-15",
       "fechaRegreso": "2024-08-29",
+<<<<<<< HEAD
+=======
+      "estado": "1",
+      "id-user": "31"
+    },
+    {
+      "id": "f10a",
+      "serie": "404040",
+      "marca": "Chinita ",
+      "fechaSalida": "2024-08-28",
+      "fechaRegreso": "2024-08-29",
+      "estado": "2",
+      "id-user": "604440444"
+    },
+    {
+      "id": "21bd",
+      "serie": "56787",
+      "marca": "OVNI",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-08-31",
+>>>>>>> b7d5ddee615588d49e5286554473e138680f3164
       "estado": "1",
       "id-user": "31"
     }
   ],
   "historial": [
-    {
-      "id": "1",
-      "id-peticion": "NE369",
-      "fecha": "27-08-2024"
-    },
     {
       "id": "a53c",
       "idSolicitud": "dc9e",
@@ -460,6 +513,7 @@
       "id": "a18f",
       "idSolicitud": "c78d",
       "fecha": "2024-08-28T14:50:54.201Z"
+<<<<<<< HEAD
     },
     {
       "id": "829d",
@@ -470,6 +524,8 @@
       "id": "a40c",
       "idSolicitud": "5c3d",
       "fecha": "2024-08-28T16:42:28.766Z"
+=======
+>>>>>>> b7d5ddee615588d49e5286554473e138680f3164
     }
   ],
   "roles": [
