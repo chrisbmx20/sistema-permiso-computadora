@@ -2,7 +2,7 @@ import {getSolicitudes } from '../../services/solicitud/get-solicitudes.js'
 
 import { deletePeticion } from "../../services/solicitud/delete-solicitud.js"
 
-import { getUserById } from "../../services/usuario/get-usuario.js"
+import { getUserById, getUsers } from "../../services/usuario/get-usuario.js"
 
 import { updateSolicitud } from  "../../services/solicitud/put-solicitud.js"
 
@@ -20,6 +20,7 @@ usuariosBtn.addEventListener("click",()=>{
     usuario.style.display = "block"
     peticion.style.display = "none";
     historial.style.display = "none";
+    
 })
 
 peticionesBtn.addEventListener("click",()=>{
@@ -75,7 +76,7 @@ async function mostrarPeticiones() {
         th.scope = 'col';
         th.textContent = encabezadoTexto;
         encabezadoFila.appendChild(th);
-    });
+    }); 
 
     thead.appendChild(encabezadoFila);
     tabla.appendChild(thead);
@@ -232,6 +233,46 @@ function createButtons(){
 
     return btnContainer;
 }
+//Jeff |
 
+  insertarUsuarios()
 
+async function insertarUsuarios() {
+    const Usuarios= await getUsers()
+    
+    
+    const divTabla = document.getElementById('Tabla-Usuarios');
+ 
+    const tabla= document.createElement('table')
+    
+      const cuerpo= document.createElement('tbody');
 
+    Usuarios.forEach(usu=>{
+        const fila= document.createElement('tr');
+
+        const celdas=[
+            usu.id,
+            usu.nombre,
+            usu.apellido,
+            usu.correo,
+            usu.telefono
+        ];
+
+        celdas.forEach(texto => {
+            const td= document.createElement('td');
+            td.innerHTML=texto
+            fila.appendChild(td)
+            
+        });
+        cuerpo.appendChild(fila)
+    });
+    tabla.appendChild(cuerpo);
+
+    
+    divTabla.appendChild(tabla);
+    
+
+    }
+
+  
+    

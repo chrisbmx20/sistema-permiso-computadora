@@ -336,6 +336,28 @@
       "password": "0000"
     },
     {
+      "id": "888888",
+      "nombre": "Jeffry",
+      "apellido": "Med",
+      "correo": "jeff@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "888x888",
+      "nombre": "jeff",
+      "apellido": "Med",
+      "correo": "jexxxf@gmail.com",
+      "password": "3"
+    },
+    {
+      "id": "888888ww",
+      "nombre": "andres",
+      "apellido": "Med",
+      "correo": "jef@gwmail.com",
+      "telefono": "889990",
+      "password": "2"
+    },
+    {
       "id": "101110111",
       "nombre": "Marcos",
       "apellido": "Ugalde",
@@ -364,7 +386,7 @@
       "marca": "Dell",
       "fechaSalida": "2024-08-21",
       "fechaRegreso": "2024-08-24",
-      "estado": "1",
+      "estado": "0",
       "id-user": "604440444"
     },
     {
@@ -400,7 +422,7 @@
       "marca": "31minutos",
       "fechaSalida": "2024-08-28",
       "fechaRegreso": "2024-08-31",
-      "estado": "0",
+      "estado": "1",
       "id-user": "31"
     },
     {
@@ -443,6 +465,11 @@
       "id": "829d",
       "idSolicitud": "f10a",
       "fecha": "2024-08-28T16:14:28.831Z"
+    },
+    {
+      "id": "a40c",
+      "idSolicitud": "5c3d",
+      "fecha": "2024-08-28T16:42:28.766Z"
     }
   ],
   "roles": [

@@ -12,6 +12,7 @@ registerForm.addEventListener('submit', async function(event) {
     usuario.apellido = document.getElementById('Apellidos').value;
     usuario.correo = document.getElementById('CorreoElectronico').value;
     usuario.password = document.getElementById('Contraseña').value;
+    usuario.telefono=document.getElementById('NumeroTelefon').value
     
 
     if (usuario.id==='' && usuario.nombre==='' && usuario.apellido==='' && usuario.correo==='' && usuario.password==='') {
@@ -22,16 +23,15 @@ registerForm.addEventListener('submit', async function(event) {
     if (UsuarioExiste) {
         mostrarMensaje('Ya estas Registrado')
     } else {
-        await postUsers(usuario); // Añadimos await para asegurarnos de que se complete antes de mostrar el alert
+        await postUsers(usuario); 
         mostrarMensaje('Registro Existoso')
         window.location.href= "http://localhost:8080/login.html"
     }
 });
 
 async function BuscarUsuario(usuario) {
-    const ResultadosUsuario = await getUsers(); // Asume que getUsers devuelve una lista de usuarios
+    const ResultadosUsuario = await getUsers(); 
     
-    // Busca si ya existe un usuario con el mismo id o correo
     const usuarioExistente = ResultadosUsuario.find(u => u.id === usuario.id || u.correo === usuario.correo);
 
     return usuarioExistente;
