@@ -394,8 +394,6 @@
       "fechaSalida": "2024-08-21",
       "fechaRegreso": "2024-08-24",
       "estado": "0",
-<<<<<<< HEAD
-=======
       "id-user": "604440444"
     },
     {
@@ -423,7 +421,6 @@
       "fechaSalida": "2024-08-21",
       "fechaRegreso": "2024-08-24",
       "estado": "1",
->>>>>>> b7d5ddee615588d49e5286554473e138680f3164
       "id-user": "604440444"
     },
     {
@@ -468,8 +465,6 @@
       "marca": "31minutos",
       "fechaSalida": "2024-08-15",
       "fechaRegreso": "2024-08-29",
-<<<<<<< HEAD
-=======
       "estado": "1",
       "id-user": "31"
     },
@@ -488,7 +483,6 @@
       "marca": "OVNI",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-08-31",
->>>>>>> b7d5ddee615588d49e5286554473e138680f3164
       "estado": "1",
       "id-user": "31"
     }
@@ -513,19 +507,6 @@
       "id": "a18f",
       "idSolicitud": "c78d",
       "fecha": "2024-08-28T14:50:54.201Z"
-<<<<<<< HEAD
-    },
-    {
-      "id": "829d",
-      "idSolicitud": "f10a",
-      "fecha": "2024-08-28T16:14:28.831Z"
-    },
-    {
-      "id": "a40c",
-      "idSolicitud": "5c3d",
-      "fecha": "2024-08-28T16:42:28.766Z"
-=======
->>>>>>> b7d5ddee615588d49e5286554473e138680f3164
     }
   ],
   "roles": [

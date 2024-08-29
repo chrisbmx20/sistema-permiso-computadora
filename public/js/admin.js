@@ -71,7 +71,7 @@ async function mostrarPeticiones() {
     thead.classList.add('table-dark');
     const encabezadoFila = document.createElement('tr');
 
-    const encabezados = ['Número de Serie', 'Marca', 'Fecha de Slida', 'Fecha de Regreso', 'Estado', 'Acción'];
+    const encabezados = ['Número de Serie', 'Marca', 'Fecha de Sálida', 'Fecha de Regreso', 'Estado', 'Acción'];
     encabezados.forEach(encabezadoTexto => {
         const th = document.createElement('th');
         th.scope = 'col';
