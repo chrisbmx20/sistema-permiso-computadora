@@ -386,7 +386,7 @@
       "marca": "Dell",
       "fechaSalida": "2024-08-21",
       "fechaRegreso": "2024-08-24",
-      "estado": "0",
+      "estado": "1",
       "id-user": "604440444"
     },
     {
@@ -488,6 +488,16 @@
       "id": "a40c",
       "idSolicitud": "5c3d",
       "fecha": "2024-08-28T16:42:28.766Z"
+    },
+    {
+      "id": "56b7",
+      "idSolicitud": "a86e",
+      "fecha": "2024-08-29T16:20:38.436Z"
+    },
+    {
+      "id": "61fe",
+      "idSolicitud": "b6fa",
+      "fecha": "2024-08-29T16:20:39.692Z"
     }
   ],
   "roles": [
