@@ -330,23 +330,21 @@ img{
 
 #botones {
     position: absolute;
-    left: 50%; /* Centra los botones horizontalmente */
-    top: 500px; /* Mantiene el margen superior relativo */
-    transform: translateX(-50%); /* Ajusta para centrar exactamente */
+    left: 50%; 
+    top: 500px; 
+    transform: translateX(-50%); 
 }
-
-/* Media queries para ajustar la posición en pantallas más pequeñas */
 @media (max-width: 768px) {
     #botones {
         margin-left: 10px;
-        top: 700px; /* Reduce el margen superior en pantallas pequeñas */
+        top: 700px; 
     }
 }
 
 @media (max-width: 410px) {
     #botones {
         
-        top: 720px; /* Ajuste adicional para pantallas muy pequeñas */
+        top: 720px; 
     }
     
 }
@@ -412,7 +410,10 @@ small{
     text-align: center;
 }
 
-.tabla{
-    
-border: 1px solid;
+
+.Cedula{
+color: #0056b3;
+}
+#file{
+    border: 1px solid;
 }
