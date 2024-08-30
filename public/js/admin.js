@@ -9,6 +9,7 @@ import { updateSolicitud } from  "../../services/solicitud/put-solicitud.js"
 
 
 import { getHistoral } from '../../services/historial/get-historial.js'
+import { mostrarMensaje } from './modals.js'
 
 const usuariosBtn = document.getElementById("usuarios");
 const peticionesBtn = document.getElementById("peticiones");
@@ -122,7 +123,7 @@ console.log(mostrarPeticiones);
                 const update = await updateSolicitud(solicitud);
                 tablaContenedor.innerHTML = " ";
                 
-                alert('Peticion Actualizada:');
+                mostrarMensaje('','Peticion Actualizada:');
 
                 loadHistorial()
                 mostrarPeticiones()

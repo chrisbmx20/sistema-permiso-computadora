@@ -4,10 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "npx parcel public/login.html --port 8080 --no-cache",
     "start": "npx parcel public/solicitud.html --port 8080",
-    "server": "json-server --watch db.json --port 3000",
-    "api": ""
+    "server": "json-server --watch db.json --port 3000"
   },
   "keywords": [],
   "author": "",

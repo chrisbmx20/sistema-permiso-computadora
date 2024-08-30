@@ -16,6 +16,54 @@
       "correo": "scar@gmail.com",
       "telefono": "99885353",
       "password": "1919"
+    },
+    {
+      "id": "111111111",
+      "nombre": "Nicole",
+      "apellido": "Araya",
+      "correo": "nicole@gmail.com",
+      "telefono": "61427456",
+      "password": "12345"
+    },
+    {
+      "id": "11111111",
+      "nombre": "nicole",
+      "apellido": "araya",
+      "correo": "nicole1234@gmail.com",
+      "telefono": "12121212",
+      "password": "1234"
+    },
+    {
+      "id": "",
+      "nombre": "jeff",
+      "apellido": "",
+      "correo": "",
+      "telefono": "",
+      "password": ""
+    },
+    {
+      "id": "345467",
+      "nombre": "gergr",
+      "apellido": "efeff",
+      "correo": "bananito@fwdcostarica.com",
+      "telefono": "687999",
+      "password": "12"
+    },
+    {
+      "id": "67899",
+      "nombre": "6u6u",
+      "apellido": "rghrth",
+      "correo": "jeffryayundres1234@gmail.com",
+      "telefono": "88996u",
+      "password": "5"
+    },
+    {
+      "id": "880556",
+      "nombre": "jeff",
+      "apellido": "Med",
+      "correo": "jeffryandr4es1234@gmail.com",
+      "telefono": "557657",
+      "password": "132"
     }
   ],
   "peticiones": [
@@ -92,12 +140,21 @@
       "id-user": "604050568"
     },
     {
+      "id": "3001",
+      "serie": "rtyu",
+      "marca": "DELL",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "1",
+      "id-user": "60888088"
+    },
+    {
       "id": "3a04",
       "serie": "sdrtfghj",
       "marca": "ert",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-01",
-      "estado": "0",
+      "estado": "1",
       "id-user": "60888088",
       "sede": " "
     },
@@ -105,6 +162,51 @@
       "id": "330c",
       "serie": "defrg",
       "marca": "xdcf",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "1",
+      "id-user": "60888088"
+    },
+    {
+      "id": "0dfe",
+      "serie": "wwe",
+      "marca": "juww",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "b32e",
+      "serie": "nrt9808",
+      "marca": "Pinocho",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "1",
+      "id-user": "60888088"
+    },
+    {
+      "id": "989d",
+      "serie": "6y5",
+      "marca": "ddw",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "ee45",
+      "serie": "456y",
+      "marca": "hp34",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "53a6",
+      "serie": "43rt",
+      "marca": "345",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-01",
       "estado": "1",
@@ -158,14 +260,29 @@
       "fecha": "2024-08-30T08:34:36.515Z"
     },
     {
-      "id": "4b18",
-      "idSolicitud": "41e4",
-      "fecha": "2024-08-30T14:27:21.092Z"
+      "id": "8e12",
+      "idSolicitud": "0dfe",
+      "fecha": "2024-08-30T16:15:10.895Z"
     },
     {
-      "id": "8703",
-      "idSolicitud": "4f81",
-      "fecha": "2024-08-30T15:42:23.611Z"
+      "id": "d722",
+      "idSolicitud": "b32e",
+      "fecha": "2024-08-30T16:16:00.977Z"
+    },
+    {
+      "id": "3000",
+      "idSolicitud": "989d",
+      "fecha": "2024-08-30T16:18:53.132Z"
+    },
+    {
+      "id": "318f",
+      "idSolicitud": "ee45",
+      "fecha": "2024-08-30T16:20:33.647Z"
+    },
+    {
+      "id": "c78c",
+      "idSolicitud": "53a6",
+      "fecha": "2024-08-30T17:07:40.666Z"
     }
   ],
   "roles": [
