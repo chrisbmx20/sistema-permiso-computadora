@@ -64,6 +64,14 @@
       "correo": "jeffryandr4es1234@gmail.com",
       "telefono": "557657",
       "password": "132"
+    },
+    {
+      "id": "31",
+      "nombre": "tulio",
+      "apellido": "triviño",
+      "correo": "tuliotrivino@31minutos.com",
+      "telefono": "31",
+      "password": "31"
     }
   ],
   "peticiones": [
@@ -186,24 +194,6 @@
       "id-user": "60888088"
     },
     {
-      "id": "989d",
-      "serie": "6y5",
-      "marca": "ddw",
-      "fechaSalida": "2024-08-30",
-      "fechaRegreso": "2024-09-01",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "ee45",
-      "serie": "456y",
-      "marca": "hp34",
-      "fechaSalida": "2024-08-30",
-      "fechaRegreso": "2024-09-01",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
       "id": "53a6",
       "serie": "43rt",
       "marca": "345",
@@ -231,6 +221,26 @@
       "estado": "1",
       "sede": "santa ana",
       "id-user": "60888088"
+    },
+    {
+      "id": "bb3a",
+      "serie": "31",
+      "marca": "31minutos",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-08-31",
+      "estado": "1",
+      "sede": "puntarenas",
+      "id-user": "31"
+    },
+    {
+      "id": "c198",
+      "serie": "tanganana",
+      "marca": "tangananica",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-08-31",
+      "estado": "2",
+      "sede": "puntarenas",
+      "id-user": "31"
     }
   ],
   "historial": [
@@ -283,6 +293,16 @@
       "id": "c78c",
       "idSolicitud": "53a6",
       "fecha": "2024-08-30T17:07:40.666Z"
+    },
+    {
+      "id": "9ba5",
+      "idSolicitud": "bb3a",
+      "fecha": "2024-08-30T17:28:23.460Z"
+    },
+    {
+      "id": "b5f7",
+      "idSolicitud": "c198",
+      "fecha": "2024-08-30T17:32:12.279Z"
     }
   ],
   "roles": [
