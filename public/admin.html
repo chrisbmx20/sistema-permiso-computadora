@@ -45,26 +45,34 @@
                 <div id="usuario" class="events">
                     <h2>Usuarios</h2>
                     <hr>
-                    <div>
-                    <form id="tabla" action="">
-                      <tr id="file">
-                      <th clas="Cedulaa">Cedula</th>
-                      <th id="nombree">Nombre</th>
-                      <th id="apellido">Apellido</th>
-                      <th id="correo">Correo Electronico</th>
-                      <th id="Telefono">Telefono</th>
-                      </tr>
-                    </form>
+                    <div id="tabla-contenedor-usuarios" class="container">
+
+
+                    <table id="Tabla-Usuarios" class="table table-striped table-bordered">
+      
+                        <thead class="table-dark">
+                          <tr>
+                              <th scope="col" class="clase-encabezado">Cedula</th>
+                              <th scope="col" class="clase-encabezado">Nombre</th>
+                              <th scope="col" class="clase-encabezado">Apellido</th>
+                              <th scope="col" class="clase-encabezado">Correo Electronico</th>
+                              <th scope="col" class="clase-encabezado">Telefono</th>
+                              <th scope="col" class="clase-encabezado">Accion</th>
+                          </tr>
+
+
+                      </thead>
+
+                      <tbody id="tbody">
+                        
+                      </tbody>
+
+                    </table>
                     </div>
-                    <div id="Tabla-Usuarios">
-                    
-                      
-                    </div>
-          
-                      
-                </div>
-              
-                <div id="peticion" class="events">
+                     
+                  </div>
+                   
+                    <div id="peticion" class="events">
                     <h2>Peticiones</h2>
                     <hr>
                 <div class="container" id="tabla-contenedor">
@@ -77,7 +85,27 @@
                 <div id="historial" class="events">
                   <h2>Historial</h2>
                   <hr>
-                  <div class="container" id="tabla-contenedor-historial"></div>
+                  
+                  <div class="container" id="tabla-contenedor-historial">
+
+                    <table id="Tabla-Usuarios" class="table table-striped table-bordered">
+      
+                      <thead class="table-dark">
+                        <tr>
+                            <th scope="col" class="clase-encabezado">Id</th>
+                            <th scope="col" class="clase-encabezado">Fecha</th>
+                            <th scope="col" class="clase-encabezado">Estado</th>
+                        </tr>
+
+
+                    </thead>
+
+                    <tbody id="tbody-Historial">
+                      
+                    </tbody>
+
+                  </table>
+                  </div>
                 </div>
                   
                     

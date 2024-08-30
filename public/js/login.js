@@ -84,5 +84,5 @@ function getCurrentUser(){
     return user
 }
 
-export {getCurrentUser}
+export {getCurrentUser,validateFormFields}
  

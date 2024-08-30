@@ -112,6 +112,7 @@ async function mostrarPeticiones() {
             { value: '1', text: 'Aceptada' },
             { value: '2', text: 'Rechazada'}
         ];
+console.log(mostrarPeticiones);
 
 
 
@@ -242,15 +243,12 @@ function createButtons(){
 async function insertarUsuarios() {
     const Usuarios= await getUsers()
     
+    const tabla= document.getElementById('Tabla-Usuarios')
     
-    const divTabla = document.getElementById('Tabla-Usuarios');
- 
-    const tabla= document.createElement('table')
-    
-      const cuerpo= document.createElement('tbody');
+    const cuerpo=  document.getElementById('tbody');
 
     Usuarios.forEach(usu=>{
-        const fila= document.createElement('tr');
+        const fila = document.createElement('tr');
 
         const celdas=[
             usu.id,
@@ -261,37 +259,100 @@ async function insertarUsuarios() {
         ];
 
         celdas.forEach(texto => {
-            const td= document.createElement('td');
-            td.innerHTML=texto
+            const td = document.createElement('td');
+            td.innerHTML = texto
             fila.appendChild(td)
             
         });
+        
+
+        const btnContainer = createButtons();
+
+        let editBtn = btnContainer.firstChild;
+        let deleteBtn = btnContainer.childNodes[1];
+
+        fila.appendChild(btnContainer)
         cuerpo.appendChild(fila)
     });
     tabla.appendChild(cuerpo);
 
     
-    divTabla.appendChild(tabla);
     
 
     }
 
-function loadHistorial(historial) {
+
+/*
+
+async function insertarUsuarios() {
+    const Usuarios = await getUsers(); // Asumiendo que getUsers() devuelve una lista de usuarios
+    
+    const cuerpo = document.getElementById('tbody');
+
+    Usuarios.forEach(usu => {
+        const fila = document.createElement('tr');
+
+        const celdas = [
+            usu.id,
+            usu.nombre,
+            usu.apellido,
+            usu.correo,
+            usu.telefono
+        ];
+
+        celdas.forEach(texto => {
+            const td = document.createElement('td');
+            td.textContent = texto;
+            fila.appendChild(td);
+        });
+
+        cuerpo.appendChild(fila);
+    });
+}
+*/
+// Llama a la función para insertar usuarios al cargar la página
+document.addEventListener('DOMContentLoaded', insertarUsuarios);
+
+function loadHistorial(historiales) {
     const tablaContenedorHistorial = document.getElementById('tabla-contenedor-historial');
     tablaContenedorHistorial.innerHTML = '';
+    const cuerpo= document.getElementById('tbody-Historial')
+    historiales.forEach(historial=>{
+        const fila = document.createElement('tr');
 
-    const verEstado = document.createElement("button");
-    verEstado.innerHTML = "Ver Estado";
-    verEstado.id = "verEstadoSoli";
+        const celdas=[
+            historial.id,
+            historial.fecha
+        ]
+           
 
-    historial.forEach(mostrar => {
+        celdas.forEach(texto => {
+            const td = document.createElement('td');
+            td.innerHTML = texto
+            fila.appendChild(td)
+            
+        });
+        
+        const verEstado= document.createElement('button')
+        verEstado.classList.add('btn');
+
+        fila.appendChild(verEstado)
+        cuerpo.appendChild(fila)
+    });
+
+    tablaContenedorHistorial.appendChild(fila);
+    console.log(loadHistorial);
+    
+
+
+    /*historial.forEach(mostrar => {
         const historyDiv = document.createElement('div');
         historyDiv.className = '';
         historyDiv.innerHTML = `
             <p>ID: ${mostrar.idSolicitud} - Fecha: ${mostrar.fecha}- <button id="verEstadoSoli">Ver Estado</button></p>
         `;
         tablaContenedorHistorial.appendChild(historyDiv);
-    });
+    });*/
 }
 
 window.onload = async function () {

@@ -98,13 +98,6 @@
       "password": "12"
     },
     {
-      "id": "",
-      "nombre": "",
-      "apellido": "",
-      "correo": "",
-      "password": ""
-    },
-    {
       "id": "1111e4",
       "nombre": "jeffry",
       "apellido": "medina",
@@ -243,13 +236,6 @@
       "apellido": "medina",
       "correo": "j33ef@gmail.com",
       "password": "12"
-    },
-    {
-      "id": "",
-      "nombre": "",
-      "apellido": "",
-      "correo": "",
-      "password": ""
     },
     {
       "id": "1111e4",
@@ -408,7 +394,16 @@
       "correo": "aaguilar@fwdcostarica.com",
       "telefono": "88585858",
       "password": "123"
+    },
+    {
+      "id": "1111111111111",
+      "nombre": "andres",
+      "apellido": "medina",
+      "correo": "prueba@gmail.com",
+      "telefono": "66763838",
+      "password": "32"
     }
+   
   ],
   "peticiones": [
     {

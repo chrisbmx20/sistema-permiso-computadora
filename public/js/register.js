@@ -1,6 +1,6 @@
 import { postUsers } from "../../services/usuario/post-usuario.js";
 import { getUsers } from "../../services/usuario/get-usuario.js";
-
+import { validateFormFields} from "../js/login.js"
 const registerForm = document.getElementById('registerForm');
 
 registerForm.addEventListener('submit', async function(event) { 
@@ -19,6 +19,11 @@ registerForm.addEventListener('submit', async function(event) {
         return mostrarMensaje('llena los espacios')
         
     }
+
+        //!validateFormFields(usuario) ? mostrarMensaje('rellene los espacios'): console.log('todo bien');
+        
+
+        
     const UsuarioExiste = await BuscarUsuario(usuario);
     if (UsuarioExiste) {
         mostrarMensaje('Ya estas Registrado')
