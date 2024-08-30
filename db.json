@@ -384,6 +384,14 @@
       "apellido": "scarlet",
       "correo": "remilliascarlet666@gensokyo.com",
       "password": "6"
+    },
+    {
+      "id": "604050568",
+      "nombre": "Pedritoo",
+      "apellido": "Salazar",
+      "correo": "bananito@fwdcostarica.com",
+      "telefono": "89340956",
+      "password": "123"
     }
   ],
   "peticiones": [
