@@ -6,6 +6,8 @@ const peticionesForm = document.getElementById("peticionesForm");
 
 
 
+
+
 if(peticionesForm){
 peticionesForm.addEventListener("submit", event =>{
         event.preventDefault();
@@ -17,12 +19,10 @@ peticionesForm.addEventListener("submit", event =>{
         solicitud.fechaSalida = document.getElementById('fechaSalida').value;
         solicitud.fechaRegreso = document.getElementById('fechaRegreso').value;
         solicitud.idUsuario = getCurrentUser().id;
-        guardarPeticion(solicitud);
 
-        validateFormFields(peticionesForm) ? guardarPeticion(solicitud): console.log("Error");
-        
+        const checkTerminos = document.getElementById("terminos");
 
-        
+        validateFormFields(solicitud) && checkTerminos.checked  ? guardarPeticion(solicitud): alert("Debes completar todos los datos del formulario");       
 })}
 
 async function subirHistorial(idSolicitud) {
