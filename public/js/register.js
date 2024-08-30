@@ -7,15 +7,15 @@ registerForm.addEventListener('submit', async function(event) {
     event.preventDefault();
     const usuario = {};
     
-    usuario.id = document.getElementById('NumeroCedula').value;
-    usuario.nombre = document.getElementById('Nombre').value;
-    usuario.apellido = document.getElementById('Apellidos').value;
-    usuario.correo = document.getElementById('CorreoElectronico').value;
-    usuario.password = document.getElementById('Contraseña').value;
-    usuario.telefono=document.getElementById('NumeroTelefon').value
+    const usuarioid = document.getElementById('NumeroCedula').value;
+    const usuarionombre = document.getElementById('Nombre').value;
+    const usuarioapellido = document.getElementById('Apellidos').value;
+    const usuariocorreo = document.getElementById('CorreoElectronico').value;
+    const usuariopassword = document.getElementById('Contraseña').value;
+    const usuariotelefono=document.getElementById('NumeroTelefon').value
     
 
-    if (usuario.id==='' && usuario.nombre==='' && usuario.apellido==='' && usuario.correo==='' && usuario.password==='') {
+    if (usuarioid==='' || usuarionombre==='' || usuarioapellido==='' || usuariocorreo==='' || usuariopassword===''||usuariotelefono==="") {
         return mostrarMensaje('llena los espacios')
         
     }

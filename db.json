@@ -16,6 +16,14 @@
       "correo": "scar@gmail.com",
       "telefono": "99885353",
       "password": "1919"
+    },
+    {
+      "id": "31 0484 0329",
+      "nombre": "juan carlos",
+      "apellido": "bodoque",
+      "correo": "juancarlosbodoque@31minutos.com",
+      "telefono": "31313131",
+      "password": "31"
     }
   ],
   "peticiones": [
@@ -129,6 +137,16 @@
       "estado": "1",
       "sede": "santa ana",
       "id-user": "60888088"
+    },
+    {
+      "id": "c83f",
+      "serie": "31N0T4V3RD3",
+      "marca": "31minutos",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-08-31",
+      "estado": "1",
+      "sede": "puntarenas",
+      "id-user": "31 0484 0329"
     }
   ],
   "historial": [
@@ -166,6 +184,11 @@
       "id": "8703",
       "idSolicitud": "4f81",
       "fecha": "2024-08-30T15:42:23.611Z"
+    },
+    {
+      "id": "0471",
+      "idSolicitud": "c83f",
+      "fecha": "2024-08-30T16:08:47.886Z"
     }
   ],
   "roles": [
