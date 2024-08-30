@@ -16,6 +16,22 @@
       "correo": "scar@gmail.com",
       "telefono": "99885353",
       "password": "1919"
+    },
+    {
+      "id": "111111111",
+      "nombre": "Nicole",
+      "apellido": "Araya",
+      "correo": "nicole@gmail.com",
+      "telefono": "61427456",
+      "password": "12345"
+    },
+    {
+      "id": "11111111",
+      "nombre": "nicole",
+      "apellido": "araya",
+      "correo": "nicole1234@gmail.com",
+      "telefono": "12121212",
+      "password": "1234"
     }
   ],
   "peticiones": [
@@ -65,15 +81,6 @@
       "id-user": "31"
     },
     {
-      "id": "0b4f",
-      "serie": "31N0T4V3RD3",
-      "marca": "31minutos",
-      "fechaSalida": "2024-08-28",
-      "fechaRegreso": "2024-08-31",
-      "estado": "0",
-      "id-user": "31"
-    },
-    {
       "id": "c78d",
       "serie": "31N0T4V3RD3",
       "marca": "31minutos",
@@ -106,7 +113,7 @@
       "marca": "DELL",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-01",
-      "estado": "0",
+      "estado": "1",
       "id-user": "60888088"
     },
     {
@@ -115,7 +122,7 @@
       "marca": "ert",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-01",
-      "estado": "0",
+      "estado": "1",
       "id-user": "60888088",
       "sede": " "
     },
@@ -123,6 +130,42 @@
       "id": "330c",
       "serie": "defrg",
       "marca": "xdcf",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "0dfe",
+      "serie": "wwe",
+      "marca": "juww",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "b32e",
+      "serie": "nrt9808",
+      "marca": "Pinocho",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "1",
+      "id-user": "60888088"
+    },
+    {
+      "id": "989d",
+      "serie": "6y5",
+      "marca": "ddw",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "ee45",
+      "serie": "456y",
+      "marca": "hp34",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-01",
       "estado": "0",
@@ -154,6 +197,26 @@
       "id": "9725",
       "idSolicitud": "330c",
       "fecha": "2024-08-30T08:34:36.515Z"
+    },
+    {
+      "id": "8e12",
+      "idSolicitud": "0dfe",
+      "fecha": "2024-08-30T16:15:10.895Z"
+    },
+    {
+      "id": "d722",
+      "idSolicitud": "b32e",
+      "fecha": "2024-08-30T16:16:00.977Z"
+    },
+    {
+      "id": "3000",
+      "idSolicitud": "989d",
+      "fecha": "2024-08-30T16:18:53.132Z"
+    },
+    {
+      "id": "318f",
+      "idSolicitud": "ee45",
+      "fecha": "2024-08-30T16:20:33.647Z"
     }
   ],
   "roles": [

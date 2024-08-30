@@ -1,6 +1,7 @@
 const loginForm = document.getElementById("loginForm");
 
 import { getUsers } from "../../services/usuario/get-usuario.js";
+import {mostrarMensaje} from "../js/modals.js"
 
 
 if(loginForm){
@@ -21,24 +22,24 @@ if(loginForm){
 
             if(await checkUser(userLogin)){
 
-            alert("Usuario autorizado");
+                mostrarMensaje("",'Inicio de Sesion Existoso')
 
+                setTimeout(() => {
+                    window.location.href = 'http://localhost:8080/solicitud.html';
+                }, 2000);
                 
-              let currentUser = getCurrentUser();
-
-              alert("Welcome back: " + currentUser.nombre +" "+ currentUser.apellido);
-
-             window.location.href = 'http://localhost:8080/solicitud.html';
+            //   let currentUser = getCurrentUser();
+            //   alert("Welcome back: " + currentUser.nombre +" "+ currentUser.apellido);
 
                 
             }
             else{
-                alert("Email or Password not correct");
+                mostrarMensaje("", "Correo o Contraseña Incorrectos");
             }
         }
 
         else{
-            alert("No funca")
+            mostrarMensaje("","Rellene los espacios")
         }
     
     });

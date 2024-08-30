@@ -1,7 +1,7 @@
 import { postPeticiones } from '../../services/solicitud/post-solicitud.js'
 import { getCurrentUser } from './login.js'
 import { postHistorial } from '../../services/historial/post-historial.js';
-
+import { mostrarMensaje } from './modals.js';
 const peticionesForm = document.getElementById("peticionesForm");
 
 
@@ -28,7 +28,7 @@ peticionesForm.addEventListener("submit", event =>{
 async function subirHistorial(idSolicitud) {
 try{
 const subida = await postHistorial(idSolicitud);
-alert('Historial subido');
+mostrarMensaje('',"Historial subido");
 
 }catch (error) {
         console.error('error al subir el historial')
@@ -45,11 +45,13 @@ async function guardarPeticion(solicitud){
         clearForm(peticionesForm);
         
 
-        alert('Peticion saved successfully:');
+        mostrarMensaje('',"Peticion almacenada con exito");
 
         subirHistorial(peticion.id);
-
-        window.location.href = 'http://localhost:8080/index.html';
+        setTimeout(() => {
+                window.location.href = 'http://localhost:8080/index.html' ;
+            }, 2000);
+       
 
         } catch (error) {
         console.error('Error saving peticion:', error);
