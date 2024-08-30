@@ -32,6 +32,14 @@
       "correo": "nicole1234@gmail.com",
       "telefono": "12121212",
       "password": "1234"
+    },
+    {
+      "id": "",
+      "nombre": "jeff",
+      "apellido": "",
+      "correo": "",
+      "telefono": "",
+      "password": ""
     }
   ],
   "peticiones": [

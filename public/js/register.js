@@ -13,10 +13,32 @@ registerForm.addEventListener('submit', async function(event) {
     usuario.apellido = document.getElementById('Apellidos').value;
     usuario.correo = document.getElementById('CorreoElectronico').value;
     usuario.password = document.getElementById('Contraseña').value;
-    usuario.telefono=document.getElementById('NumeroTelefon').value
+    usuario.telefono=document.getElementById('NumeroTelefon').value;
     
 
-    if (usuario.id==='' && usuario.nombre==='' && usuario.apellido==='' && usuario.correo==='' && usuario.password==='') {
+    /*
+   if( validateFormFields(usuario)){
+    const UsuarioExiste = await BuscarUsuario(usuario);
+    
+    if (UsuarioExiste) {
+        mostrarMensaje('Ya estas Registrado', 'Verifique sus datos')
+    } else {
+        await postUsers(usuario);
+
+        mostrarMensaje('Registro Existoso', 'Inicie sesión')
+
+        window.location.href= "http://localhost:8080/login.html"
+    }
+   }
+
+   else{
+    mostrarMensaje('Llena los espacios', 'Sus campos están vacios')
+        
+   }
+    */
+    
+
+    if (usuario.id==='' || usuario.nombre==='' || usuario.apellido==='' || usuario.correo==='' || usuario.password==='' || usuario.telefono===' ') {
         return mostrarMensaje('Llena los espacios', 'Sus campos están vacios')
         
     }
@@ -30,7 +52,7 @@ registerForm.addEventListener('submit', async function(event) {
         mostrarMensaje('Ya estas Registrado', 'Verifique sus datos')
     } else {
         await postUsers(usuario);
-         
+
         mostrarMensaje('Registro Existoso', 'Inicie sesión')
 
         window.location.href= "http://localhost:8080/login.html"
