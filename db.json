@@ -409,7 +409,7 @@
       "marca": "Dell",
       "fechaSalida": "2024-08-21",
       "fechaRegreso": "2024-08-24",
-      "estado": "2",
+      "estado": "0",
       "id-user": "604440444"
     },
     {
@@ -449,15 +449,6 @@
       "id-user": "101110111"
     },
     {
-      "id": "d11a",
-      "serie": "31",
-      "marca": "suli",
-      "fechaSalida": "2024-08-23",
-      "fechaRegreso": "2024-08-31",
-      "estado": "0",
-      "id-user": "31"
-    },
-    {
       "id": "2358",
       "serie": "31N0T4V3RD3",
       "marca": "31minutos",
@@ -492,249 +483,6 @@
       "fechaRegreso": "2024-08-29",
       "estado": "0",
       "id-user": "604440444"
-    },
-    {
-      "id": "21bd",
-      "serie": "56787",
-      "marca": "OVNI",
-      "fechaSalida": "2024-08-30",
-      "fechaRegreso": "2024-08-31",
-      "estado": "1",
-      "id-user": "31"
-    },
-    {
-      "id": "1d16",
-      "serie": "fefefefefefef",
-      "marca": "efefffefe",
-      "fechaSalida": "2024-08-14",
-      "fechaRegreso": "2024-08-31",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "1179",
-      "serie": "fefefefefefef",
-      "marca": "efefffefe",
-      "fechaSalida": "2024-08-14",
-      "fechaRegreso": "2024-08-31",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "8b00",
-      "serie": "wdwdwdwdd",
-      "marca": "wdwqdwdwdd",
-      "fechaSalida": "2024-08-16",
-      "fechaRegreso": "2024-08-18",
-      "estado": "0",
-      "id-user": "604550888"
-    },
-    {
-      "id": "a4ca",
-      "serie": "wdwdwdwdd",
-      "marca": "wdwqdwdwdd",
-      "fechaSalida": "2024-08-16",
-      "fechaRegreso": "2024-08-18",
-      "estado": "0",
-      "id-user": "604550888"
-    },
-    {
-      "id": "0a9f",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "0cd5",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "3677",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "e979",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "3391",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "432e",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "d1a5",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "8684",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "af22",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "605550185"
-    },
-    {
-      "id": "c234",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "605550185"
-    },
-    {
-      "id": "1bf6",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "8cc7",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "3386",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "b03d",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "531d",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "880c",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "74af",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "30c7",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "9c65",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "6069",
-      "serie": "",
-      "marca": "",
-      "fechaSalida": "",
-      "fechaRegreso": "",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
-      "id": "7508",
-      "serie": "amanealla",
-      "marca": "msodoemof",
-      "fechaSalida": "2024-08-30",
-      "fechaRegreso": "2024-09-01",
-      "estado": "0",
-      "id-user": "605550185"
-    },
-    {
-      "id": "9434",
-      "serie": "amanealla",
-      "marca": "msodoemof",
-      "fechaSalida": "2024-08-22",
-      "fechaRegreso": "2024-08-30",
-      "estado": "0",
-      "id-user": "605550185"
     }
   ],
   "historial": [
@@ -992,6 +740,11 @@
       "id": "cc35",
       "idSolicitud": "9434",
       "fecha": "2024-08-30T00:50:24.278Z"
+    },
+    {
+      "id": "fb47",
+      "idSolicitud": "ae6b",
+      "fecha": "2024-08-30T01:39:31.365Z"
     }
   ],
   "roles": [

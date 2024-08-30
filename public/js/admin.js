@@ -146,6 +146,7 @@ async function mostrarPeticiones() {
         const tdAccion = document.createElement('td');
 
         const btnContainer = createButtons();
+
         let userBtn = btnContainer.firstChild;
         let deleteBtn = btnContainer.childNodes[1];
 
@@ -275,18 +276,19 @@ async function insertarUsuarios() {
 
     }
 
-  
-    
-
 function loadHistorial(historial) {
     const tablaContenedorHistorial = document.getElementById('tabla-contenedor-historial');
     tablaContenedorHistorial.innerHTML = '';
+
+    const verEstado = document.createElement("button");
+    verEstado.innerHTML = "Ver Estado";
+    verEstado.id = "verEstadoSoli";
 
     historial.forEach(mostrar => {
         const historyDiv = document.createElement('div');
         historyDiv.className = '';
         historyDiv.innerHTML = `
-            <p>ID: ${mostrar.idSolicitud} - Fecha: ${mostrar.fecha}</p>
+            <p>ID: ${mostrar.idSolicitud} - Fecha: ${mostrar.fecha}- <button id="verEstadoSoli">Ver Estado</button></p>
         `;
         tablaContenedorHistorial.appendChild(historyDiv);
     });
