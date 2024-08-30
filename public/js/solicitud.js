@@ -4,16 +4,13 @@ import { postHistorial } from '../../services/historial/post-historial.js';
 
 const peticionesForm = document.getElementById("peticionesForm");
 
-
-
-
-
 if(peticionesForm){
 peticionesForm.addEventListener("submit", event =>{
         event.preventDefault();
 
         const solicitud = {}
-        solicitud.sede = document.getElementById('services').value;
+
+        solicitud.sede = document.getElementById('sede').value;
         solicitud.serieEquipo = document.getElementById('serie').value;
         solicitud.marcaEquipo = document.getElementById('marca').value;
         solicitud.fechaSalida = document.getElementById('fechaSalida').value;

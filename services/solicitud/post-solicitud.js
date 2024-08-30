@@ -7,6 +7,7 @@ async function postPeticiones(solicitud) {
                 "fechaSalida": solicitud.fechaSalida,
                 "fechaRegreso" :solicitud.fechaRegreso,
                 "estado":"0",
+                "sede":solicitud.sede,
                 "id-user": solicitud.idUsuario
         
         };

@@ -65,15 +65,6 @@
       "id-user": "31"
     },
     {
-      "id": "0b4f",
-      "serie": "31N0T4V3RD3",
-      "marca": "31minutos",
-      "fechaSalida": "2024-08-28",
-      "fechaRegreso": "2024-08-31",
-      "estado": "0",
-      "id-user": "31"
-    },
-    {
       "id": "c78d",
       "serie": "31N0T4V3RD3",
       "marca": "31minutos",
@@ -101,15 +92,6 @@
       "id-user": "604050568"
     },
     {
-      "id": "3001",
-      "serie": "rtyu",
-      "marca": "DELL",
-      "fechaSalida": "2024-08-30",
-      "fechaRegreso": "2024-09-01",
-      "estado": "0",
-      "id-user": "60888088"
-    },
-    {
       "id": "3a04",
       "serie": "sdrtfghj",
       "marca": "ert",
@@ -125,7 +107,27 @@
       "marca": "xdcf",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-01",
-      "estado": "0",
+      "estado": "1",
+      "id-user": "60888088"
+    },
+    {
+      "id": "41e4",
+      "sede": "nosara",
+      "serie": "252525",
+      "marca": "Dell",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-08-31",
+      "estado": "2",
+      "id-user": "60888088"
+    },
+    {
+      "id": "4f81",
+      "serie": "25256",
+      "marca": "Dell",
+      "fechaSalida": "2024-08-24",
+      "fechaRegreso": "2024-08-31",
+      "estado": "1",
+      "sede": "santa ana",
       "id-user": "60888088"
     }
   ],
@@ -154,6 +156,16 @@
       "id": "9725",
       "idSolicitud": "330c",
       "fecha": "2024-08-30T08:34:36.515Z"
+    },
+    {
+      "id": "4b18",
+      "idSolicitud": "41e4",
+      "fecha": "2024-08-30T14:27:21.092Z"
+    },
+    {
+      "id": "8703",
+      "idSolicitud": "4f81",
+      "fecha": "2024-08-30T15:42:23.611Z"
     }
   ],
   "roles": [
