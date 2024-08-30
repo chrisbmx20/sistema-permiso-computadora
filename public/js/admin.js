@@ -73,7 +73,7 @@ async function mostrarPeticiones() {
     thead.classList.add('table-dark');
     const encabezadoFila = document.createElement('tr');
 
-    const encabezados = ['Número de Serie', 'Marca', 'Fecha de Sálida', 'Fecha de Regreso', 'Estado', 'Acción'];
+    const encabezados = ['Número de Serie', 'Marca', 'Fecha de Sálida', 'Fecha de Regreso', 'Sede','Estado', 'Acción'];
     encabezados.forEach(encabezadoTexto => {
         const th = document.createElement('th');
         th.scope = 'col';
@@ -104,6 +104,11 @@ async function mostrarPeticiones() {
         const tdFechaRegreso = document.createElement('td');
         tdFechaRegreso.textContent = solicitud.fechaRegreso;
         fila.appendChild(tdFechaRegreso);
+
+        
+        const Sede = document.createElement('td');
+        Sede.textContent = solicitud.sede;
+        fila.appendChild(Sede);
 
         const tdEstado = document.createElement('td');
         const selectEstado = document.createElement('select');

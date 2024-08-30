@@ -99,6 +99,34 @@
       "fechaRegreso": "2024-09-01",
       "estado": "1",
       "id-user": "604050568"
+    },
+    {
+      "id": "3001",
+      "serie": "rtyu",
+      "marca": "DELL",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "3a04",
+      "serie": "sdrtfghj",
+      "marca": "ert",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "0",
+      "id-user": "60888088",
+      "sede": " "
+    },
+    {
+      "id": "330c",
+      "serie": "defrg",
+      "marca": "xdcf",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "0",
+      "id-user": "60888088"
     }
   ],
   "historial": [
@@ -111,6 +139,21 @@
       "id": "46ec",
       "idSolicitud": "9b06",
       "fecha": "2024-08-30T07:56:15.159Z"
+    },
+    {
+      "id": "74a7",
+      "idSolicitud": "3001",
+      "fecha": "2024-08-30T08:21:21.052Z"
+    },
+    {
+      "id": "379f",
+      "idSolicitud": "3a04",
+      "fecha": "2024-08-30T08:28:03.713Z"
+    },
+    {
+      "id": "9725",
+      "idSolicitud": "330c",
+      "fecha": "2024-08-30T08:34:36.515Z"
     }
   ],
   "roles": [
