@@ -1,4 +1,4 @@
-import {getSolicitudes } from '../../services/solicitud/get-solicitudes.js'
+import {getSolicitudes, getSolicitudById} from '../../services/solicitud/get-solicitudes.js'
 
 import { deletePeticion } from "../../services/solicitud/delete-solicitud.js"
 
@@ -50,11 +50,13 @@ historialBtn.addEventListener("click",()=>{
 mostrarPeticiones();
 
 async function mostrarPeticiones() {
-    const solicitudes = await getSolicitudes();
-
+    const solicitudesT = await getSolicitudes();
+    const solicitudes = solicitudesT.filter(soli => soli.estado=== "0");
+    
     const tablaContenedor = document.getElementById('tabla-contenedor');
 
     const tabla = document.createElement('table');
+    tabla.innerHTML=" "
     tabla.classList.add('table', 'table-striped', 'table-bordered');
 
 
@@ -62,7 +64,7 @@ async function mostrarPeticiones() {
     thead.classList.add('table-dark');
     const encabezadoFila = document.createElement('tr');
 
-    const encabezados = ['Número de Serie', 'Marca', 'Fecha de Sálida', 'Fecha de Regreso', 'Estado', 'Acción'];
+    const encabezados = ['Número de Serie', 'Marca', 'Fecha de Sálida', 'Fecha de Regreso', 'Sede','Estado', 'Acción'];
     encabezados.forEach(encabezadoTexto => {
         const th = document.createElement('th');
         th.scope = 'col';
@@ -94,6 +96,11 @@ async function mostrarPeticiones() {
         tdFechaRegreso.textContent = solicitud.fechaRegreso;
         fila.appendChild(tdFechaRegreso);
 
+        
+        const Sede = document.createElement('td');
+        Sede.textContent = solicitud.sede;
+        fila.appendChild(Sede);
+
         const tdEstado = document.createElement('td');
         const selectEstado = document.createElement('select');
 
@@ -103,6 +110,7 @@ async function mostrarPeticiones() {
             { value: '1', text: 'Aceptada' },
             { value: '2', text: 'Rechazada'}
         ];
+console.log(mostrarPeticiones);
 
 
 
@@ -112,8 +120,12 @@ async function mostrarPeticiones() {
             try {
                 solicitud.estado = String(selectEstado.value) ;
                 const update = await updateSolicitud(solicitud);
+                tablaContenedor.innerHTML = " ";
                 
                 alert('Peticion Actualizada:');
+
+                loadHistorial()
+                mostrarPeticiones()
         
     
                 } catch (error) {
@@ -233,15 +245,13 @@ insertarUsuarios();
 async function insertarUsuarios() {
     const Usuarios= await getUsers()
     
+    const tabla= document.getElementById('Tabla-Usuarios')
     
-    const divTabla = document.getElementById('Tabla-Usuarios');
- 
-    const tabla= document.createElement('table')
-    
-      const cuerpo= document.createElement('tbody');
+    const cuerpo=  document.getElementById('tbody');
+    cuerpo.innerHTML=" "
 
     Usuarios.forEach(usu=>{
-        const fila= document.createElement('tr');
+        const fila = document.createElement('tr');
 
         const celdas=[
             usu.id,
@@ -252,40 +262,106 @@ async function insertarUsuarios() {
         ];
 
         celdas.forEach(texto => {
-            const td= document.createElement('td');
-            td.innerHTML=texto
+            const td = document.createElement('td');
+            td.innerHTML = texto
             fila.appendChild(td)
             
         });
+        
+
+        const btnContainer = createButtons();
+
+        let editBtn = btnContainer.firstChild;
+        let deleteBtn = btnContainer.childNodes[1];
+
+        fila.appendChild(btnContainer)
         cuerpo.appendChild(fila)
     });
     tabla.appendChild(cuerpo);
 
     
-    divTabla.appendChild(tabla);
     
 
     }
 
-function loadHistorial(historial) {
-    const tablaContenedorHistorial = document.getElementById('tabla-contenedor-historial');
-    tablaContenedorHistorial.innerHTML = '';
+    loadHistorial()
+     
+// Llama a la función para insertar usuarios al cargar la página
+document.addEventListener('DOMContentLoaded', insertarUsuarios);
 
-    const verEstado = document.createElement("button");
-    verEstado.innerHTML = "Ver Estado";
-    verEstado.id = "verEstadoSoli";
+async function loadHistorial() {
+    const historiales = await getHistoral(); 
+    
 
-    historial.forEach(mostrar => {
+   // const tablaContenedorHistorial = document.getElementById('tabla-contenedor-historial');
+    //tablaContenedorHistorial.innerHTML = '';
+    const cuerpo= document.getElementById('tbody-Historial')
+    cuerpo.innerHTML= " "
+    historiales.forEach(async historial=>{
+
+        const fila = document.createElement('tr');
+
+        const celdas=[
+            historial.idSolicitud,
+            historial.fecha
+        ];
+           
+
+        celdas.forEach(texto => {
+            const td = document.createElement('td');
+            td.textContent = texto
+            fila.appendChild(td)
+            
+        });
+        const td = document.createElement('td');
+        const estado = document.createElement("p")
+        const estadoSoli= await getSolicitudById(historial.idSolicitud);
+        console.log(estadoSoli);
+        if (estadoSoli !== undefined) {
+            if (estadoSoli.estado ===  '0') {
+                estado.innerHTML = "Pendiente"
+            }
+            else if(estadoSoli.estado ===  '1'){
+                estado.innerHTML = "Aceptada"
+            }
+            else{
+                estado.innerHTML = "Rechazada"
+            }
+
+            
+        }
+        else{
+            estado.innerHTML = "Eliminada"
+        }
+        
+
+
+
+        //const verEstado= document.createElement('button')
+        //verEstado.style.background="transparent"
+       // verEstado.className="estado btn btn-link" ;
+        //verEstado.innerHTML= 'Ver Estado'
+        td.appendChild(estado)
+        fila.appendChild(td)
+        cuerpo.appendChild(fila)
+    });
+
+    //tablaContenedorHistorial.appendChild(cuerpo);
+
+    
+
+
+    /*historial.forEach(mostrar => {
         const historyDiv = document.createElement('div');
         historyDiv.className = '';
         historyDiv.innerHTML = `
             <p>ID: ${mostrar.idSolicitud} - Fecha: ${mostrar.fecha}- <button id="verEstadoSoli">Ver Estado</button></p>
         `;
         tablaContenedorHistorial.appendChild(historyDiv);
-    });
+    });*/
 }
-
+/*
 window.onload = async function () {
-    const historial = await getHistoral(); 
+  
     loadHistorial(historial);             
-}
+}*/

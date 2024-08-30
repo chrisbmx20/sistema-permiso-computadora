@@ -13,7 +13,7 @@ peticionesForm.addEventListener("submit", event =>{
         event.preventDefault();
 
         const solicitud = {}
-
+        solicitud.sede = document.getElementById('services').value;
         solicitud.serieEquipo = document.getElementById('serie').value;
         solicitud.marcaEquipo = document.getElementById('marca').value;
         solicitud.fechaSalida = document.getElementById('fechaSalida').value;
