@@ -40,6 +40,30 @@
       "correo": "",
       "telefono": "",
       "password": ""
+    },
+    {
+      "id": "345467",
+      "nombre": "gergr",
+      "apellido": "efeff",
+      "correo": "bananito@fwdcostarica.com",
+      "telefono": "687999",
+      "password": "12"
+    },
+    {
+      "id": "67899",
+      "nombre": "6u6u",
+      "apellido": "rghrth",
+      "correo": "jeffryayundres1234@gmail.com",
+      "telefono": "88996u",
+      "password": "5"
+    },
+    {
+      "id": "880556",
+      "nombre": "jeff",
+      "apellido": "Med",
+      "correo": "jeffryandr4es1234@gmail.com",
+      "telefono": "557657",
+      "password": "132"
     }
   ],
   "peticiones": [
@@ -140,7 +164,7 @@
       "marca": "xdcf",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-01",
-      "estado": "0",
+      "estado": "1",
       "id-user": "60888088"
     },
     {
@@ -174,6 +198,15 @@
       "id": "ee45",
       "serie": "456y",
       "marca": "hp34",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "53a6",
+      "serie": "43rt",
+      "marca": "345",
       "fechaSalida": "2024-08-30",
       "fechaRegreso": "2024-09-01",
       "estado": "0",
@@ -225,6 +258,11 @@
       "id": "318f",
       "idSolicitud": "ee45",
       "fecha": "2024-08-30T16:20:33.647Z"
+    },
+    {
+      "id": "c78c",
+      "idSolicitud": "53a6",
+      "fecha": "2024-08-30T17:07:40.666Z"
     }
   ],
   "roles": [

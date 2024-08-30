@@ -42,6 +42,7 @@ registerForm.addEventListener('submit', async function(event) {
         return mostrarMensaje('Llena los espacios', 'Sus campos están vacios')
         
     }
+    
 
         //!validateFormFields(usuario) ? mostrarMensaje('rellene los espacios'): console.log('todo bien');
         
@@ -52,10 +53,11 @@ registerForm.addEventListener('submit', async function(event) {
         mostrarMensaje('Ya estas Registrado', 'Verifique sus datos')
     } else {
         await postUsers(usuario);
-
-        mostrarMensaje('Registro Existoso', 'Inicie sesión')
-
-        window.location.href= "http://localhost:8080/login.html"
+         mostrarMensaje('Registro Existoso', 'Inicie sesión')
+        setTimeout(() => {
+            window.location.href = "http://localhost:8080/login.html";
+        }, 2000);
+       
     }
 });
 
