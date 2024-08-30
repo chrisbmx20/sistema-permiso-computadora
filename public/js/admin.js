@@ -1,4 +1,4 @@
-import {getSolicitudes } from '../../services/solicitud/get-solicitudes.js'
+import {getSolicitudes, getSolicitudById} from '../../services/solicitud/get-solicitudes.js'
 
 import { deletePeticion } from "../../services/solicitud/delete-solicitud.js"
 
@@ -59,11 +59,13 @@ function showElement(index){
 mostrarPeticiones();
 
 async function mostrarPeticiones() {
-    const solicitudes = await getSolicitudes();
-
+    const solicitudesT = await getSolicitudes();
+    const solicitudes = solicitudesT.filter(soli => soli.estado=== "0");
+    
     const tablaContenedor = document.getElementById('tabla-contenedor');
 
     const tabla = document.createElement('table');
+    tabla.innerHTML=" "
     tabla.classList.add('table', 'table-striped', 'table-bordered');
 
 
@@ -122,8 +124,12 @@ console.log(mostrarPeticiones);
             try {
                 solicitud.estado = String(selectEstado.value) ;
                 const update = await updateSolicitud(solicitud);
+                tablaContenedor.innerHTML = " ";
                 
                 alert('Peticion Actualizada:');
+
+                loadHistorial()
+                mostrarPeticiones()
         
     
                 } catch (error) {
@@ -246,6 +252,7 @@ async function insertarUsuarios() {
     const tabla= document.getElementById('Tabla-Usuarios')
     
     const cuerpo=  document.getElementById('tbody');
+    cuerpo.innerHTML=" "
 
     Usuarios.forEach(usu=>{
         const fila = document.createElement('tr');
@@ -281,67 +288,70 @@ async function insertarUsuarios() {
 
     }
 
-
-/*
-
-async function insertarUsuarios() {
-    const Usuarios = await getUsers(); // Asumiendo que getUsers() devuelve una lista de usuarios
-    
-    const cuerpo = document.getElementById('tbody');
-
-    Usuarios.forEach(usu => {
-        const fila = document.createElement('tr');
-
-        const celdas = [
-            usu.id,
-            usu.nombre,
-            usu.apellido,
-            usu.correo,
-            usu.telefono
-        ];
-
-        celdas.forEach(texto => {
-            const td = document.createElement('td');
-            td.textContent = texto;
-            fila.appendChild(td);
-        });
-
-        cuerpo.appendChild(fila);
-    });
-}
-*/
+    loadHistorial()
+     
 // Llama a la función para insertar usuarios al cargar la página
 document.addEventListener('DOMContentLoaded', insertarUsuarios);
 
-function loadHistorial(historiales) {
-    const tablaContenedorHistorial = document.getElementById('tabla-contenedor-historial');
-    tablaContenedorHistorial.innerHTML = '';
+async function loadHistorial() {
+    const historiales = await getHistoral(); 
+    
+
+   // const tablaContenedorHistorial = document.getElementById('tabla-contenedor-historial');
+    //tablaContenedorHistorial.innerHTML = '';
     const cuerpo= document.getElementById('tbody-Historial')
-    historiales.forEach(historial=>{
+    cuerpo.innerHTML= " "
+    historiales.forEach(async historial=>{
+
         const fila = document.createElement('tr');
 
         const celdas=[
-            historial.id,
+            historial.idSolicitud,
             historial.fecha
-        ]
+        ];
            
 
         celdas.forEach(texto => {
             const td = document.createElement('td');
-            td.innerHTML = texto
+            td.textContent = texto
             fila.appendChild(td)
             
         });
-        
-        const verEstado= document.createElement('button')
-        verEstado.classList.add('btn');
+        const td = document.createElement('td');
+        const estado = document.createElement("p")
+        const estadoSoli= await getSolicitudById(historial.idSolicitud);
+        console.log(estadoSoli);
+        if (estadoSoli !== undefined) {
+            if (estadoSoli.estado ===  '0') {
+                estado.innerHTML = "Pendiente"
+            }
+            else if(estadoSoli.estado ===  '1'){
+                estado.innerHTML = "Aceptada"
+            }
+            else{
+                estado.innerHTML = "Rechazada"
+            }
 
-        fila.appendChild(verEstado)
+            
+        }
+        else{
+            estado.innerHTML = "Eliminada"
+        }
+        
+
+
+
+        //const verEstado= document.createElement('button')
+        //verEstado.style.background="transparent"
+       // verEstado.className="estado btn btn-link" ;
+        //verEstado.innerHTML= 'Ver Estado'
+        td.appendChild(estado)
+        fila.appendChild(td)
         cuerpo.appendChild(fila)
     });
 
-    tablaContenedorHistorial.appendChild(fila);
-    console.log(loadHistorial);
+    //tablaContenedorHistorial.appendChild(cuerpo);
+
     
 
 
@@ -354,8 +364,8 @@ function loadHistorial(historiales) {
         tablaContenedorHistorial.appendChild(historyDiv);
     });*/
 }
-
+/*
 window.onload = async function () {
-    const historial = await getHistoral(); 
+  
     loadHistorial(historial);             
-}
+}*/

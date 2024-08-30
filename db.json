@@ -10,400 +10,13 @@
       "password": "010101"
     },
     {
-      "id": "604440444",
-      "nombre": "Christian",
-      "apellido": "Alvarez",
-      "correo": "calvarez@fwdcostarica.com",
-      "telefono": "888 888 888",
-      "role": "0",
-      "password": "1111"
-    },
-    {
-      "id": "19130663",
-      "nombre": "Jose",
-      "apellido": "Gonzalez",
-      "correo": "jgonzalezf@fwd.com",
-      "telefono": "71816948",
-      "role": "0",
-      "password": "sIcARIo2004$hi$red#"
-    },
-    {
-      "id": "456789",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": {}
-    },
-    {
-      "id": "456789",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": {}
-    },
-    {
-      "id": "12345",
-      "nombre": "jeff",
-      "apellido": "oco",
-      "correo": "jef@gmail.com",
-      "password": {}
-    },
-    {
-      "id": "2324",
-      "nombre": "gee",
-      "apellido": "jjj",
-      "correo": "def@gmail.com",
-      "password": "355"
-    },
-    {
-      "id": "604700161",
-      "nombre": "jeffry",
-      "apellido": "Medina",
-      "correo": "jef@gmail.com",
-      "password": "12345"
-    },
-    {
-      "id": "604700161",
-      "nombre": "jeffry",
-      "apellido": "Medina",
-      "correo": "jef@gmail.com",
-      "password": "12345"
-    },
-    {
-      "id": "1234",
-      "nombre": "andres",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": "1"
-    },
-    {
-      "id": "13",
-      "nombre": "jeffryk",
-      "apellido": "medina",
-      "correo": "je22223hf@gmail.com",
-      "password": "12"
-    },
-    {
-      "id": "604700162",
-      "nombre": "Jeffry",
-      "apellido": "Medina",
-      "correo": "jeffryandres1234@gmail.com",
-      "password": "12345"
-    },
-    {
-      "id": "2134",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "j33ef@gmail.com",
-      "password": "12"
-    },
-    {
-      "id": "1111e4",
-      "nombre": "jeffry",
-      "apellido": "medina",
-      "correo": "je4f@gmail.com",
-      "password": "1"
-    },
-    {
-      "id": "889911",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "j111ef@gmail.com",
-      "password": "111"
-    },
-    {
-      "id": "999",
-      "nombre": "andres",
-      "apellido": "medina",
-      "correo": "j00ef@gmail.com",
-      "password": "9"
-    },
-    {
-      "id": "88991",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "je11f@gmail.com",
-      "password": "1"
-    },
-    {
-      "id": "1111",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": "3"
-    },
-    {
-      "id": "1111",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": ""
-    },
-    {
-      "id": "1111",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": ""
-    },
-    {
-      "id": "11114",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef4@gmail.com",
-      "password": "3"
-    },
-    {
-      "id": "111144",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef4@gmail.4com",
-      "password": ""
-    },
-    {
-      "id": "11113",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jedf@gmail.com",
-      "password": "1"
-    },
-    {
-      "id": "456789",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": {}
-    },
-    {
-      "id": "456789",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": {}
-    },
-    {
-      "id": "12345",
-      "nombre": "jeff",
-      "apellido": "oco",
-      "correo": "jef@gmail.com",
-      "password": {}
-    },
-    {
-      "id": "2324",
-      "nombre": "gee",
-      "apellido": "jjj",
-      "correo": "def@gmail.com",
-      "password": "355"
-    },
-    {
-      "id": "604700161",
-      "nombre": "jeffry",
-      "apellido": "Medina",
-      "correo": "jef@gmail.com",
-      "password": "12345"
-    },
-    {
-      "id": "604700161",
-      "nombre": "jeffry",
-      "apellido": "Medina",
-      "correo": "jef@gmail.com",
-      "password": "12345"
-    },
-    {
-      "id": "1234",
-      "nombre": "andres",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": "1"
-    },
-    {
-      "id": "13",
-      "nombre": "jeffryk",
-      "apellido": "medina",
-      "correo": "je22223hf@gmail.com",
-      "password": "12"
-    },
-    {
-      "id": "604700162",
-      "nombre": "Jeffry",
-      "apellido": "Medina",
-      "correo": "jeffryandres1234@gmail.com",
-      "password": "12345"
-    },
-    {
-      "id": "2134",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "j33ef@gmail.com",
-      "password": "12"
-    },
-    {
-      "id": "1111e4",
-      "nombre": "jeffry",
-      "apellido": "medina",
-      "correo": "je4f@gmail.com",
-      "password": "1"
-    },
-    {
-      "id": "889911",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "j111ef@gmail.com",
-      "password": "111"
-    },
-    {
-      "id": "999",
-      "nombre": "andres",
-      "apellido": "medina",
-      "correo": "j00ef@gmail.com",
-      "password": "9"
-    },
-    {
-      "id": "88991",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "je11f@gmail.com",
-      "password": "1"
-    },
-    {
-      "id": "1111",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": "3"
-    },
-    {
-      "id": "1111",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": ""
-    },
-    {
-      "id": "1111",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef@gmail.com",
-      "password": ""
-    },
-    {
-      "id": "11114",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef4@gmail.com",
-      "password": "3"
-    },
-    {
-      "id": "111144",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jef4@gmail.4com",
-      "password": ""
-    },
-    {
-      "id": "11113",
-      "nombre": "jeff",
-      "apellido": "medina",
-      "correo": "jedf@gmail.com",
-      "password": "1"
-    },
-    {
-      "id": "605550555",
-      "nombre": "kkkk",
-      "apellido": "plpplp",
-      "correo": "hugalde@fwdcostarica.com",
-      "password": "3333"
-    },
-    {
-      "id": "609990999",
-      "nombre": "Manuel",
-      "apellido": "Arguedas",
-      "correo": "marguedas@fwdcostarica.com",
-      "password": "0000"
-    },
-    {
-      "id": "888888",
-      "nombre": "Jeffry",
-      "apellido": "Med",
-      "correo": "jeff@gmail.com",
-      "password": "123"
-    },
-    {
-      "id": "888x888",
-      "nombre": "jeff",
-      "apellido": "Med",
-      "correo": "jexxxf@gmail.com",
-      "password": "3"
-    },
-    {
-      "id": "888888ww",
-      "nombre": "andres",
-      "apellido": "Med",
-      "correo": "jef@gwmail.com",
-      "telefono": "889990",
-      "password": "2"
-    },
-    {
-      "id": "101110111",
-      "nombre": "Marcos",
-      "apellido": "Ugalde",
-      "correo": "mugalde@fwdcostarica.com",
-      "password": "0000"
-    },
-    {
-      "id": "31",
-      "nombre": "tangananica",
-      "apellido": "tanganana",
-      "correo": "bodoque@31minutos.com",
-      "password": "31"
-    },
-    {
-      "id": "31 0484 0329",
-      "nombre": "juan carlos",
-      "apellido": "bodoque",
-      "correo": "juancarlosbodoque@31minutos.com",
-      "password": "21"
-    },
-    {
-      "id": "gensokyo",
-      "nombre": "remilia",
-      "apellido": "scarlet",
-      "correo": "remilliascarlet666@gensokyo.com",
-      "password": "6"
-    },
-    {
-      "id": "604050568",
-      "nombre": "Pedritoo",
-      "apellido": "Salazar",
-      "correo": "bananito@fwdcostarica.com",
-      "telefono": "89340956",
-      "password": "123"
-    },
-    {
-      "id": "604550888",
-      "nombre": "Josefo",
-      "apellido": "Fernandez",
-      "correo": "mfernandez@fwdcostarica.com",
-      "telefono": "22220255",
-      "password": "010101"
-    },
-    {
-      "id": "605550185",
-      "nombre": "Angela",
-      "apellido": "Aguilar",
-      "correo": "aaguilar@fwdcostarica.com",
-      "telefono": "88585858",
-      "password": "123"
-    },
-    {
-      "id": "1111111111111",
-      "nombre": "andres",
-      "apellido": "medina",
-      "correo": "prueba@gmail.com",
-      "telefono": "66763838",
-      "password": "32"
+      "id": "2345678",
+      "nombre": "Scarlet",
+      "apellido": "Masis",
+      "correo": "scar@gmail.com",
+      "telefono": "99885353",
+      "password": "1919"
     }
-   
   ],
   "peticiones": [
     {
@@ -412,7 +25,7 @@
       "marca": "Dell",
       "fechaSalida": "2024-08-21",
       "fechaRegreso": "2024-08-24",
-      "estado": "0",
+      "estado": "2",
       "id-user": "604440444"
     },
     {
@@ -421,7 +34,7 @@
       "marca": "Dell",
       "fechaSalida": "2024-08-24",
       "fechaRegreso": "2024-08-27",
-      "estado": "0",
+      "estado": "2",
       "id-user": "60888088"
     },
     {
@@ -430,7 +43,7 @@
       "marca": "Pinocho",
       "fechaSalida": "2024-08-23",
       "fechaRegreso": "2024-08-25",
-      "estado": "0",
+      "estado": "1",
       "id-user": "60888088"
     },
     {
@@ -443,21 +56,12 @@
       "id-user": "604440444"
     },
     {
-      "id": "a3b3",
-      "serie": "0001111",
-      "marca": "OVNI",
-      "fechaSalida": "2024-08-25",
-      "fechaRegreso": "2024-08-31",
-      "estado": "0",
-      "id-user": "101110111"
-    },
-    {
       "id": "2358",
       "serie": "31N0T4V3RD3",
       "marca": "31minutos",
       "fechaSalida": "2024-08-29",
       "fechaRegreso": "2024-08-29",
-      "estado": "0",
+      "estado": "1",
       "id-user": "31"
     },
     {
@@ -475,7 +79,7 @@
       "marca": "31minutos",
       "fechaSalida": "2024-08-15",
       "fechaRegreso": "2024-08-29",
-      "estado": "0",
+      "estado": "2",
       "id-user": "31"
     },
     {
@@ -484,8 +88,17 @@
       "marca": "Chinita ",
       "fechaSalida": "2024-08-28",
       "fechaRegreso": "2024-08-29",
-      "estado": "0",
+      "estado": "2",
       "id-user": "604440444"
+    },
+    {
+      "id": "9b06",
+      "serie": "8D7N",
+      "marca": "Hp",
+      "fechaSalida": "2024-08-30",
+      "fechaRegreso": "2024-09-01",
+      "estado": "1",
+      "id-user": "604050568"
     }
   ],
   "historial": [
@@ -495,259 +108,9 @@
       "fecha": "2024-08-28T17:19:34.795Z"
     },
     {
-      "id": "eb48",
-      "idSolicitud": "21bd",
-      "fecha": "2024-08-28T17:21:32.171Z"
-    },
-    {
-      "id": "b67b",
-      "idSolicitud": "0691",
-      "fecha": "2024-08-28T17:29:21.686Z"
-    },
-    {
-      "id": "a18f",
-      "idSolicitud": "c78d",
-      "fecha": "2024-08-28T14:50:54.201Z"
-    },
-    {
-      "id": "7262",
-      "idSolicitud": "e479",
-      "fecha": "2024-08-29T20:40:17.202Z"
-    },
-    {
-      "id": "b70f",
-      "idSolicitud": "ea15",
-      "fecha": "2024-08-29T20:40:18.267Z"
-    },
-    {
-      "id": "e019",
-      "idSolicitud": "17bf",
-      "fecha": "2024-08-29T20:40:35.298Z"
-    },
-    {
-      "id": "ada9",
-      "idSolicitud": "bb22",
-      "fecha": "2024-08-29T20:40:35.854Z"
-    },
-    {
-      "id": "76db",
-      "idSolicitud": "f69a",
-      "fecha": "2024-08-29T20:46:37.540Z"
-    },
-    {
-      "id": "ce8d",
-      "idSolicitud": "b86d",
-      "fecha": "2024-08-29T20:46:45.848Z"
-    },
-    {
-      "id": "3475",
-      "idSolicitud": "9ffa",
-      "fecha": "2024-08-29T20:47:36.462Z"
-    },
-    {
-      "id": "a7fd",
-      "idSolicitud": "403f",
-      "fecha": "2024-08-29T20:47:37.694Z"
-    },
-    {
-      "id": "f74f",
-      "idSolicitud": "b69f",
-      "fecha": "2024-08-29T20:47:52.206Z"
-    },
-    {
-      "id": "f70d",
-      "idSolicitud": "32fb",
-      "fecha": "2024-08-29T20:49:11.940Z"
-    },
-    {
-      "id": "6af4",
-      "idSolicitud": "fb0e",
-      "fecha": "2024-08-29T20:49:29.447Z"
-    },
-    {
-      "id": "6529",
-      "idSolicitud": "fed9",
-      "fecha": "2024-08-29T20:49:30.427Z"
-    },
-    {
-      "id": "42c8",
-      "idSolicitud": "7f86",
-      "fecha": "2024-08-29T20:50:22.957Z"
-    },
-    {
-      "id": "35b8",
-      "idSolicitud": "bcc1",
-      "fecha": "2024-08-29T20:50:24.021Z"
-    },
-    {
-      "id": "dada",
-      "idSolicitud": "3f05",
-      "fecha": "2024-08-29T20:50:59.632Z"
-    },
-    {
-      "id": "d905",
-      "idSolicitud": "9950",
-      "fecha": "2024-08-29T20:51:02.274Z"
-    },
-    {
-      "id": "ba03",
-      "idSolicitud": "3d87",
-      "fecha": "2024-08-29T20:56:45.231Z"
-    },
-    {
-      "id": "664d",
-      "idSolicitud": "88e5",
-      "fecha": "2024-08-29T20:56:46.401Z"
-    },
-    {
-      "id": "d98a",
-      "idSolicitud": "1179",
-      "fecha": "2024-08-29T21:02:51.472Z"
-    },
-    {
-      "id": "4d82",
-      "idSolicitud": "1d16",
-      "fecha": "2024-08-29T21:02:52.940Z"
-    },
-    {
-      "id": "2ad3",
-      "idSolicitud": "35c3",
-      "fecha": "2024-08-29T21:17:17.400Z"
-    },
-    {
-      "id": "fbd9",
-      "idSolicitud": "1416",
-      "fecha": "2024-08-29T21:17:18.257Z"
-    },
-    {
-      "id": "2efe",
-      "idSolicitud": "d13a",
-      "fecha": "2024-08-29T21:18:39.963Z"
-    },
-    {
-      "id": "8d4c",
-      "idSolicitud": "7918",
-      "fecha": "2024-08-29T21:18:40.795Z"
-    },
-    {
-      "id": "137e",
-      "idSolicitud": "a4ca",
-      "fecha": "2024-08-29T21:26:46.852Z"
-    },
-    {
-      "id": "7b73",
-      "idSolicitud": "8b00",
-      "fecha": "2024-08-29T21:26:58.075Z"
-    },
-    {
-      "id": "c8bf",
-      "idSolicitud": "f5c2",
-      "fecha": "2024-08-29T21:37:10.008Z"
-    },
-    {
-      "id": "369b",
-      "idSolicitud": "f007",
-      "fecha": "2024-08-29T21:37:16.880Z"
-    },
-    {
-      "id": "0273",
-      "idSolicitud": "0cd5",
-      "fecha": "2024-08-29T21:39:09.370Z"
-    },
-    {
-      "id": "dc18",
-      "idSolicitud": "0a9f",
-      "fecha": "2024-08-29T21:39:10.722Z"
-    },
-    {
-      "id": "032b",
-      "idSolicitud": "432e",
-      "fecha": "2024-08-29T21:50:08.898Z"
-    },
-    {
-      "id": "b97e",
-      "idSolicitud": "d1a5",
-      "fecha": "2024-08-29T21:50:10.614Z"
-    },
-    {
-      "id": "f401",
-      "idSolicitud": "8684",
-      "fecha": "2024-08-29T21:50:10.650Z"
-    },
-    {
-      "id": "84d8",
-      "idSolicitud": "c234",
-      "fecha": "2024-08-29T21:52:07.513Z"
-    },
-    {
-      "id": "4ed6",
-      "idSolicitud": "af22",
-      "fecha": "2024-08-29T21:52:08.834Z"
-    },
-    {
-      "id": "86d9",
-      "idSolicitud": "8cc7",
-      "fecha": "2024-08-29T22:47:30.292Z"
-    },
-    {
-      "id": "027d",
-      "idSolicitud": "1bf6",
-      "fecha": "2024-08-29T22:47:30.946Z"
-    },
-    {
-      "id": "8b56",
-      "idSolicitud": "b03d",
-      "fecha": "2024-08-29T23:11:26.435Z"
-    },
-    {
-      "id": "d4b2",
-      "idSolicitud": "3386",
-      "fecha": "2024-08-29T23:11:27.799Z"
-    },
-    {
-      "id": "9151",
-      "idSolicitud": "880c",
-      "fecha": "2024-08-29T23:15:31.920Z"
-    },
-    {
-      "id": "f5a5",
-      "idSolicitud": "531d",
-      "fecha": "2024-08-29T23:15:33.960Z"
-    },
-    {
-      "id": "e745",
-      "idSolicitud": "30c7",
-      "fecha": "2024-08-29T23:16:58.937Z"
-    },
-    {
-      "id": "3e95",
-      "idSolicitud": "74af",
-      "fecha": "2024-08-29T23:16:59.550Z"
-    },
-    {
-      "id": "af3e",
-      "idSolicitud": "6069",
-      "fecha": "2024-08-29T23:21:51.695Z"
-    },
-    {
-      "id": "671d",
-      "idSolicitud": "9c65",
-      "fecha": "2024-08-29T23:21:52.555Z"
-    },
-    {
-      "id": "2a3a",
-      "idSolicitud": "7508",
-      "fecha": "2024-08-30T00:44:13.798Z"
-    },
-    {
-      "id": "cc35",
-      "idSolicitud": "9434",
-      "fecha": "2024-08-30T00:50:24.278Z"
-    },
-    {
-      "id": "fb47",
-      "idSolicitud": "ae6b",
-      "fecha": "2024-08-30T01:39:31.365Z"
+      "id": "46ec",
+      "idSolicitud": "9b06",
+      "fecha": "2024-08-30T07:56:15.159Z"
     }
   ],
   "roles": [
