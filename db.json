@@ -392,6 +392,14 @@
       "correo": "mfernandez@fwdcostarica.com",
       "telefono": "22220255",
       "password": "010101"
+    },
+    {
+      "id": "605550185",
+      "nombre": "Angela",
+      "apellido": "Aguilar",
+      "correo": "aaguilar@fwdcostarica.com",
+      "telefono": "88585858",
+      "password": "123"
     }
   ],
   "peticiones": [
@@ -559,6 +567,150 @@
     },
     {
       "id": "e979",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "3391",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "432e",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "d1a5",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "8684",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "af22",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "605550185"
+    },
+    {
+      "id": "c234",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "605550185"
+    },
+    {
+      "id": "1bf6",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "8cc7",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "3386",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "b03d",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "531d",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "880c",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "74af",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "30c7",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "9c65",
+      "serie": "",
+      "marca": "",
+      "fechaSalida": "",
+      "fechaRegreso": "",
+      "estado": "0",
+      "id-user": "60888088"
+    },
+    {
+      "id": "6069",
       "serie": "",
       "marca": "",
       "fechaSalida": "",
@@ -737,6 +889,81 @@
       "id": "dc18",
       "idSolicitud": "0a9f",
       "fecha": "2024-08-29T21:39:10.722Z"
+    },
+    {
+      "id": "032b",
+      "idSolicitud": "432e",
+      "fecha": "2024-08-29T21:50:08.898Z"
+    },
+    {
+      "id": "b97e",
+      "idSolicitud": "d1a5",
+      "fecha": "2024-08-29T21:50:10.614Z"
+    },
+    {
+      "id": "f401",
+      "idSolicitud": "8684",
+      "fecha": "2024-08-29T21:50:10.650Z"
+    },
+    {
+      "id": "84d8",
+      "idSolicitud": "c234",
+      "fecha": "2024-08-29T21:52:07.513Z"
+    },
+    {
+      "id": "4ed6",
+      "idSolicitud": "af22",
+      "fecha": "2024-08-29T21:52:08.834Z"
+    },
+    {
+      "id": "86d9",
+      "idSolicitud": "8cc7",
+      "fecha": "2024-08-29T22:47:30.292Z"
+    },
+    {
+      "id": "027d",
+      "idSolicitud": "1bf6",
+      "fecha": "2024-08-29T22:47:30.946Z"
+    },
+    {
+      "id": "8b56",
+      "idSolicitud": "b03d",
+      "fecha": "2024-08-29T23:11:26.435Z"
+    },
+    {
+      "id": "d4b2",
+      "idSolicitud": "3386",
+      "fecha": "2024-08-29T23:11:27.799Z"
+    },
+    {
+      "id": "9151",
+      "idSolicitud": "880c",
+      "fecha": "2024-08-29T23:15:31.920Z"
+    },
+    {
+      "id": "f5a5",
+      "idSolicitud": "531d",
+      "fecha": "2024-08-29T23:15:33.960Z"
+    },
+    {
+      "id": "e745",
+      "idSolicitud": "30c7",
+      "fecha": "2024-08-29T23:16:58.937Z"
+    },
+    {
+      "id": "3e95",
+      "idSolicitud": "74af",
+      "fecha": "2024-08-29T23:16:59.550Z"
+    },
+    {
+      "id": "af3e",
+      "idSolicitud": "6069",
+      "fecha": "2024-08-29T23:21:51.695Z"
+    },
+    {
+      "id": "671d",
+      "idSolicitud": "9c65",
+      "fecha": "2024-08-29T23:21:52.555Z"
     }
   ],
   "roles": [

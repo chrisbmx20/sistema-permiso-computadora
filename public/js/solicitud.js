@@ -1,73 +1,53 @@
-import { postPeticiones } from '../../services/solicitud/post-solicitud.js'
-import { getCurrentUser } from './login.js'
-import { postHistorial } from '../../services/historial/post-historial.js';
-
-const peticionesForm = document.getElementById("peticionesForm");
 
 
-if(peticionesForm){
-peticionesForm.addEventListener("submit", event =>{
-        event.preventDefault();
 
-        const solicitud = {}
 
-        solicitud.serieEquipo = document.getElementById('serie').value;
-        solicitud.marcaEquipo = document.getElementById('marca').value;
-        solicitud.fechaSalida = document.getElementById('fechaSalida').value;
-        solicitud.fechaRegreso = document.getElementById('fechaRegreso').value;
-        solicitud.idUsuario = getCurrentUser().id;
-    /* 
-        if(validateFormFields(peticionesForm)){
-                guardarPeticion(solicitud);
-        }
-
-        else{
-                alert("no se puede subir")
-        }
-
-      */
-        
-
-        
-})}
-
-async function subirHistorial(idSolicitud) {
-try{
-const subida = await postHistorial(idSolicitud);
-alert('Historial subido');
-
-}catch (error) {
-        console.error('error al subir el historial')
-}
-}
-
-async function guardarPeticion(solicitud){
+if (peticionesForm) {
+        peticionesForm.addEventListener("submit", event => {
+          event.preventDefault();
+          localStorage.clear();
+          const solicitud = {
+            serieEquipo: document.getElementById('serie').value,
+            marcaEquipo: document.getElementById('marca').value,
+            fechaSalida: document.getElementById('fechaSalida').value,
+            fechaRegreso: document.getElementById('fechaRegreso').value,
+            idUsuario: "604440444"
+          };
+      
+          // Validación de campos antes de guardar la petición
+          if (validateFormFields(solicitud)) {
+            guardarPeticion(solicitud);
+            localStorage.clear();
+          } else {
+            alert("No se puede subir. Todos los campos son obligatorios.");
+          }
+        });
+      }
+      
+      async function guardarPeticion(solicitud) {
         try {
-        const peticion = await postPeticiones(solicitud);
-
-        console.log(peticion);
-        
-
-        clearForm(peticionesForm);
-        
-
-        alert('Peticion saved successfully:');
-
-        subirHistorial(peticion.id);
-
-        window.location.href = 'http://localhost:8080/index.html';
-
+          const peticion = await postPeticiones(solicitud);
+      
+          console.log(peticion);
+      
+          clearForm(peticionesForm);
+      
+          alert('Petición guardada exitosamente.');
+      
+          await subirHistorial(peticion.id);
+      
+          window.location.href = 'http://localhost:8080/index.html';
+      
         } catch (error) {
-        console.error('Error saving peticion:', error);
+          console.error('Error al guardar la petición:', error);
         }
-}
-
-
-function validateFormFields(obj) {
+      }
+      
+      function validateFormFields(obj) {
         return Object.values(obj).every(value => value !== "");
-}
-
-function clearForm(form){
+      }
+      
+      function clearForm(form) {
         form.reset();
-}    
-
+      }
+      
